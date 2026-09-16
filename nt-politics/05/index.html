@@ -1,0 +1,680 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新約政治史⑤｜同一個帝國，不同的法庭</title>
+<meta name="description" content="沿使徒行傳13至18章，重建保羅前兩次宣教旅行中的行省、羅馬殖民城、耶路撒冷會議、公民權、迦流與城市政治。含九幅圖表與史料註釋。">
+<style>
+:root{--paper:#f5f1e8;--card:#fffdf8;--ink:#233a45;--muted:#6b7472;--navy:#203f50;--teal:#28776d;--rust:#9c553f;--gold:#a68144;--line:#dedbd0;--soft:#eee9de;--font-body:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",system-ui,sans-serif;--font-title:"Songti TC","Noto Serif CJK TC","PMingLiU",serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:1.94;-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:4px}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #bd9e61;outline-offset:4px}
+p{margin:.9em 0}
+strong{font-weight:650}
+h1,h2,h3,h4{line-height:1.45}
+h1,h2{font-family:var(--font-title)}
+h2{font-size:31px;letter-spacing:.01em;margin:8px 0 18px}
+h3{font-size:22px;margin:34px 0 12px}
+h4{font-size:19px;margin:8px 0}
+small{font-size:.8em}
+.skip{position:absolute;left:16px;top:-60px;background:white;padding:10px;z-index:30}
+.skip:focus{top:8px}
+.progress-track{position:fixed;left:0;right:0;top:0;height:4px;background:#bdc4bd;z-index:25}
+.progress{height:4px;background:#c4a76c;width:0}
+.topbar{height:65px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 max(24px,calc((100vw - 1280px)/2));background:var(--navy);color:#dce6e5;font-size:13px;letter-spacing:.08em;border-bottom:1px solid #456070}
+.topbar .brand{font-weight:650;color:#fff;text-decoration:none;white-space:nowrap}
+.topbar .tools{display:flex;align-items:center;gap:18px}
+.topbar button,.topbar a:not(.brand){border:0;background:none;color:#dce6e5;font-size:13px;text-decoration:none;padding:2px}
+.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.hero:after{content:"02";position:absolute;right:max(24px,calc((100vw - 1250px)/2));top:-70px;font-family:Georgia,serif;font-size:400px;line-height:1.2;color:#fff;opacity:.055;pointer-events:none}
+.hero-inner{max-width:1280px;margin:0 auto;padding:66px 48px 64px;position:relative;z-index:1}
+.kicker{font-size:13px;letter-spacing:.24em;color:#d0b77e;font-weight:650;margin:0 0 25px}
+.hero h1{font-size:clamp(38px,4.4vw,63px);font-weight:650;letter-spacing:.015em;line-height:1.3;max-width:920px;margin:0 0 22px}
+.hero .subtitle{max-width:810px;font-size:21px;line-height:1.75;color:#d7e1e1;margin:0 0 28px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;font-size:13px;color:#e3e8e5}
+.meta span{border:1px solid #6c8087;padding:4px 12px;border-radius:2px;background:#ffffff05}
+.hero-bottom{display:flex;gap:35px;margin-top:37px;padding-top:24px;border-top:1px solid #536974;font-size:14px;color:#bacccc}
+.hero-bottom strong{display:block;color:#fff;font-size:16px}
+.hero-bottom div{max-width:360px}
+.layout{max-width:1280px;display:grid;grid-template-columns:228px minmax(0,1fr);gap:50px;margin:0 auto;padding:46px 32px 80px}
+.sidebar{align-self:start;position:sticky;top:24px;max-height:calc(100vh - 45px);overflow:auto;font-size:13px;line-height:1.65;padding-right:10px;scrollbar-width:thin}
+.sidebar .toc-heading{font-size:12px;letter-spacing:.18em;color:var(--rust);font-weight:700;margin:4px 0 15px}
+.toc a{display:flex;gap:10px;text-decoration:none;color:var(--muted);padding:6px 6px 6px 0;border-right:2px solid transparent}
+.toc a span{font:13px Georgia,serif;color:#a09885;flex:0 0 19px}
+.toc a:hover,.toc a.active{color:var(--teal);border-color:var(--teal)}
+.sidebar .aside-foot{border-top:1px solid var(--line);padding-top:18px;margin-top:18px;font-size:12px;color:var(--muted)}
+.mobile-toc{display:none}
+main{min-width:0}
+.editor-note{border-left:3px solid var(--teal);padding:2px 22px 4px;margin:0 0 42px;font-size:16px;color:#536462}
+.editor-note p{margin:5px 0}
+.part-label{font-size:11px;letter-spacing:.18em;color:var(--rust);font-weight:700;margin:0 0 7px}
+.chapter{padding:10px 0 43px;border-bottom:1px solid var(--line);margin:0 0 34px;scroll-margin-top:36px}
+.chapter:last-child{border-bottom:0}
+.chapter .section-no{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--rust);letter-spacing:.1em}
+.section-no:after{content:"";display:block;width:45px;height:1px;background:#c6bca5}
+.deck{font-size:16px;color:var(--muted);line-height:1.8;margin:-5px 0 24px}
+.ref{font-size:10px;line-height:0;vertical-align:super;margin-left:2px;white-space:nowrap}
+.ref a{text-decoration:none;color:#806a40;padding:2px 0}
+.thesis{padding:26px 30px 28px;margin:30px 0 6px;border-top:3px solid var(--teal);background:#e6eee8}
+.eyebrow{font-size:12px;letter-spacing:.12em;font-weight:700;color:var(--teal);display:block}
+.thesis p{font-family:var(--font-title);font-size:29px;line-height:1.65;margin:13px 0}
+.thesis small{display:block;color:#516763;font-size:15px}
+.note{background:#eeeade;border-left:3px solid #ab976b;padding:19px 22px;margin:25px 0;font-size:16px}
+.note p{margin:5px 0}
+.artifact-callout{padding:26px 30px;background:#efe7d4;border:1px solid #d8c9a6;margin:30px 0}
+.artifact-callout h3{margin:12px 0;font-family:var(--font-title);font-size:27px}
+.artifact-callout p{font-size:17px;margin:10px 0 0}
+.diagram{margin:30px 0 28px;border:1px solid #d7d7c9;background:var(--card);border-radius:5px;overflow:hidden}
+.figure-title{display:flex;gap:17px;align-items:baseline;padding:20px 23px 16px;border-bottom:1px solid #e6e1d5}
+.figure-title>span{font:12px var(--font-body);color:var(--rust);letter-spacing:.08em;white-space:nowrap}
+.figure-title h3{font-family:var(--font-body);font-size:19px;line-height:1.6;margin:0}
+figcaption{font-size:13px;line-height:1.9;color:var(--muted);padding:15px 23px 20px;margin:0;border-top:1px solid #e9e5db}
+.diagram-toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 22px;color:var(--muted);font-size:12px}
+.zoom-btn{font-size:12px;line-height:1.6;border:1px solid #aec0b9;background:#f0f4ee;color:var(--teal);padding:6px 12px;white-space:nowrap}
+.under-diagram{padding:14px 23px;background:#eef0e8;font-size:14px;line-height:1.8}
+.svg-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.svg-scroll svg{display:block;width:100%;height:auto;min-width:720px}
+.bridge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:22px;gap:12px}
+.bridge-node{padding:17px 15px;position:relative;border-top:3px solid var(--gold);background:#f2ebdc;min-width:0}
+.bridge-node.acts{border-color:var(--teal);background:#e5eee8}
+.bridge-node.bridge{border-color:var(--navy);background:#e4ebed}
+.bridge-node b,.bridge-node strong{display:block;font-size:20px;line-height:1.5;margin:8px 0}
+.bridge-node small{display:block;font-size:12px;line-height:1.7;color:#697772}
+.bridge-node>span{font:12px Georgia,serif;color:var(--muted)}
+.era-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:18px 20px 0 108px;text-align:center;font-size:13px;color:var(--muted)}
+.era-strip span{background:#eeeae0;padding:6px 4px;border-right:3px solid var(--card)}
+.era-strip span:nth-child(2){background:#e0ece6;color:var(--teal)}
+.timeline-row{display:grid;grid-template-columns:88px minmax(0,1fr);padding:12px 20px 0;gap:0}
+.timeline-row:last-of-type{padding-bottom:20px}
+.lane-title{font-size:13px;font-weight:650;padding:12px 10px 0 0;color:var(--navy)}
+.lane-cells{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));font-size:13px;line-height:1.8}
+.lane-cells>div{background:#f2efe5;border:3px solid var(--card);padding:12px}
+.lane-cells>div.current{background:#e6f0e9}
+.lane-cells strong{display:block;font-size:15px;margin-bottom:7px}
+.lane-cells small{font-size:12px;display:block;line-height:1.8;color:#74807a}
+.timeline-row.biblical .lane-cells>div.current{border-top:3px solid var(--teal)}
+.table-wrap{overflow-x:auto;margin:25px 0 0;border:1px solid var(--line);background:var(--card)}
+table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.85;min-width:625px}
+th,td{text-align:left;vertical-align:top;padding:15px 17px;border-bottom:1px solid #e4e0d5}
+th{background:var(--navy);color:#fff;font-size:14px;font-weight:600}
+th:first-child,td:first-child{width:23%}
+td:first-child{background:#f1eee4}
+tr:last-child td{border-bottom:0}
+.caption{font-size:13px;color:var(--muted);line-height:1.85;margin:12px 3px 24px}
+.diaspora-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:22px}
+.origin{padding:17px 19px;background:#edf0e8;border:1px solid #dce0d5}
+.origin h4{font-size:18px;margin:8px 0}
+.origin p{font-size:14px;line-height:1.8;margin:0;color:#66736d}
+.origin.east{background:#f3e9da;border-color:#e0d3bd}
+.origin.east .eyebrow{color:var(--rust)}
+.destination{grid-column:1/-1;background:var(--navy);padding:22px;text-align:center;color:white;position:relative;border-radius:2px}
+.destination>span{display:block;letter-spacing:.2em;font-size:12px;color:#bdcfc9}
+.destination strong{font-family:var(--font-title);display:block;font-size:28px;margin:5px 0}
+.destination small{display:block;font-size:14px;line-height:1.8;color:#d1ddd6}
+.space-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:22px}
+.space-grid>div{padding:20px 16px;background:#f1ede2;border-bottom:3px solid #bba77b}
+.space-grid>div:nth-child(2){background:#f2e7e0;border-color:#b47b67}
+.space-grid>div:nth-child(3){background:#e7eee7;border-color:#6d9784}
+.space-icon{display:block;font:27px Georgia,serif;color:var(--rust)}
+.space-grid h4{font-size:18px;line-height:1.65}
+.space-grid p{font-size:14px;line-height:1.9}
+.space-grid small{font-size:12px;color:#788077;line-height:1.7;display:block}
+.hearing-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:22px}
+.hearing{border:1px solid #d3dfd7;background:#fafbf6}
+.hearing header{background:#e3eee6;padding:18px}
+.hearing header span{font-size:12px;color:var(--teal)}
+.hearing h4{font-family:var(--font-title);font-size:24px;margin:5px 0 0}
+.hearing dl{padding:5px 18px 12px;margin:0}
+.hearing dt{font-size:12px;font-weight:700;color:var(--teal);margin-top:16px}
+.hearing dd{font-size:15px;margin:4px 0 15px;line-height:1.85}
+.hearing.second{border-color:#e2cec0}
+.hearing.second header{background:#efe2d7}
+.hearing.second dt,.hearing.second header span{color:var(--rust)}
+.research{border:1px solid #cfbf9b;background:#f7f0df;margin:28px 0;padding:20px 23px;font-size:16px}
+.research summary{font-weight:650;cursor:pointer;line-height:1.8;color:#756035}
+.research p:last-child{margin-bottom:3px}
+.three-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:25px 0}
+.three-cards>div{border:1px solid var(--line);background:var(--card);padding:18px 15px}
+.three-cards h4{font-size:17px;margin:12px 0}
+.three-cards p{font-size:14px;line-height:1.85;margin:10px 0 0}
+.pill{font-size:11px;line-height:1.5;display:inline-block;padding:4px 8px;background:#e1ece2;color:var(--teal)}
+.pill.interpretation{color:#826d3e;background:#efe8d4}
+.pill.uncertain{color:#895b50;background:#f0e1da}
+.next{background:#e6ebe7;padding:25px 29px;margin:28px 0 0;border-top:2px solid #739181}
+.next h3{font-family:var(--font-title);font-size:25px;margin:12px 0}
+.next p{font-size:16px;margin:12px 0 0}
+.closing-quote{background:var(--navy);color:#e4ece9;padding:30px 34px;margin:33px 0 0;border-left:5px solid #c3a76f}
+.closing-quote p{font-family:var(--font-title);font-size:24px;line-height:1.9;margin:5px 0 20px}
+.closing-quote .accent{color:#dec994}
+.closing-quote small{color:#bdcfca;font-size:13px}
+.closing-quote .ref a{color:#dfc688}
+.appendix{margin:45px 0;padding-top:20px}
+.appendix h2{font-size:27px}
+.name-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.name-grid>div{background:#eeeade;padding:18px 20px;font-size:14px}
+.name-grid h4{font-size:17px;margin:0 0 8px}
+.name-grid p{margin:5px 0;line-height:1.85}
+.sources{border-top:2px solid var(--navy);padding-top:25px}
+.sources .intro{font-size:14px;color:var(--muted)}
+.source-list{padding:0;list-style:none;counter-reset:source}
+.source-list li{font-size:14px;line-height:1.85;padding:15px 0 15px 43px;border-bottom:1px solid var(--line);position:relative;scroll-margin-top:30px}
+.source-list li:before{counter-increment:source;content:"[" counter(source) "]";font:14px Georgia,serif;color:var(--rust);position:absolute;top:19px;left:0}
+.source-list .cat{font-size:10px;letter-spacing:.03em;border:1px solid #c7cdc4;color:#6f7b70;padding:2px 6px;display:inline-block;margin-right:8px;vertical-align:middle}
+.source-list p{margin:5px 0 0;color:var(--muted);font-size:12px}
+.resources-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.resource-card{background:var(--card);border:1px solid var(--line);padding:20px}
+.resource-card .artifact-symbol{font:46px Georgia,serif;color:#b1a27c;line-height:1}
+.resource-card h4{font-size:18px}
+.resource-card p{font-size:14px;line-height:1.8;color:var(--muted)}
+.resource-card a{font-size:13px}
+.footer{background:#e9e5da;padding:30px 26px;color:#6e766e;font-size:13px;text-align:center;border-top:1px solid var(--line)}
+.footer strong{color:var(--navy)}
+dialog{width:min(1350px,96vw);max-width:96vw;border:1px solid #82948c;background:var(--paper);padding:0;border-radius:5px;max-height:94vh}
+dialog::backdrop{background:#182a32bb}
+.modal-head{display:flex;justify-content:space-between;padding:12px 20px;position:sticky;top:0;background:var(--navy);color:white;z-index:3;font-size:15px}
+.modal-head button{border:1px solid #8aa29e;background:none;color:white;font-size:14px;padding:3px 13px}
+.modal-content{overflow:auto;padding:10px}
+.modal-content svg{display:block;width:100%;min-width:1000px;height:auto}
+@media(min-width:1300px){body{font-size:19px}.layout{gap:58px}}
+@media(max-width:1000px){
+.layout{grid-template-columns:1fr;max-width:900px;padding:30px 28px 60px}
+.sidebar{display:none}.mobile-toc{display:block;margin-bottom:32px;border:1px solid var(--line);background:var(--card);font-size:14px;padding:14px 18px}
+.mobile-toc summary{color:var(--teal);cursor:pointer;font-weight:650}
+.mobile-toc .toc{display:grid;grid-template-columns:1fr 1fr;gap:2px 18px;margin-top:15px}
+.hero-inner{padding:48px 30px 43px}.hero:after{font-size:320px;top:0}
+.editor-note{margin-bottom:28px}
+}
+@media(max-width:600px){
+body{font-size:17px;line-height:1.93}.topbar{height:58px;padding:0 20px;font-size:12px}.topbar .tools{gap:12px}.topbar .tools a{display:none}
+.hero-inner{padding:37px 22px 35px}.kicker{font-size:11px;margin-bottom:21px;letter-spacing:.16em}.hero h1{font-size:37px;line-height:1.43;max-width:350px}.hero .subtitle{font-size:17px;line-height:1.8}
+.hero:after{font-size:255px;right:-10px;top:100px}
+.meta{gap:7px;font-size:11px}.meta span{padding:4px 9px}.hero-bottom{gap:18px;font-size:12px;margin-top:26px;padding-top:20px}.hero-bottom strong{font-size:14px}
+.layout{padding:24px 20px 42px;gap:0}.mobile-toc{margin-bottom:27px}.mobile-toc .toc{grid-template-columns:1fr}
+h2{font-size:26px;line-height:1.6;margin:7px 0 18px}h3{font-size:21px;line-height:1.7;margin-top:29px}
+.chapter{padding-bottom:31px;margin-bottom:27px}.deck{font-size:15px}.editor-note{font-size:14px;padding-left:17px}
+.thesis{padding:21px 20px}.thesis p{font-size:24px;line-height:1.75}.thesis small{font-size:14px}
+.note{padding:17px 18px;font-size:15px}.artifact-callout{padding:23px 21px}.artifact-callout h3{font-size:24px}.artifact-callout p{font-size:16px}
+.figure-title{padding:16px;gap:11px;align-items:flex-start}.figure-title h3{font-size:17px}.figure-title>span{font-size:11px;line-height:2.5}
+figcaption{padding:14px 16px 17px;font-size:12px}.diagram{margin:25px 0}.diagram-toolbar{padding:12px 15px;align-items:flex-start}.diagram-toolbar>span{font-size:11px;line-height:1.8}
+.bridge-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:14px;gap:10px}.bridge-node{padding:14px 12px}.bridge-node b,.bridge-node strong{font-size:18px}
+.era-strip{padding:15px 10px 0 67px;font-size:11px}.timeline-row{grid-template-columns:57px minmax(0,1fr);padding:9px 10px 0}.lane-title{font-size:11px;padding-right:5px}
+.lane-cells{font-size:11px;line-height:1.8}.lane-cells>div{padding:7px 5px;border-width:2px}.lane-cells strong{font-size:12px;line-height:1.8}.lane-cells small{font-size:10px}.timeline-row:last-of-type{padding-bottom:13px}
+.diaspora-grid{padding:14px;gap:9px}.origin{padding:14px 12px}.origin h4{font-size:16px;line-height:1.8}.origin p{font-size:12px}.origin .eyebrow{font-size:10px}
+.destination{padding:17px}.destination strong{font-size:25px}.destination small{font-size:12px}
+.space-grid{grid-template-columns:1fr;padding:14px;gap:10px}.space-grid>div{padding:17px 18px;position:relative;padding-left:60px}.space-icon{position:absolute;left:20px;top:17px;font-size:27px}.space-grid p{margin:8px 0}.space-grid h4{margin:0;font-size:19px}
+.hearing-grid{grid-template-columns:1fr;padding:14px;gap:14px}.hearing h4{font-size:23px}.hearing dl{padding:0 17px 10px}.hearing dt{margin-top:13px}.hearing dd{font-size:15px}
+.research{padding:17px;font-size:15px}.three-cards{grid-template-columns:1fr;gap:10px}.three-cards>div{padding:18px}.three-cards h4{display:inline;margin-left:7px;font-size:16px}
+.next{padding:23px 20px}.next h3{font-size:23px}.next p{font-size:15px}
+.closing-quote{padding:23px 21px}.closing-quote p{font-size:21px;line-height:1.9}
+.name-grid,.resources-grid{grid-template-columns:1fr}
+.sources h2{font-size:25px}.source-list li{padding-left:35px;font-size:13px}.source-list p{font-size:12px}.source-list .cat{font-size:9px}
+.under-diagram{padding:13px 16px;font-size:13px}
+}
+@media print{
+html{scroll-behavior:auto}body{background:white;color:#111;font-size:11pt;line-height:1.7}
+.topbar,.sidebar,.mobile-toc,.progress-track,.zoom-btn,dialog,.footer{display:none!important}
+.hero{background:white;color:#111;border-bottom:2px solid #333}.hero-inner{padding:20px 0}.hero h1{font-size:30pt}.hero .subtitle,.kicker,.hero-bottom,.hero-bottom strong,.meta{color:#333}.hero:after{display:none}.meta span{border-color:#bbb}.hero-bottom{border-color:#bbb}
+.layout{display:block;max-width:none;padding:20px 0}.chapter{break-before:auto;margin-bottom:15px;padding-bottom:15px}.diagram,.note,.research,.thesis,.artifact-callout,.next,.closing-quote{break-inside:avoid}
+h2,h3{break-after:avoid}h2{font-size:21pt}h3{font-size:15pt}.table-wrap,.svg-scroll{overflow:visible}.svg-scroll svg{min-width:0}table{min-width:0;font-size:10pt}.source-list li{font-size:10pt}
+.closing-quote{background:#eee;color:#111}.closing-quote .accent{color:#444}.closing-quote small{color:#666}
+a{color:inherit}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+
+
+.hero:after{content:"03"}
+.two-clock{padding:24px}
+.clock-label{display:flex;align-items:center;gap:14px;font-size:17px;margin-bottom:18px;flex-wrap:wrap}
+.date-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.date-grid>div{background:#e5ecea;padding:18px 16px;border-top:3px solid #8daca3}
+.date-grid b{display:block;color:var(--teal);font-size:13px;margin-bottom:8px}
+.date-grid strong{display:block;font-size:18px;line-height:1.6}
+.date-grid p{font-size:14px;line-height:1.8;margin:10px 0 0;color:#61736d}
+.clock-divider{padding:18px 12px;margin:22px 0;border-top:1px dashed #b6a987;border-bottom:1px dashed #b6a987;text-align:center;font-size:14px;color:#8b674c;background:#f4ecdf}
+.sequence-strip{display:flex;align-items:stretch;gap:9px}
+.sequence-strip>div{background:#eee7d9;padding:14px 10px;flex:1;min-width:0}
+.sequence-strip small{display:block;font-size:11px;color:#877151;line-height:1.7}
+.sequence-strip strong{display:block;font-size:16px;line-height:1.7;margin-top:8px}
+.sequence-strip i{display:flex;align-items:center;color:#a99268;font-style:normal}
+.territory-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;padding:22px}
+.territory{padding:23px;background:#e8eeeb;border:1px solid #cbd7d0}
+.territory.wide{grid-column:1/-1}
+.territory h4{font-size:21px;margin:10px 0 16px}
+.territory p{font-size:15px;line-height:1.9;margin:12px 0 0}
+.route-row{display:grid;grid-template-columns:1fr 1.4fr 1.4fr;gap:12px;align-items:center;padding:11px 0;border-top:1px solid #cbd7d0;font-size:15px}
+.route-row span{font-size:13px;color:#668275}
+.territory.east{background:#f0e9de;border-color:#d9cbb7}
+.territory.south{background:#e8e4db;border-color:#d4caba}
+.territory.south .eyebrow{color:var(--rust)}
+.border-note{font-size:12px;display:block;margin-top:16px;color:#8c6750;border-top:1px dashed #c4b9a4;padding-top:10px}
+.evidence-triad{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:22px}
+.evidence-triad article{background:#edf1e9;padding:19px 16px;border-top:3px solid #8fac9a}
+.evidence-triad article:nth-child(2){background:#f1eadb;border-color:#b7a276}
+.evidence-triad article:nth-child(3){background:#e7edf0;border-color:#7e9ca9}
+.evidence-triad h4{font-size:17px;line-height:1.65;margin:15px 0 12px}
+.evidence-triad p{font-size:15px;line-height:1.9}
+.evidence-triad b{font-size:13px;line-height:1.7;display:block;color:#596e67}
+.inference-band{padding:19px 24px;background:#eee9de;font-size:14px;line-height:2}
+.political-index{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.person-card{padding:22px;background:var(--card);border:1px solid var(--line)}
+.person-card .role{font-size:11px;letter-spacing:.05em;color:var(--rust)}
+.person-card h3{font-size:20px;margin:8px 0 13px}
+.person-card p{font-size:14px;line-height:1.9;margin:8px 0}
+.source-list li:target{background:#eaeeda;outline:1px solid #bdc99a;padding-right:12px}
+.source-list .source-title{display:block;font-weight:650;margin:7px 0}
+.source-list .source-meta{font-size:12px;color:var(--muted)}
+.series-nav{border-top:1px solid var(--line);margin-top:28px;padding-top:19px;display:flex;gap:20px;font-size:14px;flex-wrap:wrap}
+.legend{display:flex;gap:9px;flex-wrap:wrap;margin:18px 0}
+a.ref-link{font-size:12px}
+.modal-content svg{max-height:none}
+dialog .modal-content{overflow:auto;max-height:80vh}
+.diagram-toolbar .zoom-btn{border-radius:3px}
+.source-filter{font-size:13px;color:var(--muted)}
+@media(max-width:800px){
+.date-grid{grid-template-columns:1fr 1fr}
+.evidence-triad{grid-template-columns:1fr}
+.evidence-triad article{padding:20px}
+.evidence-triad h4{font-size:20px;margin:12px 0 8px}
+.sequence-strip{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.sequence-strip i{display:none}
+.sequence-strip>div{border-left:3px solid #b8a77f}
+.sequence-strip>div:last-child{grid-column:1/-1}
+}
+@media(max-width:600px){
+.two-clock{padding:15px}
+.clock-label{font-size:15px;gap:9px}
+.date-grid{grid-template-columns:1fr}
+.date-grid>div{padding:15px 17px}
+.date-grid b{margin-bottom:3px}
+.date-grid strong{font-size:19px}
+.date-grid p{font-size:14px;margin:7px 0 0}
+.clock-divider{font-size:13px;padding:15px 12px;line-height:1.8}
+.territory-grid{grid-template-columns:1fr;padding:14px;gap:12px}
+.territory{padding:18px 16px}
+.territory h4{font-size:19px;line-height:1.75}
+.territory p{font-size:14px}
+.route-row{grid-template-columns:1fr;gap:2px;padding:13px 0}
+.route-row span{font-size:12px}
+.territory.wide{grid-column:auto}
+.evidence-triad{padding:14px}
+.inference-band{padding:16px;font-size:13px}
+.political-index{grid-template-columns:1fr}
+.person-card{padding:19px}
+.hero h1{max-width:none}
+.hero .subtitle{font-size:17px}
+.hero-bottom{display:grid;grid-template-columns:1fr;gap:15px}
+.hero-bottom>div{max-width:none}
+.hero-bottom strong{display:inline;margin-right:8px}
+.artifact-callout a{font-size:14px}
+.topbar .brand{font-size:11px;letter-spacing:.02em}
+.table-wrap{max-width:100%}
+}
+@media print{
+.two-clock,.date-grid,.evidence-triad,.territory-grid,.political-index{break-inside:auto}
+.date-grid{grid-template-columns:1fr 1fr}
+.person-card,.territory,.evidence-triad article{break-inside:avoid}
+.source-list li{break-inside:avoid}
+.chapter .ref a{color:#333}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+
+
+/* Fourth installment: reading and evidence panels */
+.hero:after{content:"04"}
+.hero h1{max-width:1000px}
+.hero .subtitle{max-width:900px}
+.meta span{background:#ffffff06}
+.sequence-strip b{display:block;font-size:13px;color:var(--rust);margin-bottom:8px}
+.sequence-strip span{display:block;font-size:14px;line-height:1.85}
+.date-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.clock-divider.secondary{margin-bottom:0;text-align:left;border-style:solid;border-color:#d9caac}
+.city-network{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:13px;padding:24px}
+.city{padding:20px 20px 18px;background:#edf1e9;border-left:3px solid #6c9a8d}
+.city h4{font-family:var(--font-title);font-size:22px;margin:10px 0}
+.city p{font-size:15px;margin:8px 0}.city small{font-size:12px;color:var(--muted)}
+.network-band{grid-column:1/-1;display:grid;grid-template-columns:105px minmax(0,1fr);padding:18px 22px;background:var(--navy);color:#e4ece8;gap:15px;font-size:15px;line-height:1.8}
+.network-band b{color:#dac38e;font-size:14px}
+.network-band.aid{background:#e8e2d6;color:#50675e}
+.network-band.aid b{color:#97734b}
+.power-periods{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px;padding:23px}
+.power-periods article{padding:17px 13px;background:#f0ece2;border:1px solid #ded7c8}
+.power-periods article.focus{background:#e4eee8;border:1px solid #8cad9d}
+.period-tag{font-size:12px;color:var(--rust);font-weight:700}
+.power-periods h4{font-size:18px;line-height:1.7;margin:12px 0 20px}
+.power-box{background:#fffdf8;border:1px solid #d2d5c8;padding:14px 9px;text-align:center;font-size:15px;line-height:1.8;min-height:80px;display:flex;flex-direction:column;justify-content:center}
+.power-box small{font-size:12px;color:#687c72}
+.power-box.dark{background:var(--navy);color:#fff;border-color:var(--navy)}
+.power-box.dark small{color:#bfd1ca}
+.power-down{font-size:12px;text-align:center;color:#777c68;padding:11px 1px;min-height:62px;display:flex;align-items:center;justify-content:center}
+.coin-pair{display:grid;grid-template-columns:1fr 1fr;gap:18px;padding:24px}
+.coin-pair article{padding:25px 23px;background:#f0e8d7;border:1px solid #dacba9}
+.coin-pair article:nth-child(2){background:#e8eeed;border-color:#c3d4d0}
+.coin-pair .eyebrow{font-size:11px;letter-spacing:.02em;line-height:1.8;color:#8b6a40}
+.coin-type{font-family:var(--font-title);font-size:23px;line-height:1.65;border-top:1px solid #ccc0a8;border-bottom:1px solid #ccc0a8;padding:21px 0;margin:19px 0}
+.coin-pair h4{font-size:18px}.coin-pair p{font-size:15px;line-height:1.95}
+.coin-pair a{font-size:12px}
+.custody{padding:24px}.squad-panel{background:#e5eeea;padding:20px}
+.squads{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:20px 0}
+.squads>div{padding:12px 6px;background:#fffdf8;text-align:center;border:1px solid #b8cbbf}
+.squads b{display:block;font-size:13px;font-weight:600}
+.squads span{display:block;font-size:16px;letter-spacing:2px;color:var(--teal);white-space:nowrap;margin-top:7px}
+.squad-panel p{font-size:14px;margin:12px 0 0}
+.custody-flow{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}
+.custody-flow>div{padding:20px;background:#f3ecdf;border-left:3px solid #b6a173}
+.custody-flow span{font:18px Georgia,serif;color:#9c7653}
+.custody-flow h4{font-size:18px;margin:10px 0}.custody-flow p{font-size:14px;margin:8px 0 0}
+.death-table{margin:0;border:0}
+.death-table table{table-layout:fixed;min-width:690px}
+.death-table th:first-child,.death-table td:first-child{width:20%}
+.death-table th:nth-child(2),.death-table th:nth-child(3){width:40%}
+.death-table td{font-size:14px;line-height:1.9}
+.ref a{font-size:11px;line-height:1.4}
+:target{scroll-margin-top:28px}
+.backref{font-size:11px;white-space:nowrap;margin-left:10px;color:var(--teal);text-decoration:none}
+.reading-key{display:flex;gap:7px;flex-wrap:wrap;padding:0 0 18px}
+.reading-key span{font-size:11px;border:1px solid var(--line);padding:4px 8px;color:var(--muted)}
+.source-list .source-meta{overflow-wrap:anywhere}
+.source-list .source-title{line-height:1.85}
+.mobile-toc .toc a{font-size:13px}
+.figure-index{font-size:12px;line-height:1.9;color:var(--muted);border-top:1px solid var(--line);margin-top:20px;padding-top:15px}
+.figure-index a{display:block;color:var(--muted);text-decoration:none;padding:4px 0}
+.figure-index a:hover{color:var(--teal)}
+.editor-note .mini-meta{font-size:13px;color:var(--muted)}
+@media(max-width:900px){
+.power-periods{grid-template-columns:1fr}
+.power-periods article{padding:23px}
+.power-periods h4{margin-bottom:14px;font-size:22px}
+.power-box{min-height:65px}
+.power-down{min-height:0;padding:10px}
+.coin-pair{gap:12px;padding:18px}
+.coin-pair article{padding:20px 17px}
+}
+@media(max-width:600px){
+.hero h1{font-size:35px;line-height:1.45;letter-spacing:0}
+.hero .subtitle{line-height:1.95}
+.hero-bottom strong{font-size:13px}
+.city-network{grid-template-columns:1fr;padding:14px}
+.city{padding:17px}.city h4{font-size:21px}
+.network-band{grid-template-columns:1fr;gap:5px;padding:17px;font-size:14px}
+.coin-pair{grid-template-columns:1fr;padding:14px}
+.coin-type{font-size:24px}
+.power-periods{padding:14px}
+.custody{padding:14px}.squad-panel{padding:17px}
+.squads{grid-template-columns:1fr 1fr;gap:9px;margin:17px 0}
+.squads span{font-size:16px}
+.custody-flow{grid-template-columns:1fr}
+.date-grid{grid-template-columns:1fr}
+.sequence-strip>div:last-child{grid-column:auto}
+.source-list li{padding-right:3px}
+.topbar .brand{font-size:12px;letter-spacing:.04em}
+}
+@media print{
+.power-periods{grid-template-columns:repeat(3,minmax(0,1fr))}
+.power-box{font-size:10pt;min-height:65px}
+.power-periods h4{font-size:12pt}
+.city-network,.coin-pair{grid-template-columns:1fr 1fr}
+.diagram{break-inside:auto}.figure-title{break-after:avoid}
+.squads{grid-template-columns:repeat(4,minmax(0,1fr))}
+.power-periods article,.city,.coin-pair article,.squad-panel{break-inside:avoid}
+.backref{display:none}
+.research:not([open])>*:not(summary){display:block}
+}
+
+/* Episode 05: editable, self-contained research figures. */
+.hero:after{content:"05"!important}
+.hero .subtitle{max-width:890px}
+.nt5-figure{scroll-margin-top:24px}
+.nt5-time{padding:24px}
+.nt5-time-lane{background:#e8ede7;border-left:4px solid var(--teal);padding:18px 20px}
+.nt5-time-lane strong{display:block;font-size:22px;margin:9px 0}
+.nt5-time-lane p,.nt5-anchor p{font-size:15px;line-height:1.8;margin:8px 0 0}
+.nt5-tag{display:inline-block;font-size:11px;line-height:1.6;letter-spacing:.04em;color:var(--teal);background:#e0eae1;border:1px solid #cad8cc;padding:3px 8px}
+.nt5-date-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:16px 0}
+.nt5-date-grid>div{padding:18px 16px;background:#f3eee2;border-top:3px solid var(--gold)}
+.nt5-date-grid small{display:block;font-size:11px;color:#82765e;line-height:1.7;min-height:36px}
+.nt5-date-grid b{display:block;font-family:var(--font-title);font-size:25px;margin:7px 0}
+.nt5-date-grid strong{font-size:17px;display:block}
+.nt5-date-grid p{font-size:14px;line-height:1.9;margin:9px 0 0}
+.nt5-anchor{display:grid;grid-template-columns:155px minmax(0,1fr);gap:20px;background:#e5edf0;padding:19px 20px}
+.nt5-anchor>.nt5-tag{align-self:start}
+.nt5-anchor b{font-size:21px}
+.nt5-council{padding:22px;display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.nt5-step{padding:21px;border:1px solid #d8dece;background:#f1f2e9}
+.nt5-step span{font-size:12px;color:var(--teal);letter-spacing:.05em}
+.nt5-step h4{font-size:19px;margin:12px 0}
+.nt5-step p{font-size:15px;line-height:1.9;margin:0}
+.nt5-three{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0;padding:20px 10px}
+.nt5-three>div{padding:12px 17px;border-right:1px solid var(--line)}
+.nt5-three>div:last-child{border-right:0}
+.nt5-three small{color:var(--rust);font-size:12px}
+.nt5-three h4{font-size:20px;line-height:1.7;margin:12px 0}
+.nt5-three p{font-size:15px;line-height:1.9}
+.nt5-epigraphy{padding:25px 28px;background:#eef0e7;border-bottom:1px solid var(--line)}
+.nt5-greek{font-family:Georgia,"Times New Roman",serif;font-size:clamp(22px,2.5vw,31px);line-height:1.7;margin:24px 0 16px;color:var(--navy);overflow-wrap:anywhere}
+.nt5-epigraphy p{font-size:14px;color:var(--muted);line-height:1.85;margin:0}
+.nt5-evidence{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0;padding:22px 12px}
+.nt5-evidence>div{padding:5px 15px;border-right:1px solid var(--line)}
+.nt5-evidence>div:last-child{border-right:0}
+.nt5-evidence b{font:28px Georgia,serif;color:var(--gold)}
+.nt5-evidence h4{font-size:17px;line-height:1.75;margin:9px 0}
+.nt5-evidence p{font-size:13px;line-height:1.9;margin:0}
+.nt5-table{border:0;margin:0}
+.nt5-table table{font-size:14px;min-width:750px;table-layout:fixed}
+.nt5-table th,.nt5-table td{padding:15px 13px;word-break:normal}
+.nt5-table th:first-child,.nt5-table td:first-child{width:18%}
+.research h3{font-family:var(--font-title);font-size:23px;margin:0 0 12px}
+.source-title{font-weight:600;overflow-wrap:anywhere}
+.source-list li a{overflow-wrap:anywhere}
+.backref{font-size:12px;display:inline-block;margin-top:8px}
+.nt5-scope{display:flex;flex-wrap:wrap;gap:8px;margin-top:16px}
+.nt5-scope span{font-size:12px;line-height:1.6;color:#65716b;border:1px solid #d3d9cc;background:#f5f4ed;padding:5px 9px}
+section.chapter p{overflow-wrap:break-word}
+.source-list li:target{background:#ececdb}
+.ref a:focus-visible{outline:2px solid #97622d}
+@media(max-width:700px){
+.nt5-date-grid{grid-template-columns:1fr}
+.nt5-date-grid>div{padding:16px 18px;display:block}
+.nt5-date-grid small{min-height:0}
+.nt5-date-grid b{font-size:23px}
+.nt5-council{padding:15px;gap:11px}
+.nt5-step{padding:17px 15px}
+.nt5-three{grid-template-columns:1fr;padding:6px 17px}
+.nt5-three>div{padding:19px 3px;border-right:0;border-bottom:1px solid var(--line)}
+.nt5-three>div:last-child{border-bottom:0}
+.nt5-three h4{margin:6px 0;font-size:20px}
+.nt5-evidence{grid-template-columns:1fr 1fr;padding:14px 6px;gap:19px 0}
+.nt5-evidence>div:nth-child(2){border-right:0}
+.nt5-time{padding:16px}
+.nt5-anchor{grid-template-columns:1fr;gap:10px;padding:17px}
+.nt5-anchor>.nt5-tag{justify-self:start}
+.nt5-epigraphy{padding:23px 18px}
+.nt5-epigraphy .nt5-tag{font-size:10px}
+.hero .subtitle{font-size:18px}
+}
+@media(max-width:450px){.nt5-council{grid-template-columns:1fr}.hero-bottom{gap:14px}.hero-bottom>div{min-width:0}.hero h1{font-size:36px}.nt5-time-lane strong{font-size:21px}.nt5-epigraphy .nt5-greek{font-size:22px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+@media print{
+.nt5-date-grid,.nt5-three{grid-template-columns:repeat(3,1fr)}
+.nt5-evidence{grid-template-columns:repeat(4,1fr)}
+.nt5-council{grid-template-columns:repeat(2,1fr)}
+.nt5-table table{min-width:0;font-size:9pt}
+.nt5-table td,.nt5-table th{padding:9px}
+.nt5-greek{font-size:18pt}
+.research{break-inside:auto}details.research>summary{list-style:none}
+}
+</style><link rel="stylesheet" href="../series.css">
+</head><body id="top">
+<nav class="study-series-bar" aria-label="網站與系列導覽"><a class="study-series-brand" href="../../">SAM KOEH · STUDY ← 返回 Study</a><a href="../">新約政治史 · 系列目錄</a><span>第 05 篇</span></nav>
+<a class="skip" href="#main">跳至正文</a><div class="progress-track" aria-hidden="true"><div class="progress"></div></div>
+<header class="topbar"><a class="brand" href="../">新約政治史 · NEW TESTAMENT POLITICS</a><div class="tools"><a href="#sources">史料索引</a><button data-print>列印</button></div></header>
+<section class="hero"><div class="hero-inner"><p class="kicker">帝國、地方權力與初代教會之間 ／ 第五篇</p>
+<h1>同一個帝國，<br>不同的法庭</h1>
+<p class="subtitle">保羅前兩次宣教旅行：<br>從安提阿出發，穿過道路、行省、殖民城與地方司法。</p>
+<div class="meta"><span>使徒行傳 13:1–18:22</span><span>接橋：18:23–28</span><span>公元40年代後半至約52年</span><span>9幅圖表 · 28項史料與研究入口</span></div>
+<div class="hero-bottom"><div><strong>之前</strong>羅馬殖民城與行省制度</div><div><strong>當下</strong>前兩次旅行與各城的案件</div><div><strong>後來</strong>返回安提阿，再向以弗所</div></div>
+</div></section>
+<div class="layout"><aside class="sidebar"><p class="toc-heading">本篇路線</p><nav class="toc" aria-label="章節目錄"><a href="#opening"><span>01</span>從安提阿出發，進入不同的權力世界</a><a href="#chronology"><span>02</span>先把年代放準：有些是支點，有些只是範圍</a><a href="#administration"><span>03</span>帝國、行省、城市：不是所有官員都叫「總督」</a><a href="#roads"><span>04</span>之前：道路與殖民城，早在保羅到來以前就已形成</a><a href="#cyprus"><span>05</span>居比路：一位總督相信，不等於一個行省改宗</a><a href="#anatolia"><span>06</span>兩座安提阿，與三種不同的衝突</a><a href="#return-council"><span>07</span>回到耶路撒冷：這一次不是被帶去受審</a><a href="#second-start"><span>08</span>重新出發：同工分開，路線也沒有預先寫好</a><a href="#philippi"><span>09</span>腓立比：交易受影響，控告卻換成了公共秩序</a><a href="#citizenship"><span>10</span>「我們是羅馬人」：公民權能制約官員，卻未能擋住棍棒</a><a href="#thessalonica"><span>11</span>帖撒羅尼迦：「另有一個王」的控告，落在耶孫身上</a><a href="#athens"><span>12</span>雅典：是開放討論，還是有權威的審查？</a><a href="#corinth-rome"><span>13</span>哥林多的工作坊，連著羅馬的一道命令</a><a href="#gallio"><span>14</span>迦流拒審：不是替基督教頒發全帝國許可證</a><a href="#inscription"><span>15</span>一塊沒有提到保羅的石碑，為何能幫保羅定年？</a><a href="#comparison"><span>16</span>三座城並排：差別不只是官員個性</a><a href="#return"><span>17</span>從哥林多返回安提阿，不要在迦流面前提早結束</a><a href="#afterword"><span>18</span>後來：新皇帝與新的衝突，不能倒灌進前一趟旅程</a><a href="#people"><span>附</span>人物與官職速查</a><a href="#sources"><span>註</span>史料與研究入口</a></nav><div class="aside-foot">以經文敘事為骨架，以政治處境為研究主體，再回到經文。<br><br>正文、地圖與關係圖皆已內嵌，可離線閱讀。</div></aside>
+<main id="main"><details class="mobile-toc"><summary>展開本篇目錄 · 18節與史料索引</summary><nav class="toc" aria-label="行動版目錄"><a href="#opening"><span>01</span>從安提阿出發，進入不同的權力世界</a><a href="#chronology"><span>02</span>先把年代放準：有些是支點，有些只是範圍</a><a href="#administration"><span>03</span>帝國、行省、城市：不是所有官員都叫「總督」</a><a href="#roads"><span>04</span>之前：道路與殖民城，早在保羅到來以前就已形成</a><a href="#cyprus"><span>05</span>居比路：一位總督相信，不等於一個行省改宗</a><a href="#anatolia"><span>06</span>兩座安提阿，與三種不同的衝突</a><a href="#return-council"><span>07</span>回到耶路撒冷：這一次不是被帶去受審</a><a href="#second-start"><span>08</span>重新出發：同工分開，路線也沒有預先寫好</a><a href="#philippi"><span>09</span>腓立比：交易受影響，控告卻換成了公共秩序</a><a href="#citizenship"><span>10</span>「我們是羅馬人」：公民權能制約官員，卻未能擋住棍棒</a><a href="#thessalonica"><span>11</span>帖撒羅尼迦：「另有一個王」的控告，落在耶孫身上</a><a href="#athens"><span>12</span>雅典：是開放討論，還是有權威的審查？</a><a href="#corinth-rome"><span>13</span>哥林多的工作坊，連著羅馬的一道命令</a><a href="#gallio"><span>14</span>迦流拒審：不是替基督教頒發全帝國許可證</a><a href="#inscription"><span>15</span>一塊沒有提到保羅的石碑，為何能幫保羅定年？</a><a href="#comparison"><span>16</span>三座城並排：差別不只是官員個性</a><a href="#return"><span>17</span>從哥林多返回安提阿，不要在迦流面前提早結束</a><a href="#afterword"><span>18</span>後來：新皇帝與新的衝突，不能倒灌進前一趟旅程</a><a href="#people"><span>附</span>人物與官職速查</a><a href="#sources"><span>註</span>史料與研究入口</a></nav></details>
+<div class="editor-note"><p><strong>承接第四篇的安提阿，讀到第二次旅行返回。</strong>「第一次／第二次旅行」作為閱讀分段；不把第十八章整章都塞進第二次旅行。</p><p>本篇比較的是各事件的制度和程序，不把控告者的說法直接當成事實，也不以地方結果推定全帝國政策。</p><div class="nt5-scope"><span>經文明載</span><span>古代文獻與銘文</span><span>具名研究與明示推論</span><span>年代未定處保留範圍</span></div></div>
+<section class="chapter" id="opening"><span class="section-no">01</span><h2>從安提阿出發，進入不同的權力世界</h2><p class="deck">主線經文：徒13:1–18:22；18:23–28作為下一篇的接橋。</p><p>上一篇停在安提阿：亞基帕一世的統治已成為過去，巴拿巴與掃羅的工作卻繼續。本篇不再以一位君王的宮廷為中心，而是跟著他們渡海、穿越內陸、進入馬其頓和亞該亞。一路上，官府沒有共同給出同一個答案：有總督願意聽，有地方官先打後問，也有總督拒絕受理控告。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>這仍是《路加福音》結尾的延續：悔改、赦罪的道要從耶路撒冷傳到萬邦。徒13在彼西底安提阿記下的講論，還特別回到耶路撒冷、彼拉多、耶穌之死與復活；新的城市不是新的福音，而是同一信息進入另一套公共秩序。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup><sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p>
+<div class="thesis"><span class="eyebrow">本篇的政治問題</span><p>同在羅馬統治之下，<br>為什麼一座城把保羅打入監牢，<br>另一座城的總督卻拒絕審他？</p><small>要回答，先分清楚：誰發起控告、誰被帶到官前、官員把事情認作什麼案件，以及他手裡到底有什麼權力。</small></div>
+<p>「保羅第一次、第二次宣教旅行」是方便閱讀的分段名稱，不是路加在正文所加的標題。本篇以兩次返回安提阿作為段落界線：徒14:26–28收束前一段，徒18:22收束後一段；18:23重新出發，已走進下一篇的範圍。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></section>
+<section class="chapter" id="chronology"><span class="section-no">02</span><h2>先把年代放準：有些是支點，有些只是範圍</h2><p class="deck">政治年代可以提供外框，卻不能替每段旅程補上出發日期。</p><p>本篇主要落在克勞狄在位的公元41–54年間。常見重建把第一次旅行放在40年代後半，耶路撒冷會議約在48／49年前後，第二次旅行約在49–52年；但這幾組不是同等精確的紀年。行程間隔、加拉太書與行傳的對應、總督任期的起訖，都會影響推算。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-18" aria-label="來源 18">[18]</a></sup><sup class="ref"><a href="#src-24" aria-label="來源 24">[24]</a></sup><sup class="ref"><a href="#src-25" aria-label="來源 25">[25]</a></sup></p>
+<p>較重要的外部支點是<strong>迦流在亞該亞任總督</strong>。德爾斐的一份克勞狄銘文通常定於52年，提及迦流；把它與徒18合讀，保羅在哥林多的活動便能大致接到帝國年代。常用的迦流任期方案是51／52年，但銘文不是保羅的入境章，也沒有寫下他受審的月日。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup><sup class="ref"><a href="#src-17" aria-label="來源 17">[17]</a></sup><sup class="ref"><a href="#src-18" aria-label="來源 18">[18]</a></sup></p>
+<figure class="diagram nt5-figure" id="fig-1"><div class="figure-title"><span>圖 01</span><h3>同一段旅程，使用不同精度的時鐘</h3></div>
+<div class="nt5-time">
+<div class="nt5-time-lane"><span class="nt5-tag">帝國外框</span><strong>克勞狄在位：41–54年</strong><p>首都的命令、行省的安排與地方官職，共同構成這兩趟旅程的政治環境。</p></div>
+<div class="nt5-date-grid">
+<div><small>常見範圍 · 非確日</small><b>40年代後半</b><strong>第一次旅行</strong><p>居比路 → 內陸小亞細亞 → 安提阿</p></div>
+<div><small>常見推算 · 對應有爭議</small><b>約48／49年</b><strong>耶路撒冷會議</strong><p>外邦信徒、割禮與跨城的相交條件</p></div>
+<div><small>常見範圍 · 非確日</small><b>約49–52年</b><strong>第二次旅行</strong><p>馬其頓 → 亞該亞 → 經海路返回</p></div>
+</div>
+<div class="nt5-anchor"><span class="nt5-tag">較強的紀年支點</span><div><b>52年的皇帝銘文</b><p>提到迦流；常用任期重建為51／52年。再與徒18相接，才定位保羅的活動。</p></div></div>
+</div><figcaption>圖示不是等比例年表。三段行程的公元年份包含重建；銘文提供的是迦流與皇帝紀年，不是保羅整趟旅行的日曆。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup><sup class="ref"><a href="#src-17" aria-label="來源 17">[17]</a></sup><sup class="ref"><a href="#src-18" aria-label="來源 18">[18]</a></sup><sup class="ref"><a href="#src-24" aria-label="來源 24">[24]</a></sup><sup class="ref"><a href="#src-25" aria-label="來源 25">[25]</a></sup></figcaption></figure>
+<div class="note"><strong>這裡的「前後」，有兩種意思</strong><p>徒13→14→15→16的敘事次序相當清楚；把它換成公元46年、48年、49年，則已加入年代學重建。本文保留這個差別，不用一張整齊年表把有爭議的日期變成確定事實。</p></div></section>
+<section class="chapter" id="administration"><span class="section-no">03</span><h2>帝國、行省、城市：不是所有官員都叫「總督」</h2><p class="deck">離開猶太地，不代表進入一個沒有地方差異的羅馬。</p><p>讀到「羅馬」，很容易想像命令從皇帝一路直達每座城。但帝國治理保留不同層次。行省長官管理較大的轄區；城市也有自己的官職、公共機構與地方菁英。會堂領袖則是社群中的權威，不因此成為羅馬刑事司法官。徒13的士求保羅、徒16的腓立比官長、徒17的地方官、徒18的迦流，不能畫成四個一模一樣的「市長」。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-15" aria-label="來源 15">[15]</a></sup></p>
+<h3>「方伯」在兩處，指的是行省層級</h3>
+<p>和合本在士求保羅與迦流身上都使用「方伯」，對應希臘文 <i>anthypatos</i>，即拉丁文 <i>proconsul</i>。在本篇語境，譯作<strong>行省總督</strong>更容易理解：前者在居比路，後者在亞該亞。他們並非耶路撒冷大祭司或猶太行政長官的下屬。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-11" aria-label="來源 11">[11]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup></p>
+<p>居比路由proconsul治理，有奧古斯都時代的制度前史。馬其頓、亞該亞則曾改由皇帝一方掌管，克勞狄年間又恢復元老院一方的治理安排。蘇埃托尼烏斯與狄奧都記下了這項變動；因此，不能只用「皇帝親自派他來」概括迦流的產生方式。<strong>元老院行省仍在帝國之內，不是脫離皇帝的民主國家。</strong><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-11" aria-label="來源 11">[11]</a></sup></p>
+<figure class="diagram nt5-figure" id="fig-2"><div class="figure-title"><span>圖 02</span><h3>總督與地方官，不能排成同一個職位</h3></div><div class="diagram-toolbar"><span>可橫向查看全圖；放大後可捲動。</span><button class="zoom-btn" data-zoom="fig-2">放大圖表 ↗</button></div><div class="svg-scroll" tabindex="0" aria-label="可水平捲動的圖表"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 550" role="img" aria-labelledby="authority-title authority-desc"><title id="authority-title">本篇的官職層級：居比路與亞該亞總督、馬其頓城市官員，以及不等同國家司法的社群權威。</title><desc id="authority-desc">本篇的官職層級：居比路與亞該亞總督、馬其頓城市官員，以及不等同國家司法的社群權威。</desc><style>text{font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",sans-serif}</style><defs><marker id="authority-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#28776d"/></marker></defs><rect x="285" y="25" width="430" height="94" rx="8" fill="#203f50" stroke="#203f50"/><text x="500.0" y="62.0" font-size="20" fill="#fffdf8" font-weight="600" text-anchor="middle">克勞狄時代的羅馬帝國</text><text x="500.0" y="91.0" font-size="20" fill="#fffdf8" font-weight="600" text-anchor="middle">皇帝與元老院：不同治理安排仍在帝國之內</text><path d="M500,119 V154 H175 V185" fill="none" stroke="#859c94" stroke-width="2"/><path d="M500,119 V154 H500 V185" fill="none" stroke="#859c94" stroke-width="2"/><path d="M500,119 V154 H825 V185" fill="none" stroke="#859c94" stroke-width="2"/><rect x="40" y="185" width="270" height="205" rx="8" fill="#fffdf8" stroke="#dedbd0"/><text x="60.0" y="219.0" font-size="21" fill="#28776d" font-weight="650" text-anchor="start">居比路行省</text><text x="60.0" y="255.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">總督士求保羅</text><text x="60.0" y="284.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">proconsul／方伯</text><line x1="60" y1="305" x2="290" y2="305" stroke="#ddd7c9"/><text x="60.0" y="337.0" font-size="15" fill="#657570" font-weight="400" text-anchor="start">帕弗：接見並聽道</text><text x="60.0" y="362.0" font-size="15" fill="#657570" font-weight="400" text-anchor="start">官員相信 ≠ 全省改宗</text><rect x="365" y="185" width="270" height="205" rx="8" fill="#fffdf8" stroke="#dedbd0"/><text x="385.0" y="219.0" font-size="21" fill="#28776d" font-weight="650" text-anchor="start">馬其頓的城市</text><text x="385.0" y="255.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">腓立比：殖民城官長</text><text x="385.0" y="284.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">帖撒羅尼迦：politarchs</text><line x1="385" y1="305" x2="615" y2="305" stroke="#ddd7c9"/><text x="385.0" y="337.0" font-size="15" fill="#657570" font-weight="400" text-anchor="start">本地官員處理公共秩序</text><text x="385.0" y="362.0" font-size="15" fill="#657570" font-weight="400" text-anchor="start">不是亞該亞總督的下屬</text><rect x="690" y="185" width="270" height="205" rx="8" fill="#fffdf8" stroke="#dedbd0"/><text x="710.0" y="219.0" font-size="21" fill="#28776d" font-weight="650" text-anchor="start">亞該亞行省</text><text x="710.0" y="255.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">總督迦流</text><text x="710.0" y="284.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">proconsul／方伯</text><line x1="710" y1="305" x2="940" y2="305" stroke="#ddd7c9"/><text x="710.0" y="337.0" font-size="15" fill="#657570" font-weight="400" text-anchor="start">哥林多：控告送至總督</text><text x="710.0" y="362.0" font-size="15" fill="#657570" font-weight="400" text-anchor="start">拒絕處理此宗教律法爭議</text><rect x="40" y="423" width="920" height="103" rx="8" fill="#eeeade" stroke="#dedbd0"/><text x="62.0" y="455.0" font-size="20" fill="#9c553f" font-weight="600" text-anchor="start">另一種權威：教會、會堂、家庭與地方菁英</text><text x="62.0" y="485.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">可教導、接待、聯繫、施壓；與國家軍政、刑事司法權不可直接畫上等號。</text><text x="62.0" y="510.0" font-size="13" fill="#6b7472" font-weight="400" text-anchor="start">本圖只標出本篇案件實際涉及的層次，並非帝國完整行政組織圖。</text></svg></div><figcaption>實線表示本圖的分類，不是皇帝向每一位官員逐案下令的紀錄。馬其頓也有行省層級，此圖特別標出徒16–17直接涉及的城市官員。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-11" aria-label="來源 11">[11]</a></sup><sup class="ref"><a href="#src-15" aria-label="來源 15">[15]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup></figcaption></figure>
+<p>這也解釋了本篇與前幾篇的差別：猶太地的祭司—長官關係，不是可以原封不動套用到希臘城市的模板。保羅跨過的，不只是山與海，也是不一樣的權力配置。</p></section>
+<section class="chapter" id="roads"><span class="section-no">04</span><h2>之前：道路與殖民城，早在保羅到來以前就已形成</h2><p class="deck">帝國基礎設施促成往來，卻沒有承諾旅人一路安全。</p><p>腓立比在公元前42年戰役之後成為羅馬殖民城，並位於維亞・埃格納提亞大道（Via Egnatia）沿線。哥林多則在公元前44年以羅馬殖民城的身分重建。這些發展遠早於保羅；城市裡對羅馬身分、公共官職與地方榮譽的重視，有自己的歷史。<sup class="ref"><a href="#src-13" aria-label="來源 13">[13]</a></sup><sup class="ref"><a href="#src-14" aria-label="來源 14">[14]</a></sup></p>
+<p>「殖民城」首先是制度與身分的稱呼，不能只理解為幾座營房。徒16和合本所譯的「羅馬的駐防城」，容易讓人只想到軍隊；但腓立比的故事同時出現市場、商人、家庭、官長與監牢。它是生活中的城市，並非只有現役士兵。反過來說，<strong>住在羅馬殖民城，也不表示每個居民自動取得羅馬公民權。</strong>使女、外來商人與公民，在敘事中仍有不同處境。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-13" aria-label="來源 13">[13]</a></sup></p>
+<p>也不要把「羅馬道路便利」延伸成「傳道人可以免費使用官方驛站」「各地語言完全相通」或「旅程不再危險」。路司得的人用呂高尼話呼喊，已顯示語言差異；保羅自己在哥林多後書又列出江河、盜賊、城裡、曠野和海上的危險。道路能讓人抵達，不能保證人到了之後受到保護。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-26" aria-label="來源 26">[26]</a></sup></p>
+<div class="note"><strong>看遺址時，還要再加一個年代問題</strong><p>今天的腓立比或哥林多遺址，包含保羅前後不同世紀的建設。圖說若只寫「保羅曾經走過的地方」，不代表畫面裡每一段鋪石、每一根柱子都已經存在於公元50年前後。<sup class="ref"><a href="#src-13" aria-label="來源 13">[13]</a></sup><sup class="ref"><a href="#src-14" aria-label="來源 14">[14]</a></sup></p></div></section>
+<section class="chapter" id="cyprus"><span class="section-no">05</span><h2>居比路：一位總督相信，不等於一個行省改宗</h2><p class="deck">徒13:1–13：差遣、海路、會堂與總督身邊的人。</p><p>安提阿的差遣名單本身就有跨地域的面貌：巴拿巴、稱呼尼結的西面、古利奈人路求、與分封王希律有成長關係的馬念，以及掃羅。路加把他們的出發歸於聖靈的吩咐與教會的禁食禱告；這不是由希律家族或羅馬官府資助的使節團。馬念的背景也不足以證明他替整趟旅程安排了政治通行。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p>
+<p>巴拿巴、掃羅與約翰先到撒拉米，在猶太會堂傳講，之後穿越居比路到帕弗。總督士求保羅想聽神的道；巴耶穌、又名以呂馬的術士則抵擋他們。經文把以呂馬放在總督周圍，顯示接近掌權者的人也可能影響一次會面；但它沒有給他「國家宗教部長」之類的正式官銜。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p>
+<p>總督看見所發生的事，因主的道而驚奇、相信。<strong>這是一位官員對信息的回應，不是一紙頒給全島的改宗命令。</strong>經文沒有記總督取消其他崇拜、讓教會取得行省特權，或為保羅後來所有城市的活動提供法律保障。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p>
+<p>離開帕弗後，團隊抵達旁非利亞的別加，約翰在這裡離隊回耶路撒冷。這個短短的行程記載，到徒15會成為保羅與巴拿巴對是否再次帶他同行產生分歧的背景。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p><figure class="diagram nt5-figure" id="fig-3"><div class="figure-title"><span>圖 03</span><h3>第一次旅行：從海島走進內陸，再回頭探望</h3></div><div class="diagram-toolbar"><span>可橫向查看全圖；放大後可捲動。</span><button class="zoom-btn" data-zoom="fig-3">放大圖表 ↗</button></div><div class="svg-scroll" tabindex="0" aria-label="可水平捲動的圖表"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 630" role="img" aria-labelledby="first-title first-desc"><title id="first-title">第一次旅行示意：敘利亞安提阿經居比路到小亞細亞內陸，再重訪各城並由亞大利返安提阿。線段並非已確認的古代道路或實際航線。</title><desc id="first-desc">第一次旅行示意：敘利亞安提阿經居比路到小亞細亞內陸，再重訪各城並由亞大利返安提阿。線段並非已確認的古代道路或實際航線。</desc><style>text{font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",sans-serif}</style><rect x="0" y="0" width="1000" height="630" rx="0" fill="#e6eef0" stroke="#e6eef0"/><path d="M744.7,550.3 L803.1,481.1 L805.3,477.7 L794.3,402.5 L823.1,362.0 L779.9,317.5 L824.4,280.5 L752.7,288.9 L654.5,266.3 L573.7,322.9 L395.3,333.9 L300.2,281.2 L173.5,277.9 L146.5,318.6 L65.2,330.3 L30.0,314.1 L30.0,30.0 L970.0,30.0 L970.0,600.0 L718.7,600.0 L744.7,550.3 Z " fill="#e9e4d5" stroke="#bfc8c2" stroke-width="1" fill-rule="evenodd"/><path d="M429.8,428.5 L446.8,404.8 L531.4,406.1 L638.2,376.8 L558.8,418.6 L567.4,437.0 L571.1,444.9 L450.6,484.8 L393.1,472.1 L365.7,432.6 L421.5,429.0 L429.8,428.5 Z " fill="#e9e4d5" stroke="#bfc8c2" stroke-width="1" fill-rule="evenodd"/><text x="965.0" y="38.0" font-size="16" fill="#233a45" font-weight="500" text-anchor="end">N ↑</text><text x="965.0" y="615.0" font-size="12" fill="#758580" font-weight="400" text-anchor="end">簡化海岸｜無現代國界</text><text x="124.0" y="79.1" font-size="20" fill="#879588" font-weight="400" text-anchor="middle">內陸小亞細亞</text><text x="641.0" y="177.4" font-size="20" fill="#879588" font-weight="400" text-anchor="middle">基利家</text><text x="899.5" y="462.4" font-size="20" fill="#879588" font-weight="400" text-anchor="middle">敘利亞</text><text x="482.4" y="423.1" font-size="20" fill="#879588" font-weight="400" text-anchor="middle">居比路</text><text x="218.0" y="516.5" font-size="20" fill="#879588" font-weight="400" text-anchor="middle">地 中 海</text><polyline points="824.3,324.8 796.1,332.7 557.6,425.1 383.7,466.3 241.5,374.0 200.4,250.1 239.2,117.5 393.1,160.7 377.8,190.2 473.0,211.8" fill="none" stroke="#28776d" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="473.0,211.8 377.8,190.2 393.1,160.7 239.2,117.5 200.4,250.1 182.8,258.0 288.5,344.5 652.8,354.3 824.3,324.8" fill="none" stroke="#9c553f" stroke-width="2.7" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/><path d="M824.2999999999997,324.82758620689634 L814.2999999999997,289.82758620689634" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="824.2999999999997" cy="324.82758620689634" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="814.2999999999997" y="295.82758620689634" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">敘利亞安提阿</text><path d="M796.1000000000004,332.6896551724141 L831.1000000000004,349.6896551724141" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="796.1000000000004" cy="332.6896551724141" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="831.1000000000004" y="355.6896551724141" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">西流基</text><path d="M557.5750000000003,425.0689655172414 L589.5750000000003,411.0689655172414" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="557.5750000000003" cy="425.0689655172414" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="589.5750000000003" y="417.0689655172414" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">撒拉米</text><path d="M383.6749999999998,466.3448275862071 L365.6749999999998,443.3448275862071" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="383.6749999999998" cy="466.3448275862071" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="365.6749999999998" y="449.3448275862071" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">帕弗</text><path d="M200.37500000000034,250.13793103448285 L165.37500000000034,226.13793103448285" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="200.37500000000034" cy="250.13793103448285" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="165.37500000000034" y="232.13793103448285" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">別加</text><path d="M182.75000000000009,257.9999999999999 L157.75000000000009,290.9999999999999" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="182.75000000000009" cy="257.9999999999999" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="157.75000000000009" y="296.9999999999999" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">亞大利</text><path d="M239.15000000000015,117.4655172413793 L224.15000000000015,88.4655172413793" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="239.15000000000015" cy="117.4655172413793" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="224.15000000000015" y="94.4655172413793" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">彼西底安提阿</text><path d="M393.0750000000004,160.70689655172458 L415.0750000000004,138.70689655172458" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="393.0750000000004" cy="160.70689655172458" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="415.0750000000004" y="144.70689655172458" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">以哥念</text><path d="M377.8000000000001,190.18965517241395 L355.8000000000001,200.18965517241395" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="377.8000000000001" cy="190.18965517241395" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="355.8000000000001" y="206.18965517241395" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">路司得</text><path d="M472.97500000000036,211.81034482758622 L497.97500000000036,220.81034482758622" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="472.97500000000036" cy="211.81034482758622" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="497.97500000000036" y="226.81034482758622" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">特庇</text><rect x="40" y="488" width="400" height="98" rx="8" fill="#fffdf8" stroke="#d4d8c9"/><path d="M61,518 H113" stroke="#28776d" stroke-width="4"/><text x="125.0" y="524.0" font-size="16" fill="#233a45" font-weight="400" text-anchor="start">去程：向居比路與內陸</text><path d="M61,551 H113" stroke="#9c553f" stroke-width="3" stroke-dasharray="8 6"/><text x="125.0" y="557.0" font-size="16" fill="#233a45" font-weight="400" text-anchor="start">回程：重訪教會，再返回安提阿</text></svg></div><figcaption>行程依徒13–14。點為約略城址；線只表示敘事次序，並非精確道路或航線。基底為合併國界後的現代簡化海岸，沒有重建第一世紀港岸。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-28" aria-label="來源 28">[28]</a></sup></figcaption></figure>
+<div class="research"><h3>掃羅何時「改名」成保羅？</h3><p>徒13:9寫的是「掃羅又名保羅」。敘事從此更多使用保羅，並不能證明他在大馬色歸信時改名，也不能證明他為感謝士求保羅而改用總督的名字。這些常見說法都比本節實際提供的資料更遠。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p></div></section>
+<section class="chapter" id="anatolia"><span class="section-no">06</span><h2>兩座安提阿，與三種不同的衝突</h2><p class="deck">徒13:14–14:20：不是所有排斥，都經過同一個法庭。</p><p><strong>敘利亞安提阿</strong>是出發、回報和教會相交的中心；<strong>彼西底安提阿</strong>是內陸的另一座城市。斯特拉波將後者放在靠近彼西底的地域描述中，並提到羅馬殖民城的身分。地域稱呼、羅馬行省與城市名稱不是同一層次；不能因為名字有「彼西底」，就假定存在一個同名、邊界完全一致的行省。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-12" aria-label="來源 12">[12]</a></sup></p>
+<h3>彼西底安提阿：透過地方人脈推動排斥</h3>
+<p>這裡的會堂原是信息傳播的入口；有猶太人和敬虔進教的人跟從保羅、巴拿巴。衝突升高後，反對者煽動有身分的婦女與城中的重要人物，把二人趕出境外。路加讓讀者看見的是<strong>宗教反對與地方社會影響力結合</strong>，不是逐字記錄一場行省總督的判決。這些有地位的婦女也不應被省略：沒有正式官職，不等於沒有公共影響。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p>
+<h3>以哥念：城市分裂，跨群體的支持與敵意並存</h3>
+<p>徒14先記許多猶太人與希臘人相信，後來又記另一些猶太人、外邦人及官長圖謀凌辱並用石頭打二人。同一城市中，支持與反對都跨越族群。若只摘要成「猶太人反對，外邦人接受」，不但失去政治細節，也與經文自己的描寫不合。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+<h3>路司得：崇拜、群眾與石頭</h3>
+<p>醫治之後，當地人以丟斯、希耳米的神話語彙理解巴拿巴和保羅，祭司甚至帶來祭物。二人拒絕被當作神，勸人轉向永生神。其後，從安提阿、以哥念來的反對者說服群眾，保羅被石打、拖到城外。經文沒有提行省總督審判，也沒有記羅馬軍官核准石刑。<strong>發生在羅馬治下的暴力，不必然都是羅馬官府依法執行的刑罰。</strong><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+<p>三地不能被壓縮成同一種「迫害模式」：一處動員地方菁英，一處有跨群體的暴力圖謀，一處的歡迎急轉為襲擊。更不能替三城加上一份不存在於文本中的共同中央命令。</p></section>
+<section class="chapter" id="return-council"><span class="section-no">07</span><h2>回到耶路撒冷：這一次不是被帶去受審</h2><p class="deck">徒14:21–15:35：城市之間，需要誰來確認相交的條件？</p><p>到特庇之後，保羅和巴拿巴不是只找一條最快回家的路；他們返回先前的城市，堅固門徒、設立長老，再經別加、亞大利回安提阿。這些長老是地方教會的牧養與帶領者，不是新設的行省官員。旅程留下的也不只是到訪紀錄，而是一組需要持續照管的群體。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+<p>接著，爭議從外部衝突轉入教會內部：外邦信徒是否必須受割禮、遵守摩西律法，才能得救？安提阿的爭論促使保羅、巴拿巴等人去耶路撒冷；參與的是使徒、長老與教會，不是審問司提反的猶太公會。徒15還特別提到<strong>法利賽教門中已經信主的人</strong>，再次提醒我們：不能把「法利賽人」當成一律在教會之外的單一陣營。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<p>彼得回顧外邦人領受聖靈，巴拿巴、保羅報告宣教經歷，雅各引經並提出處理方式。這位雅各不是徒12已被殺的約翰之兄；本系列談到同名人物時，必須把角色分開。會議所面對的，延續了上一篇哥尼流事件的核心：神所接納的外邦信徒，是否還要先取得另一種族群—律法身分，才可被接納？<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-25" aria-label="來源 25">[25]</a></sup></p>
+<figure class="diagram nt5-figure" id="fig-4"><div class="figure-title"><span>圖 04</span><h3>耶路撒冷會議：教會的協商與傳遞，不是羅馬的立法</h3></div>
+<div class="nt5-council">
+<div class="nt5-step"><span>01 · 問題到來</span><h4>安提阿的爭論</h4><p>有從猶太來的人要求割禮；保羅、巴拿巴等人到耶路撒冷。</p></div>
+<div class="nt5-step"><span>02 · 共同辨明</span><h4>使徒、長老與教會</h4><p>彼得回顧見證；巴拿巴、保羅述說經歷；雅各引經提出處理。</p></div>
+<div class="nt5-step"><span>03 · 證明授權</span><h4>書信與具名使者</h4><p>猶大、西拉隨行；澄清先前出去攪擾者並未獲此授權。</p></div>
+<div class="nt5-step"><span>04 · 跨城接收</span><h4>安提阿、敘利亞、基利家</h4><p>信徒讀信得安慰；不是帝國各省居民共同適用的民事法律。</p></div>
+</div><figcaption>這個流程圖整理徒15的敘事，沒有把教會會議與猶太公會合併，也沒有把使者視為羅馬司法使節。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></figcaption></figure>
+<p>決議透過書信、猶大與西拉等使者送往安提阿、敘利亞和基利家。信中還指出，先前有人從耶路撒冷出去攪擾信徒，卻未獲此項授權。<strong>來源地的名聲，不等於每一位自稱「從那裡來」的人都代表該地教會。</strong>這是跨城網絡裡相當實際的權威辨識問題。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<p>書信的四項要求涉及偶像、淫亂、血與勒死的牲畜；它們的解經背景仍有討論。本篇不把它們簡化為餐桌禮貌，也不把整場會議寫成帝國內另一個可以徵稅、駐軍的中央政府。其權威訴諸聖靈、使徒見證與聖經，約束的是教會的信仰和相交，不是羅馬居民的全部民事生活。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<details class="research"><summary>年代學旁註：加拉太書2章就是這場會議嗎？</summary><p>兩段都有保羅、巴拿巴、耶路撒冷與外邦人身分問題，但敘述的場合、焦點與行程資料並不完全相同。研究者既有把加2與徒15對應的方案，也有連到較早訪問的方案。本篇沿行傳敘事前進，不先用其中一案替全部旅程定年；書信篇再專門比較。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-25" aria-label="來源 25">[25]</a></sup></p></details></section>
+<section class="chapter" id="second-start"><span class="section-no">08</span><h2>重新出發：同工分開，路線也沒有預先寫好</h2><p class="deck">徒15:36–16:10：人事抉擇與行程轉折，不能一律解釋成政治計畫。</p><p>保羅想回去探望各城信徒，卻與巴拿巴因約翰・馬可發生爭論。巴拿巴帶馬可去居比路；保羅選西拉，經敘利亞、基利家堅固眾教會。路加沒有把分開解釋成兩人預先設計、毫無衝突的分區策略，也沒有給我們資料判定其背後有哪位政治贊助者。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<p>到了特庇、路司得，提摩太加入。他的母親是信主的猶太婦人，父親是希臘人；保羅因當地猶太人的緣故給他行割禮。這與強迫所有外邦信徒受割禮的要求，不是同一種情境。經文一面記下這個具體處理，一面又說團隊把耶路撒冷的決議交給各城遵守。不能只取其中一面，便宣告保羅已撤回前一章的立場。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<p>路加接著把亞細亞、庇推尼方向的受阻歸於聖靈的引導，最後將敘事帶到特羅亞與馬其頓異象。他沒有說這是因邊境封鎖、羅馬簽證被拒，或某個行省全面禁止傳教。弗呂家、加拉太一帶的細部路徑也有爭議；本篇地圖保留空間，不把猜測畫成已被發掘的古道路線。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<figure class="diagram nt5-figure" id="fig-5"><div class="figure-title"><span>圖 05</span><h3>第二次旅行：向西進入馬其頓與亞該亞</h3></div><div class="diagram-toolbar"><span>可橫向查看全圖；放大後可捲動。</span><button class="zoom-btn" data-zoom="fig-5">放大圖表 ↗</button></div><div class="svg-scroll" tabindex="0" aria-label="可水平捲動的圖表"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 720" role="img" aria-labelledby="second-title second-desc"><title id="second-title">第二次旅行概略地圖。主要城址約略定位，省略部分小站。弗呂家加拉太及庇哩亞南下路線未定；徒18:22的上去問教會安通常理解為耶路撒冷，原文未直接寫城名。</title><desc id="second-desc">第二次旅行概略地圖。主要城址約略定位，省略部分小站。弗呂家加拉太及庇哩亞南下路線未定；徒18:22的上去問教會安通常理解為耶路撒冷，原文未直接寫城名。</desc><style>text{font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",sans-serif}</style><rect x="0" y="0" width="1100" height="720" rx="0" fill="#e6eef0" stroke="#e6eef0"/><path d="M51.1,582.4 L92.0,574.7 L172.4,586.3 L192.6,611.5 L214.8,611.7 L233.7,621.4 L292.7,628.0 L307.2,646.6 L386.3,645.7 L443.5,660.6 L502.5,677.3 L530.0,686.0 L575.8,668.2 L600.2,652.0 L652.6,647.4 L694.9,654.5 L711.1,682.5 L724.9,664.0 L772.5,677.4 L818.8,680.6 L848.1,666.3 L848.1,666.3 L865.4,647.8 L861.3,644.6 L877.0,618.2 L889.1,575.6 L897.6,561.4 L899.2,560.8 L920.4,514.8 L949.9,475.1 L951.0,473.1 L945.5,429.9 L960.0,406.7 L938.2,381.2 L960.7,360.0 L924.5,364.8 L874.8,351.8 L833.9,384.3 L743.7,390.6 L695.6,360.3 L631.5,358.4 L617.8,381.8 L576.7,388.5 L519.3,358.5 L454.4,359.5 L419.2,303.4 L375.8,272.1 L404.7,228.2 L367.0,201.3 L432.9,147.3 L524.4,145.1 L549.4,102.2 L662.7,109.7 L734.1,73.1 L803.4,57.1 L901.7,55.9 L1005.4,95.7 L1070.0,112.2 L1070.0,690.0 L30.0,690.0 L30.0,595.4 L51.1,582.4 Z " fill="#e9e4d5" stroke="#bfc8c2" stroke-width="1" fill-rule="evenodd"/><path d="M475.5,57.8 L482.6,79.5 L534.5,97.7 L523.6,111.5 L453.1,114.6 L427.7,132.1 L378.1,162.5 L359.4,136.2 L360.2,124.5 L324.0,122.9 L293.0,117.6 L221.1,132.3 L262.2,164.0 L232.1,173.2 L199.0,173.2 L167.5,144.2 L156.4,156.6 L169.6,190.2 L199.4,216.7 L177.0,229.1 L210.1,255.1 L239.5,271.4 L240.4,303.3 L185.4,288.4 L202.9,317.1 L165.2,323.1 L187.7,372.8 L148.3,373.5 L99.5,349.0 L77.2,303.9 L66.8,266.3 L43.7,240.4 L30.0,226.0 L30.0,30.0 L459.0,30.0 L475.5,57.8 Z " fill="#e9e4d5" stroke="#bfc8c2" stroke-width="1" fill-rule="evenodd"/><path d="M761.1,444.9 L769.7,431.3 L812.5,432.0 L866.5,415.2 L826.4,439.2 L830.7,449.8 L832.6,454.3 L771.7,477.2 L742.6,469.9 L728.7,447.3 L756.9,445.2 L761.1,444.9 Z " fill="#e9e4d5" stroke="#bfc8c2" stroke-width="1" fill-rule="evenodd"/><path d="M341.7,442.9 L374.1,436.2 L366.7,452.8 L281.1,457.6 L281.7,448.3 L209.2,437.3 L220.2,413.3 L252.7,432.3 L298.9,429.1 L343.1,433.1 L341.7,442.9 Z " fill="#e9e4d5" stroke="#bfc8c2" stroke-width="1" fill-rule="evenodd"/><text x="1065.0" y="38.0" font-size="16" fill="#233a45" font-weight="500" text-anchor="end">N ↑</text><text x="1065.0" y="705.0" font-size="12" fill="#758580" font-weight="400" text-anchor="end">簡化海岸｜無現代國界</text><text x="749.1" y="131.5" font-size="22" fill="#879588" font-weight="400" text-anchor="middle">小 亞 細 亞</text><text x="564.9" y="441.8" font-size="22" fill="#879588" font-weight="400" text-anchor="middle">地 中 海</text><text x="416.3" y="244.4" font-size="22" fill="#879588" font-weight="400" text-anchor="middle">愛琴海</text><text x="986.8" y="475.6" font-size="22" fill="#879588" font-weight="400" text-anchor="middle">敘利亞</text><polyline points="960.7,385.4 909.5,334.6 783.0,320.5 734.8,308.1" fill="none" stroke="#28776d" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/><polyline points="734.8,308.1 600.5,210.5 366.4,185.1" fill="none" stroke="#28776d" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/><polyline points="366.4,185.1 331.9,144.5 262.4,118.0 255.2,114.1" fill="none" stroke="#28776d" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="255.2,114.1 228.5,124.8 207.7,134.9 175.6,134.9 131.0,141.7" fill="none" stroke="#28776d" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="131.0,141.7 226.1,182.3 243.9,238.7 222.0,285.0" fill="none" stroke="#28776d" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/><polyline points="222.0,285.0 171.4,288.9" fill="none" stroke="#28776d" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="171.4,288.9 285.5,309.2 436.5,287.2 493.5,441.8 701.5,515.1 885.8,594.1" fill="none" stroke="#9c553f" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round"/><polyline points="885.8,594.1 905.4,634.7 960.7,385.4" fill="none" stroke="#9c553f" stroke-width="3.6" stroke-linejoin="round" stroke-linecap="round" stroke-dasharray="8 7"/><path d="M960.6514285714284,385.38461538461524 L942.6514285714284,353.38461538461524" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="960.6514285714284" cy="385.38461538461524" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="942.6514285714284" y="359.38461538461524" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">敘利亞安提阿</text><path d="M782.96,320.51282051282044 L802.96,340.51282051282044" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="782.96" cy="320.51282051282044" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="802.96" y="346.51282051282044" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">特庇</text><path d="M734.8228571428572,308.1025641025641 L720.8228571428572,327.1025641025641" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="734.8228571428572" cy="308.1025641025641" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="720.8228571428572" y="333.1025641025641" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">路司得</text><path d="M366.3657142857143,185.12820512820514 L401.3657142857143,194.12820512820514" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="366.3657142857143" cy="185.12820512820514" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="401.3657142857143" y="200.12820512820514" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">特羅亞</text><path d="M255.23428571428568,114.05128205128221 L290.23428571428565,68.05128205128221" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="255.23428571428568" cy="114.05128205128221" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="290.23428571428565" y="74.05128205128221" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">腓立比</text><path d="M175.59999999999997,134.9230769230769 L151.59999999999997,83.9230769230769" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="175.59999999999997" cy="134.9230769230769" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="151.59999999999997" y="89.9230769230769" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">帖撒羅尼迦</text><path d="M131.02857142857138,141.6923076923075 L109.02857142857138,175.6923076923075" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="131.02857142857138" cy="141.6923076923075" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="109.02857142857138" y="181.6923076923075" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">庇哩亞</text><path d="M221.95428571428576,284.9743589743592 L229.95428571428576,262.9743589743592" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="221.95428571428576" cy="284.9743589743592" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="229.95428571428576" y="268.9743589743592" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">雅典</text><path d="M171.43999999999994,288.9230769230771 L153.43999999999994,320.9230769230771" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="171.43999999999994" cy="288.9230769230771" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="153.43999999999994" y="326.9230769230771" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">哥林多</text><path d="M436.49142857142857,287.23076923076934 L458.49142857142857,269.23076923076934" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="436.49142857142857" cy="287.23076923076934" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="458.49142857142857" y="275.23076923076934" font-size="17" font-weight="600" text-anchor="start" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">以弗所</text><path d="M885.7714285714285,594.1025641025641 L863.7714285714285,578.1025641025641" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="885.7714285714285" cy="594.1025641025641" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="863.7714285714285" y="584.1025641025641" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">該撒利亞</text><path d="M905.3828571428569,634.7179487179487 L887.3828571428569,666.7179487179487" fill="none" stroke="#7f8e83" stroke-width="1"/><circle cx="905.3828571428569" cy="634.7179487179487" r="5.2" fill="#fffdf8" stroke="#28776d" stroke-width="2.5"/><text x="887.3828571428569" y="672.7179487179487" font-size="17" font-weight="600" text-anchor="end" fill="#233a45" stroke="#f4f2e9" stroke-width="4" paint-order="stroke">耶路撒冷？</text><text x="642.1" y="193.6" font-size="15" fill="#786e59" font-weight="500" text-anchor="middle">弗呂家／加拉太</text><text x="642.1" y="217.6" font-size="15" fill="#786e59" font-weight="500" text-anchor="middle">細部路線未定</text><rect x="35" y="512" width="420" height="164" rx="8" fill="#fffdf8" stroke="#d4d8c9"/><text x="55.0" y="545.0" font-size="18" fill="#28776d" font-weight="650" text-anchor="start">讀圖方法</text><text x="55.0" y="576.0" font-size="15" fill="#233a45" font-weight="400" text-anchor="start">綠色：第二次旅程向西推進</text><text x="55.0" y="603.0" font-size="15" fill="#233a45" font-weight="400" text-anchor="start">棕色：經以弗所、該撒利亞返回</text><text x="55.0" y="630.0" font-size="15" fill="#233a45" font-weight="400" text-anchor="start">虛線：細部路徑／部分定位仍有不確定</text></svg></div><figcaption>經文小站順序：特羅亞 → 撒摩特喇 → 尼亞波利 → 腓立比 → 暗妃波里 → 亞波羅尼亞 → 帖撒羅尼迦 → 庇哩亞 → 雅典 → 哥林多。返程經堅革哩、以弗所、該撒利亞，再回安提阿。部分站點因比例省略；虛線不可讀成確定道路。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-28" aria-label="來源 28">[28]</a></sup></figcaption></figure>
+<div class="note"><strong>「亞細亞」不是今日整個亞洲</strong><p>徒16、18所說的亞細亞，在行程語境中涉及羅馬治下小亞細亞西部的區域／行省名稱。短暫未能在那裡傳道，也不是永遠排除那片土地；徒18已記保羅短訪以弗所，下一篇會再回到那座城。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></div></section>
+<section class="chapter" id="philippi"><span class="section-no">09</span><h2>腓立比：交易受影響，控告卻換成了公共秩序</h2><p class="deck">徒16:11–24：從河邊、家庭，走到市集與監牢。</p><p>從特羅亞到撒摩特喇，再到尼亞波利、腓立比，旅程進入另一個政治環境。最先迎接福音的，不是地方官，而是河邊聽道的婦女，其中有從推雅推喇來、做紫色布匹生意的呂底亞。她和家人受洗，邀請團隊入住。這顯示外來商人與家庭可以提供落腳之處；經文卻不足以讓我們算出她的資產，或說她已替教會取得官方庇護。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<p>衝突由另一個有經濟關係的人物引起：一名被人役使、靠占卜為主人賺錢的女子。保羅命那靈離開她；主人見得利的指望沒有了，便抓住保羅和西拉，拉到市上官長面前。路加把<strong>收入來源的喪失</strong>與隨後的控告直接連起來，這不是後人替主人猜心。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<p>但到了官前，他們說的不是「我們少賺了錢」，而是：這兩人是猶太人，擾亂城市，傳我們羅馬人不可接受、不可遵行的規矩。指控把一個特定的利益衝突，改寫成「我們這座羅馬城市」必須處理的身分與秩序問題。經文沒有保存被援引的具體法條，因此不宜替控告者補上精確法律名稱。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<p>群眾一起攻擊，官長命人剝衣、用棍打，然後下在監裡。徒16的官長用詞是 <i>stratēgoi</i>；在這座殖民城的場景，通常理解為地方行政司法官員，而不是遠方的亞該亞總督。<strong>羅馬身分在控告中先被用來排斥二人，隔天卻又成為保羅質問官員的根據。</strong><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-13" aria-label="來源 13">[13]</a></sup><sup class="ref"><a href="#src-21" aria-label="來源 21">[21]</a></sup></p></section>
+<section class="chapter" id="citizenship"><span class="section-no">10</span><h2>「我們是羅馬人」：公民權能制約官員，卻未能擋住棍棒</h2><p class="deck">徒16:25–40：法律身分、實際處境與事後交涉。</p><p>夜間的地震、獄卒與家人的信主，是路加敘事的轉折；隔天，官長派差役來放人。保羅不肯把這件事當成悄悄離城便算結束：「我們是羅馬人」，卻未經定罪而被公開打、下監，現在也應由官長出面帶他們出去。複數的「我們」在敘事中把西拉包括在內，不只提保羅一人。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<p>官長聽說二人是羅馬人便害怕，親自來勸解、領出，請他們離城。這裡確實看見公民身分帶來的政治與法律分量；但不要把結局擴寫成官員正式賠款、全城公告道歉，或簽下今後不得干預教會的保障書。經文沒有這些文件。保羅、西拉最後先到呂底亞家安慰弟兄，才離開。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<figure class="diagram nt5-figure" id="fig-6"><div class="figure-title"><span>圖 06</span><h3>公民權：規範、侵害與事後交涉，是三件事</h3></div>
+<div class="nt5-three">
+<div><small>法律身分</small><h4>保護不是不存在</h4><p>保羅以「羅馬人、未經定罪」質問公開杖責與監禁。</p><span class="nt5-tag">徒16:37</span></div>
+<div><small>已發生的傷害</small><h4>身分未自動阻止施打</h4><p>主張被承認以前，二人已挨打、下監；不應把保護寫成必然有效。</p><span class="nt5-tag">徒16:22–24</span></div>
+<div><small>敘事中的結果</small><h4>官長出面，二人仍離城</h4><p>經文記害怕、勸解、領出；沒有記賠償額或永久免受追訴。</p><span class="nt5-tag">徒16:38–40</span></div>
+</div><figcaption>西塞羅可提供早期規範與侵害並存的比較；不能把別的案件直接當成腓立比採用的法條與程序。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-19" aria-label="來源 19">[19]</a></sup><sup class="ref"><a href="#src-21" aria-label="來源 21">[21]</a></sup></figcaption></figure>
+<h3>這種保護，不是從來不會被侵犯的特權</h3>
+<p>早於保羅的西塞羅，在控告維勒斯時，就藉一名宣稱自己是羅馬公民卻遭鞭打處死的人，指控地方統治者濫用權力。這份演說不是腓立比的法律筆錄，卻使我們看見：<strong>「這樣對待公民不應被容許」與「地方官確實這樣做了」，可以同時成立。</strong>保護規範與落實之間，存在距離。<sup class="ref"><a href="#src-19" aria-label="來源 19">[19]</a></sup></p>
+<p>所以，「有公民權，為何先前不說？」是一個可以提出、卻不能假裝已經解決的問題。徒16沒有交代他先前是否說過、是否被聽見，以及當時有無機會說明。也沒有資料讓我們認定他故意挨打，為日後談判累積籌碼。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p>
+<details class="research"><summary>資料界線：保羅的公民權，主要由哪一種文獻告訴我們？</summary><p>詳細的羅馬公民權故事來自《使徒行傳》；保羅現存書信並沒有同樣直接的自述。有研究者如Todd Penner強調路加的敘事塑造，對以行傳重建身分保持較大疑問；也有研究從西塞羅等材料比較，認為敘事中的權利主張符合可辨識的羅馬語境。兩者都不使我們有權捏造一份尚未發現的公民證書。本文先準確說明行傳所記，再標明外證能支持的是制度背景，而非已獨立查到保羅個人戶籍。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-20" aria-label="來源 20">[20]</a></sup><sup class="ref"><a href="#src-21" aria-label="來源 21">[21]</a></sup></p></details></section>
+<section class="chapter" id="thessalonica"><span class="section-no">11</span><h2>帖撒羅尼迦：「另有一個王」的控告，落在耶孫身上</h2><p class="deck">徒17:1–15：地方官、保狀，與承擔接待風險的人。</p><p>經暗妃波里、亞波羅尼亞，保羅和西拉來到帖撒羅尼迦。會堂裡有人相信，還有許多敬虔的希臘人與重要婦女跟從；反對者則召集市井人群，擾亂城市，闖入耶孫的家。找不到保羅、西拉，就把耶孫和幾位弟兄拉到地方官面前。<strong>這場官府事件中，實際被帶到官前的人，不是保羅。</strong><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<p>控告的重點是這些人違背該撒的命令，說另有一個王耶穌。從系列第一篇讀過來，這種語言並不陌生：一段宗教信息被控方表述成對帝國忠誠的問題。但「控方如此指控」不等於路加證實保羅正在組織武裝政變，也不讓我們知道控告者究竟援引哪一份詔令。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<p>這裡的地方官稱為 <i>politarchai</i>，通常音譯或解作城市的政治官員。公元前39／38年一份帖撒羅尼迦的銘文已列出此官職，遠早於保羅。它支持的是<strong>這個官銜確實屬於當地制度</strong>，不是證明銘文中列名的人到了公元50年仍在審案。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-15" aria-label="來源 15">[15]</a></sup></p>
+<p>地方官受到驚動，向耶孫等人收取保狀後便釋放。其作用可理解為確保事情不繼續擾亂城市；但文本沒有保存保狀條款。常見的「耶孫保證保羅永遠不再回來」只能算進一步推測，不能當作逐字可查的條文。教會當夜送走保羅、西拉，說明政治壓力也可能由<strong>留在城市的接待者</strong>承受。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<h3>庇哩亞：下一站也不是全然隔絕的地方</h3>
+<p>庇哩亞的聽眾查考聖經，不少人相信；帖撒羅尼迦的反對者聽到消息，又趕來煽動。這是一種跨城市動員，但經文沒有說前城的地方官向後城發出正式引渡令。保羅離開，西拉與提摩太暫時留下；各人的行程開始分開，宣教不再只是所有人整隊一起移動。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<div class="note"><strong>三個安息日，不等於在全城只待了三週</strong><p>徒17:2說的是會堂辯論的次數；腓4:16另記腓立比信徒曾一次兩次送來供給。這些資料可一起考慮，卻不必硬算成精確的入住與退房日期。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-26" aria-label="來源 26">[26]</a></sup></p></div></section>
+<section class="chapter" id="athens"><span class="section-no">12</span><h2>雅典：是開放討論，還是有權威的審查？</h2><p class="deck">徒17:16–34：亞略巴古有政治與司法背景，卻未留下完整審判程序。</p><p>保羅在雅典，不只進會堂，也在市上與人辯論；以彼古羅和斯多亞學派的人與他交談，對他所傳的耶穌與復活感到陌生，於是把他帶到亞略巴古，詢問這新教導。<i>Areopagus</i> 可以指山丘，也可以指與之相關的議事機構；不能因為今天能爬上那座山，就斷言經文已精確交代了會面的全部場所與法律形式。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-23" aria-label="來源 23">[23]</a></sup></p>
+<p>N. T. Wright等解經者特別強調這個機構的審查與司法背景，反對把場面只當成一群閒人聊天。這提醒我們，公共教導可能受到有地位者的詢問。然而，徒17沒有像腓立比那樣記拘禁、刑罰，也沒有像哥林多那樣清楚列出控告與總督拒審。<strong>「具有權威的查問」和「已正式進入刑事審判」，仍應分別說明。</strong><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-22" aria-label="來源 22">[22]</a></sup><sup class="ref"><a href="#src-23" aria-label="來源 23">[23]</a></sup></p>
+<p>保羅的信息從創造、萬族、人尋求神，走到悔改與神所定之人的審判。對敬拜與最後權柄的理解，當然不會與城市所有宗教想像完全相同；但其核心不應被削成「他用一套暗語影射皇帝」。經文給出的反應是譏誚、願再聽，以及有人相信；其中有亞略巴古的官丟尼修與婦人大利馬。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<p>因此，本篇既不把雅典浪漫化為完全不受權力影響的自由論壇，也不把這次講論寫成徹底失敗、導致保羅從此拋棄理性辯論。路加留下的是混合的回應，不是我們替他補上的策略檢討報告。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p></section>
+<section class="chapter" id="corinth-rome"><span class="section-no">13</span><h2>哥林多的工作坊，連著羅馬的一道命令</h2><p class="deck">徒18:1–11：政治事件可以透過遷徙，進入另一座城市的教會。</p><p>保羅抵達哥林多，遇見來自本都的猶太人亞居拉與妻子百基拉。二人近來從義大利來，是因克勞狄命猶太人離開羅馬；他們與保羅同業，以製作帳棚維生，於是一起工作。這段不是旅行日誌的閒筆：帝國首都的處置，已改變一對夫妻的生活，並使他們在另一座城與保羅相遇。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>蘇埃托尼烏斯也記克勞狄因猶太人持續出現與 <i>Chrestus</i> 相關的騷動而驅逐他們，但未標明年份。這個名字是否指圍繞基督而起的爭論，是常見、但仍須說明的解釋；不能把它直接當成耶穌本人當時住在羅馬。驅逐經常約定在49年，確年與執行範圍卻不宜說得毫無疑問。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-24" aria-label="來源 24">[24]</a></sup></p>
+<p>狄奧另記克勞狄初年限制猶太人集會，並說當時沒有把眾人全部逐出。它和蘇埃托尼烏斯可能反映不同階段或不同面向；不能未經說明，就把「不驅逐而禁集會」與「驅逐」剪接成同一天、同一份命令。<strong>更不能把羅馬城的措施擴大為當時帝國各省共同執行的反基督徒法令。</strong><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup><sup class="ref"><a href="#src-24" aria-label="來源 24">[24]</a></sup></p>
+<p>在哥林多，保羅先在會堂勸服猶太人和希臘人，後來轉到提多・猶士都家；會堂主管基利司布和家人相信，還有其他哥林多人受洗。宗教社群的邊界不是一面毫無縫隙的牆，而是有鄰居、家庭、工作與個人選擇穿行其間。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<figure class="diagram nt5-figure" id="fig-7"><div class="figure-title"><span>圖 07</span><h3>百基拉與亞居拉：從遷徙到教導的跨城網絡</h3></div><div class="diagram-toolbar"><span>可橫向查看全圖；放大後可捲動。</span><button class="zoom-btn" data-zoom="fig-7">放大圖表 ↗</button></div><div class="svg-scroll" tabindex="0" aria-label="可水平捲動的圖表"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 465" role="img" aria-labelledby="network-title network-desc"><title id="network-title">百基拉亞居拉從羅馬到哥林多，以弗所教導亞波羅，後者帶著接待書信前往亞該亞的網絡。</title><desc id="network-desc">百基拉亞居拉從羅馬到哥林多，以弗所教導亞波羅，後者帶著接待書信前往亞該亞的網絡。</desc><style>text{font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",sans-serif}</style><defs><marker id="network-arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8" fill="#28776d"/></marker></defs><rect x="30" y="35" width="265" height="150" rx="8" fill="#efe4d7" stroke="#dedbd0"/><text x="50.0" y="73.0" font-size="24" fill="#233a45" font-weight="650" text-anchor="start">羅馬</text><text x="50.0" y="113.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">克勞狄的處置</text><text x="50.0" y="142.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">百基拉、亞居拉離開</text><rect x="365" y="35" width="265" height="150" rx="8" fill="#e4eee5" stroke="#dedbd0"/><text x="385.0" y="73.0" font-size="24" fill="#233a45" font-weight="650" text-anchor="start">哥林多</text><text x="385.0" y="113.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">與保羅同住、同業</text><text x="385.0" y="142.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">家庭與工作成為接點</text><rect x="700" y="35" width="265" height="150" rx="8" fill="#e4eee5" stroke="#dedbd0"/><text x="720.0" y="73.0" font-size="24" fill="#233a45" font-weight="650" text-anchor="start">以弗所</text><text x="720.0" y="113.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">二人留在此地</text><text x="720.0" y="142.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">向亞波羅解明神的道</text><rect x="700" y="280" width="265" height="150" rx="8" fill="#e9edf0" stroke="#dedbd0"/><text x="720.0" y="318.0" font-size="24" fill="#233a45" font-weight="650" text-anchor="start">亞該亞</text><text x="720.0" y="358.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">弟兄寫信請求接待</text><text x="720.0" y="387.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">亞波羅前往並幫助信徒</text><path d="M297,109 L360,109" fill="none" stroke="#28776d" stroke-width="2.3" marker-end="url(#network-arrow)"/><path d="M632,109 L695,109" fill="none" stroke="#28776d" stroke-width="2.3" marker-end="url(#network-arrow)"/><path d="M832,188 L832,272" fill="none" stroke="#28776d" stroke-width="2.3" marker-end="url(#network-arrow)"/><text x="327.0" y="92.0" font-size="13" fill="#28776d" font-weight="500" text-anchor="middle">遷徙</text><text x="666.0" y="92.0" font-size="13" fill="#28776d" font-weight="500" text-anchor="middle">同行</text><text x="849.0" y="236.0" font-size="15" fill="#28776d" font-weight="500" text-anchor="start">教導與介紹信</text><rect x="30" y="250" width="595" height="180" rx="8" fill="#f1eee4" stroke="#dedbd0"/><text x="52.0" y="288.0" font-size="24" fill="#9c553f" font-weight="650" text-anchor="start">不是只有保羅在移動</text><text x="52.0" y="328.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">一對夫妻的遷徙、同業關係與教導，</text><text x="52.0" y="358.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">把帝國命令的後果，接進跨城市的信徒網絡。</text><text x="52.0" y="388.0" font-size="17" fill="#233a45" font-weight="400" text-anchor="start">箭頭表示經文所記聯繫，不代表每一步皆出於政治安排。</text></svg></div><figcaption>依徒18:1–3、18–19、24–28整理；最後一段已進入下一次行程的敘事範圍。未推定二人初信日期、資產規模或每次遷移的全部動機。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-24" aria-label="來源 24">[24]</a></sup></figcaption></figure>
+<p>我們知道百基拉、亞居拉與保羅共同工作，後來也共同旅行；卻不知道他們在初次見面前究竟何時信主，不能把「保羅一定在那間作坊使他們歸信」寫成確定經過。這兩位同工也不只是被動提供住宿，下一段的亞波羅事件會顯出他們自己的教導角色。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></section>
+<section class="chapter" id="gallio"><span class="section-no">14</span><h2>迦流拒審：不是替基督教頒發全帝國許可證</h2><p class="deck">徒18:12–17：總督首先決定，這究竟是什麼性質的案件。</p><p>保羅在哥林多居住教導一段長時間。迦流任亞該亞總督時，控告者把他帶到審判臺，說他勸人不按律法敬拜神。這一次不像腓立比由地方官長立即處罰，也不像帖撒羅尼迦由耶孫提供保狀；案件來到<strong>行省總督</strong>面前。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup></p>
+<p>保羅正要開口，迦流就把事情分類：若是犯法、作惡，本當聽審；若是言語、名目和猶太人自己律法的問題，就由他們自行處理，他不願作這種事的審判官。也就是說，<strong>控方企圖使宗教爭議成為官府案件，總督卻不接受這種處理方式。</strong>這是路加直接呈現的司法判斷，不必先猜迦流內心是否喜歡保羅。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>這個結果為保羅當時繼續工作留下空間；但它沒有宣告基督信仰真實，也沒有命令整個帝國永久承認「基督教合法」。經文沒有記羅馬元老院或皇帝發布普遍性法令。把它說成一個地方案件的拒審，比把它稱為保護全教會的憲章更合乎材料。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>而且，畫面並不止於保羅沒有被定罪。會堂主管所提尼在審判臺前挨打，迦流沒有理會。這裡採用的和合本只說「眾人」；不宜未加說明就替所有施打者指定相同族群身分。至少可以確定：<strong>總督不處罰保羅，不等於現場每個人都得到相同保護。</strong>也不能只因名字相同，就確定這位所提尼必是林前1:1的同名弟兄。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></section>
+<section class="chapter" id="inscription"><span class="section-no">15</span><h2>一塊沒有提到保羅的石碑，為何能幫保羅定年？</h2><p class="deck">把文物、原文、校補與歷史推論分成幾步。</p><p>通常所稱的「迦流碑」，是克勞狄致德爾斐的一份書信銘文，不在哥林多，也不是審判筆錄。碑文殘缺，現代刊本用方括號等符號標明校補。內容關心德爾斐的人口與公民安排，並提到皇帝的友人、總督迦流。<sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup><sup class="ref"><a href="#src-17" aria-label="來源 17">[17]</a></sup></p>
+<p>碑文中的皇帝頭銜，包含第十二次護民官權與第二十六次凱旋統帥歡呼等紀年線索，通常使此信被定在公元52年。由此再推迦流任期，並與徒18配合，才形成保羅年代學的重要支點。這是一條可檢驗的證據鏈，<strong>不是「石頭上寫著保羅在52年某日受審」。</strong><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup><sup class="ref"><a href="#src-17" aria-label="來源 17">[17]</a></sup><sup class="ref"><a href="#src-18" aria-label="來源 18">[18]</a></sup></p>
+<figure class="diagram nt5-figure" id="fig-8"><div class="figure-title"><span>圖 08</span><h3>從碑文到保羅年代：四步，不是一跳</h3></div>
+<div class="nt5-epigraphy"><span class="nt5-tag">原文轉錄節選 · 不是石碑照片或摹本</span>
+<div class="nt5-greek" lang="grc">Γαλλίων ὁ φ[ίλος] μου κα[ὶ ἀνθύ]πατος</div>
+<p>迦流，我的友人與總督。方括號表示刊本中的補讀，不能當成石面全部完整可見。</p></div>
+<div class="nt5-evidence">
+<div><b>01</b><h4>辨識皇帝頭銜</h4><p>第十二次護民官權、第二十六次歡呼等線索。</p></div>
+<div><b>02</b><h4>將書信定於52年</h4><p>這是克勞狄致德爾斐的行政書信紀年。</p></div>
+<div><b>03</b><h4>連到迦流任職</h4><p>常用51／52年任期方案，再檢驗任期與措辭。</p></div>
+<div><b>04</b><h4>與徒18相互定位</h4><p>保羅在哥林多的活動得到支點，確切日程仍未知。</p></div>
+</div><figcaption>希臘文依FD III 4:286（PHI）第6行節錄；中文為節義。碑文的主題是德爾斐，不是保羅的審判；原文轉錄與石面所存文字的範圍，須透過校補符號加以分辨。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup><sup class="ref"><a href="#src-17" aria-label="來源 17">[17]</a></sup><sup class="ref"><a href="#src-18" aria-label="來源 18">[18]</a></sup></figcaption></figure>
+<p>即使接受常用的51／52年任期方案，仍要另外處理：保羅何時到哥林多、十八個月與控告的相對位置、受審後又住了多久，以及海路返程需時。徒18:18只說他又住了多日，不提供退房日期。<strong>年代支點讓推算收窄，不讓所有空白自動消失。</strong><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-18" aria-label="來源 18">[18]</a></sup></p>
+<p>帖撒羅尼迦銘文與迦流碑因此有不同用途：前者幫我們辨識<strong>當地官職</strong>，後者還能提供<strong>帝國紀年</strong>；兩者都沒有保存某一場使徒行傳案件的全部證詞。<sup class="ref"><a href="#src-15" aria-label="來源 15">[15]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup></p></section>
+<section class="chapter" id="comparison"><span class="section-no">16</span><h2>三座城並排：差別不只是官員個性</h2><p class="deck">案件入口、控罪表述、官員層級與處理方式，都在改變。</p><figure class="diagram nt5-figure" id="fig-9"><div class="figure-title"><span>圖 09</span><h3>腓立比、帖撒羅尼迦、哥林多：同帝國，不同案件</h3></div>
+<div class="table-wrap nt5-table"><table>
+<thead><tr><th>比較項目</th><th>腓立比</th><th>帖撒羅尼迦</th><th>哥林多</th></tr></thead>
+<tbody>
+<tr><td>官員層級</td><td>殖民城的地方官長</td><td>本地的politarchs</td><td>亞該亞行省總督迦流</td></tr>
+<tr><td>帶到官前的人</td><td>保羅、西拉</td><td>耶孫與幾位弟兄；保羅等人未被找到</td><td>保羅</td></tr>
+<tr><td>控方的表述</td><td>擾亂城市；教導羅馬人不可接受的規矩</td><td>違背該撒命令；另有一個王耶穌</td><td>勸人不按律法敬拜神</td></tr>
+<tr><td>敘事所見處理</td><td>先杖責、下監；公民權問題出現後出面領人</td><td>收取保狀，釋放耶孫等人</td><td>視為宗教言語、名目和律法爭議，拒絕審理</td></tr>
+<tr><td>不能多推一步</td><td>沒有記永久豁免或賠償協議</td><td>沒有留下保狀完整條款</td><td>沒有全帝國基督教合法化法令</td></tr>
+<tr><td>本列依據</td><td>徒16:19–40 <sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></td><td>徒17:5–10；銘文僅核對官職 <sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-15" aria-label="來源 15">[15]</a></sup></td><td>徒18:12–17；碑文核對人名、職位及紀年 <sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup></td></tr>
+</tbody></table></div><figcaption>表中的控罪是控告者的說法，不是本文認定保羅確有擾亂或叛亂行為。官員的處理結果也不構成對其整體人格或所有政績的判斷。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></figcaption></figure>
+<p>這三件事共同提醒讀者：地方衝突不會自動以原來的面貌進入官府。腓立比把收入受損變成「不合羅馬規矩」；帖撒羅尼迦把耶穌的王權表述成違抗該撒；哥林多則嘗試讓敬拜與律法爭議成為總督要裁決的事。政治分析的工作，是分辨<strong>發生了什麼、控方說了什麼、官員又接受了哪一種說法</strong>。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>同樣重要的是反面：我們沒有資料證明三地官員接到同一份迫害命令，也沒有資料證明迦流的拒審使其他行省都不能再辦類似案件。既不能把帝國寫成每一城同步行動的機器，也不能把它寫成每座城完全不受上層約束的拼盤。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup></p>
+<p>至於不同群體，也不只有「迫害者／受害者」兩張永久名單。會堂是多次最初的講論場所，也有主管信主；有身分的婦女可能協助排斥，也可能相信並支持；羅馬官員可能施打、調解或拒審。這些都是具體人物在具體事件中的行動，不應轉成整個民族或職業永遠如此的判語。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></section>
+<section class="chapter" id="return"><span class="section-no">17</span><h2>從哥林多返回安提阿，不要在迦流面前提早結束</h2><p class="deck">徒18:18–28：短訪以弗所，與下一輪工作的開始。</p><p>保羅離開哥林多，百基拉、亞居拉同行；到以弗所，他進會堂與猶太人辯論，沒有應要求久住，但表示神若許可，還會回來。之後到該撒利亞，「上去」問教會安，再下安提阿。這個「上去」通常理解為到耶路撒冷；應注意，希臘文本此處並未直接寫出城市名字，部分翻譯把理解補進了正文。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>徒18:22的安提阿，才是本篇第二段長程旅行的收束。18:23說他住了些日子又出發，走遍加拉太和弗呂家一帶；這已是下一篇的起點，不能因為還在第十八章就仍算作同一趟回程。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>路加接著轉向亞波羅。他從亞歷山太來到以弗所，百基拉、亞居拉聽見後，更準確地向他解明神的道；他準備往亞該亞，弟兄們寫信請門徒接待他。保羅不是整張網絡唯一會移動、教導與寫信的人。相交的書信、共同工作、家庭接待，使不同城市的教會持續連結。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>這一幕也讓徒15的書信有了對照：一種是處理各地共同的重大爭議，一種是介紹具體同工。兩者都不是羅馬通行證，卻能在地方信任尚未建立時，讓人知道該接待誰、聽取什麼見證。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></section>
+<section class="chapter" id="afterword"><span class="section-no">18</span><h2>後來：新皇帝與新的衝突，不能倒灌進前一趟旅程</h2><p class="deck">本篇止於約52年前後；下一篇將走向以弗所與第三次旅行。</p><p>本篇的主要階段在克勞狄治下；54年以後是尼祿的統治。讀者可能先想到64年羅馬大火之後的基督徒受刑，但那既較晚，也有羅馬城本身的特定背景。塔西佗的記載不能被倒放，當成保羅初到腓立比、帖撒羅尼迦時，官長已在執行的同一份命令。<sup class="ref"><a href="#src-24" aria-label="來源 24">[24]</a></sup><sup class="ref"><a href="#src-27" aria-label="來源 27">[27]</a></sup></p>
+<p>把這些城市先放回各自的制度中，後續書信才不會只剩抽象的「被逼迫」。腓立比有羅馬身分與受杖責的記憶；帖撒羅尼迦有接待者提供保狀的風險；哥林多有工作、家庭、會堂鄰里與總督拒審。這些背景可與書信互相照明，卻不能保證每個「主」「王」「公民」字眼都是作者故意發送的反帝國暗號。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-26" aria-label="來源 26">[26]</a></sup></p>
+<div class="closing-quote"><p>道路使人能抵達城市；<br>官府決定某場控告如何處理；<br>但讓教會彼此連結的，<br>還有工作、接待、書信與共同的信仰。</p><p class="accent">同一個帝國，並不是同一個法庭。<br>同一個福音，也沒有因此變成不同的信息。</p><small>本篇的綜合觀察；參照使徒行傳13–18章。</small></div>
+<p>而路加敘事的中心仍不只是人怎樣利用道路與制度：差遣出於聖靈，旅程由聖靈引導，所傳的是耶穌基督；在哥林多，主又以異象鼓勵保羅繼續說話。政治史說明他們在什麼世界中行動，不能把這些見證改寫成單靠交通、身分與人脈成功的組織史。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<div class="next"><span class="eyebrow">下一篇 · 新約政治史⑥</span><h3>以弗所：神廟、工匠與城市的公共秩序</h3><p>從徒18:23起接續第三次旅行，走入徒19的亞底米神廟、底米丟與工匠、亞細亞首領和書記官，再讀向徒20–21的返程與耶路撒冷。這次要問：當信仰改變購買與敬拜，城市的利益和榮譽如何被帶進同一場爭議？</p></div></section>
+<section class="appendix" id="people"><p class="part-label">附錄 A</p><h2>人物與官職速查</h2><div class="name-grid"><div><h4>克勞狄 Claudius</h4><p>本篇大部分旅程時的皇帝；關涉行省安排與羅馬的猶太人措施。不要與居比路的總督混同。 <sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup><sup class="ref"><a href="#src-24" aria-label="來源 24">[24]</a></sup></p></div><div><h4>士求保羅 Sergius Paulus</h4><p>居比路總督；和使徒保羅是兩個人。相近的名字，不證明後者因他而改名。 <sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p></div><div><h4>以呂馬／巴耶穌</h4><p>徒13同一人物的不同稱呼；靠近總督並抵擋傳講，沒有足夠資料給他加上正式官階。 <sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p></div><div><h4>巴拿巴 Barnabas</h4><p>第一次旅行的重要同工；分開後帶約翰・馬可往居比路，不是從此退出所有教會工作。 <sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p></div><div><h4>約翰・馬可</h4><p>徒13同行、在別加離隊；徒15成為巴拿巴與保羅分歧的焦點，不是使徒約翰。 <sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p></div><div><h4>西拉 Silas</h4><p>第二段旅程與保羅同行；腓立比被捕受打，徒16的「我們是羅馬人」也把他包含在內。 <sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p></div><div><h4>雅各 James</h4><p>徒15發言並提出處理方式的領袖；不可混同徒12已被殺的約翰之兄。 <sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-25" aria-label="來源 25">[25]</a></sup></p></div><div><h4>耶孫 Jason</h4><p>帖撒羅尼迦的接待者，被帶到地方官面前並提供保狀；不是本篇的行省總督。 <sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p></div><div><h4>呂底亞 Lydia</h4><p>來自推雅推喇的商人，在腓立比聽道、受洗並接待同工；財產規模並未詳載。 <sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup></p></div><div><h4>百基拉與亞居拉</h4><p>從義大利到哥林多、後到以弗所的同工；有自己的工作、家庭接待與教導角色。 <sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></div><div><h4>迦流 Gallio</h4><p>亞該亞總督；碑文提供職位與紀年佐證，不是所有希臘城市的市長，也不是基督徒皇帝。 <sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup></p></div><div><h4>基利司布／所提尼</h4><p>徒18先後提及的兩位會堂主管，不可合為一人；所提尼與林前1:1的同名者亦不宜直接確定相同。 <sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></div></div></section><section class="sources" id="sources"><p class="part-label">附錄 B</p><h2>史料與研究入口</h2><p class="intro">經文採《和合本》繁體公版文字為主要查閱入口；古代文獻並非全都與事件同時成書，相關時間差已在註記中交代。銘文原文、古代敘事、現代研究各有用途，不能相互替代。點擊正文註號可到本節，並由「返回正文」回到原處。</p><ol class="source-list"><li id="src-1"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=Luke+24&amp;version=CUV" target="_blank" rel="noopener noreferrer">路加福音24:46–53；使徒行傳1:6–8</a><p>本系列的敘事起點：從耶路撒冷到萬邦。正文僅作承接，不以地理擴張取代路加的神學主線。 <a href="https://www.biblegateway.com/passage/?search=Acts+1&amp;version=CUV" target="_blank" rel="noopener noreferrer">另讀徒1 ↗</a></p></li><li id="src-2"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=Acts+13&amp;version=CUV" target="_blank" rel="noopener noreferrer">使徒行傳13章</a><p>安提阿差遣、居比路、士求保羅、彼西底安提阿；留意13:9是「又名保羅」，不是改名儀式。</p></li><li id="src-3"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=Acts+14&amp;version=CUV" target="_blank" rel="noopener noreferrer">使徒行傳14章</a><p>以哥念、路司得、特庇及回程；區分群眾暴力、地方權勢與正式裁決。</p></li><li id="src-4"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=Acts+15&amp;version=CUV" target="_blank" rel="noopener noreferrer">使徒行傳15章</a><p>耶路撒冷會議、書信與使者；巴拿巴和保羅分開。</p></li><li id="src-5"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=acts+16&amp;version=CUV" target="_blank" rel="noopener noreferrer">使徒行傳16章</a><p>提摩太、行程轉向、腓立比、呂底亞、使女、獄卒與公民權。</p></li><li id="src-6"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=Acts+017&amp;version=CUV" target="_blank" rel="noopener noreferrer">使徒行傳17章</a><p>帖撒羅尼迦的控告和保狀；庇哩亞；雅典與亞略巴古。</p></li><li id="src-7"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=acts+18&amp;version=CUV" target="_blank" rel="noopener noreferrer">使徒行傳18章</a><p>百基拉、亞居拉、哥林多及迦流；18:22返安提阿，18:23起進入下一階段。</p></li><li id="src-8"><span class="cat">古代文獻</span><a class="source-title" href="https://lexundria.com/suet_cl/25/r" target="_blank" rel="noopener noreferrer">蘇埃托尼烏斯，《克勞狄傳》25.3–4</a><p>約二世紀的傳記。25.3記亞該亞、馬其頓恢復元老院治理；25.4記與Chrestus相關的驅逐，未給確年。</p></li><li id="src-9"><span class="cat">古代文獻</span><a class="source-title" href="https://lexundria.com/dio/60.24/cy" target="_blank" rel="noopener noreferrer">卡西烏斯・狄奧，《羅馬史》60.24.1</a><p>較晚的羅馬史家，記兩省恢復以抽籤等程序產生總督；不是逐日行政紀錄。</p></li><li id="src-10"><span class="cat">古代文獻</span><a class="source-title" href="https://lexundria.com/dio/60.6/cy" target="_blank" rel="noopener noreferrer">卡西烏斯・狄奧，《羅馬史》60.6.6</a><p>克勞狄初年對羅馬猶太人集會的限制。文中明說當時沒有將人全部驅走，不應與另一則驅逐記載無差別合併。</p></li><li id="src-11"><span class="cat">古代文獻</span><a class="source-title" href="https://lexundria.com/dio/54.4/cy" target="_blank" rel="noopener noreferrer">卡西烏斯・狄奧，《羅馬史》54.4.1</a><p>記奧古斯都把居比路等地交回人民一方治理，此後派出proconsuls。</p></li><li id="src-12"><span class="cat">古代地理</span><a class="source-title" href="https://anastrophe.uchicago.edu/cgi-bin/perseus/citequery3.pl?dbname=GreekNov21&amp;getid=1&amp;query=Str.+12.8.14" target="_blank" rel="noopener noreferrer">斯特拉波，《地理志》12.8.14</a><p>稱安提阿靠近彼西底，並記羅馬殖民城；提醒讀者地域稱呼與行省邊界並不重合。</p></li><li id="src-13"><span class="cat">考古概述</span><a class="source-title" href="https://whc.unesco.org/en/list/1517/" target="_blank" rel="noopener noreferrer">UNESCO，Archaeological Site of Philippi</a><p>腓立比殖民城、羅馬建設及Via Egnatia背景。遺址跨越多個世紀，不能把現存每座建築都當成保羅所見。</p></li><li id="src-14"><span class="cat">研究論文</span><a class="source-title" href="https://www.ascsa.edu.gr/publications/hesperia/article/82/2/341-384" target="_blank" rel="noopener noreferrer">Betsey A. Robinson，〈Playing in the Sun: Hydraulic Architecture and Water Displays in Imperial Corinth〉，Hesperia 82.2（2013），341–384</a><p>採用論文摘要的公元前44年羅馬殖民城背景與城市建設脈絡，不把公共設施研究當成保羅審判現場證明。</p></li><li id="src-15"><span class="cat">銘文</span><a class="source-title" href="https://www.attalus.org/docs/other/inscr_58.html" target="_blank" rel="noopener noreferrer">IG X.2.1.109：帖撒羅尼迦Sarapeion銘文，公元前39／38年</a><p>參看該頁D項。列出politarchs和財務官；證明官職早於保羅，不證明徒17當值者姓名。網頁為現代英譯。</p></li><li id="src-16"><span class="cat">銘文原文</span><a class="source-title" href="https://epigraphy.packhum.org/text/240470" target="_blank" rel="noopener noreferrer">FD III 4:286：克勞狄致德爾斐書信／迦流碑，PHI Greek Inscriptions</a><p>原文及校補符號；含皇帝頭銜與迦流之名。主題為德爾斐人口與公民安排，不是保羅案。</p></li><li id="src-17"><span class="cat">銘文譯讀</span><a class="source-title" href="https://kchanson.com/ANCDOCS/greek/gallio.html" target="_blank" rel="noopener noreferrer">K. C. Hanson，〈The Gallio Inscription〉</a><p>提供轉錄、譯文與參考書目，配合PHI原文閱讀。本文不沿用其實物館藏位置資訊。</p></li><li id="src-18"><span class="cat">研究導讀</span><a class="source-title" href="https://www.bibleodyssey.org/articles/erastus-gallio-and-paul/" target="_blank" rel="noopener noreferrer">C. D. Elledge，〈Erastus, Gallio, and Paul〉，Bible Odyssey</a><p>說明迦流銘文對保羅年代學的作用。不同年代方案仍須和行程、任期及經文相互檢驗。</p></li><li id="src-19"><span class="cat">古代演說</span><a class="source-title" href="https://en.wikisource.org/wiki/Against_Verres/Second_pleading/Book_5" target="_blank" rel="noopener noreferrer">西塞羅，《控告維勒斯》第二次演說，第五卷160–170節</a><p>公元前70年的控訴，早於保羅，且發生在別處。用以比較公民免受任意杖責的規範與實際侵害，不視為腓立比案卷。</p></li><li id="src-20"><span class="cat">研究導讀</span><a class="source-title" href="https://www.bibleodyssey.org/articles/paul-and-roman-citizenship/" target="_blank" rel="noopener noreferrer">Todd Penner，〈Paul and Roman Citizenship〉，Bible Odyssey</a><p>對行傳的公民權敘事採取較批判的讀法。本文將其列為具名學術立場，不包裝成沒有爭議的共識。</p></li><li id="src-21"><span class="cat">研究論文</span><a class="source-title" href="https://digitalcommons.whitworth.edu/theology_etd/6/" target="_blank" rel="noopener noreferrer">Daniel K. Christensen，Roman Citizenship as a Climactic Narrative Element in the Book of Acts（Whitworth University，2018，碩士論文）</a><p>以西塞羅與使徒行傳比較公民權敘事；學位論文的證據地位不同於古代法令。</p></li><li id="src-22"><span class="cat">解經研究</span><a class="source-title" href="https://www.biblegateway.com/learn/bible-101/areopagus-address-acts-17/" target="_blank" rel="noopener noreferrer">N. T. Wright，〈The Areopagus Address in Acts 17〉，Bible Gateway（2025節錄）</a><p>強調亞略巴古的審查／司法面向。本文具名呈現此解讀，但不把程序細節寫成已確認的正式刑事審判。</p></li><li id="src-23"><span class="cat">工具書</span><a class="source-title" href="https://www.bibleodyssey.org/dictionary/areopagus/" target="_blank" rel="noopener noreferrer">〈Areopagus〉，HarperCollins Bible Dictionary／Bible Odyssey</a><p>亞略巴古可指山丘與議事機構。用於辨識場所與制度，不把兩者簡單二選一。</p></li><li id="src-24"><span class="cat">研究導讀</span><a class="source-title" href="https://www.bibleodyssey.org/articles/jews-in-rome/" target="_blank" rel="noopener noreferrer">Warren C. Campbell，〈Jews in Rome〉，Bible Odyssey（2022）</a><p>比較41年集會限制、後來的驅逐與Chrestus解釋；作者明示相關重建仍有分歧。</p></li><li id="src-25"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=galatians+2&amp;version=CUV" target="_blank" rel="noopener noreferrer">加拉太書2章</a><p>保羅自己的行程與割禮論述；加2與徒15如何對應有爭議，不在本篇強行裁定。</p></li><li id="src-26"><span class="cat">經文</span><a class="source-title" href="https://www.biblegateway.com/passage/?search=Philippians4&amp;version=CUV" target="_blank" rel="noopener noreferrer">腓立比書4:15–16；哥林多後書11:25–27</a><p>一處記帖撒羅尼迦期間的資助，一處記旅行的危險；不以行傳的省略否定書信補充。　另見哥林多後書11章（來源項內附第二個經文連結）。 <a href="https://www.biblegateway.com/passage/?search=2+Corinthians+11%3A23-33&amp;version=CUV" target="_blank" rel="noopener noreferrer">另讀林後11:23–33 ↗</a></p></li><li id="src-27"><span class="cat">古代文獻</span><a class="source-title" href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Tacitus/Annals/15B*.html" target="_blank" rel="noopener noreferrer">塔西佗，《編年史》15.38–44</a><p>公元64年羅馬大火與尼祿治下的處刑，晚於本篇行程。敘述者的敵意與評語，須和所記事件分開。</p></li><li id="src-28"><span class="cat">地圖資料</span><a class="source-title" href="https://www.naturalearthdata.com/about/terms-of-use/" target="_blank" rel="noopener noreferrer">Natural Earth，低解析度陸地資料與使用條款</a><p>公版資料。本文合併現代國界，只留簡化海岸輪廓；不宣稱重建第一世紀岸線。城址為約略定位，路線為敘事示意。</p></li></ol><p class="intro">地圖與關係圖為本篇整理製作，並非出土文物的影像。資料不足處保留虛線、問號或文字註記；無現代國界之簡化海岸不代表第一世紀的精確行政疆界。</p></section></main></div><footer class="footer"><strong>新約政治史 · 第五篇</strong><br>本篇由安提阿走到哥林多，再返回安提阿；下一篇進入以弗所。<br>單檔 HTML · 內嵌圖表 · 手機閱讀 · 註釋往返 · 列印版面</footer>
+<dialog id="zoom-dialog" aria-labelledby="modal-title"><div class="modal-head"><span class="modal-title" id="modal-title">圖表</span><button data-close>關閉 ×</button></div><div class="modal-content"></div></dialog>
+<nav class="study-series-next" aria-label="系列篇章導覽"><a href="../04/">← 上一篇：王權重返猶太地</a><a href="../">新約政治史 · 系列目錄</a></nav>
+<script>
+const progress=document.querySelector('.progress');
+function updateProgress(){const d=document.documentElement,den=d.scrollHeight-d.clientHeight;progress.style.width=(den>0?100*d.scrollTop/den:0)+'%';}
+document.addEventListener('scroll',updateProgress,{passive:true});window.addEventListener('resize',updateProgress);updateProgress();
+document.querySelector('[data-print]').addEventListener('click',()=>window.print());
+const printDetails=[];
+window.addEventListener('beforeprint',()=>{document.querySelectorAll('details.research').forEach(d=>{printDetails.push([d,d.open]);d.open=true;});});
+window.addEventListener('afterprint',()=>{printDetails.splice(0).forEach(([d,o])=>d.open=o);});
+if('IntersectionObserver' in window){
+const observer=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting)document.querySelectorAll('.toc a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id));}),{rootMargin:'-8% 0px -76% 0px'});
+document.querySelectorAll('section.chapter').forEach(x=>observer.observe(x));}
+const modal=document.querySelector('#zoom-dialog'),content=modal.querySelector('.modal-content'),mtitle=modal.querySelector('.modal-title');
+document.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{
+const figure=document.getElementById(b.dataset.zoom),svg=figure.querySelector('svg').cloneNode(true);
+let markup=svg.innerHTML;
+[...svg.querySelectorAll('[id]')].forEach(el=>{const id=el.id;markup=markup.replaceAll('id="'+id+'"','id="'+id+'-zoom"').replaceAll('url(#'+id+')','url(#'+id+'-zoom)');});
+svg.innerHTML=markup;svg.removeAttribute('aria-labelledby');svg.setAttribute('aria-label',figure.querySelector('h3').textContent);
+content.replaceChildren(svg);mtitle.textContent=figure.querySelector('h3').textContent;modal.showModal();
+}));
+modal.querySelector('[data-close]').addEventListener('click',()=>modal.close());
+modal.addEventListener('click',e=>{if(e.target===modal){let r=modal.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)modal.close();}});
+document.querySelectorAll('.ref a').forEach((a,i)=>{
+a.id='ref-link-'+i;const target=document.querySelector(a.getAttribute('href'));
+if(target){a.title=target.querySelector('.source-title').textContent;
+a.addEventListener('click',()=>{document.querySelectorAll('.backref').forEach(x=>x.remove());const back=document.createElement('a');back.className='backref';back.href='#'+a.id;back.textContent='\u8fd4\u56de\u6b63\u6587 \u2191';target.appendChild(back);});}
+});
+</script></body></html>
