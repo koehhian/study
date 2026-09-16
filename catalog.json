@@ -1,0 +1,478 @@
+{
+  "site": "https://study.samkoeh.com/",
+  "pages": [
+    {
+      "url": "https://study.samkoeh.com/",
+      "title": "Sam Koeh Study｜新約政治史與教會史研究",
+      "description": "Sam Koeh Study — 從一個問題開始，把脈絡讀清楚。透過專題研究、歷史時間線與原始文獻，追索觀念的來處，形成自己的判斷。",
+      "type": "CollectionPage",
+      "language": "zh-Hant-TW",
+      "sections": [
+        {
+          "title": "研究專題",
+          "url": "https://study.samkoeh.com/#library"
+        },
+        {
+          "title": "讓每一個判斷，都有來處。",
+          "url": "https://study.samkoeh.com/#about"
+        }
+      ]
+    },
+    {
+      "url": "https://study.samkoeh.com/nt-politics/",
+      "title": "新約政治史｜Sam Koeh Study",
+      "description": "帝國、地方權力與初代教會之間：從耶穌受難到使徒行傳，循著經文與史料，讀懂新約的政治現場。",
+      "type": "CollectionPage",
+      "language": "zh-Hant-TW",
+      "sections": [
+        {
+          "title": "系列篇章",
+          "url": "https://study.samkoeh.com/nt-politics/#series"
+        }
+      ]
+    },
+    {
+      "url": "https://study.samkoeh.com/nt-politics/01/",
+      "title": "新約政治史①｜主耶穌受難的政治現場",
+      "description": "新約政治史第一篇。分析耶穌傳道與受難時的政治局勢、實權分配及人物關係，對照福音書、古代史料與現代研究。",
+      "type": "Article",
+      "language": "zh-Hant-TW",
+      "sections": [
+        {
+          "title": "先抓住結論：這不是三個平等政權的聯合審判",
+          "url": "https://study.samkoeh.com/nt-politics/01/#overview"
+        },
+        {
+          "title": "傳道三年的時空：一個民族生活在多套統治之下",
+          "url": "https://study.samkoeh.com/nt-politics/01/#context"
+        },
+        {
+          "title": "三者究竟各有多大實權？",
+          "url": "https://study.samkoeh.com/nt-politics/01/#powers"
+        },
+        {
+          "title": "為何反對會升高到非除掉耶穌不可？",
+          "url": "https://study.samkoeh.com/nt-politics/01/#escalation"
+        },
+        {
+          "title": "受難之前：三方早已有合作，也有互相牽制",
+          "url": "https://study.samkoeh.com/nt-politics/01/#before"
+        },
+        {
+          "title": "受難當日：一場案件如何把三方利益接在一起",
+          "url": "https://study.samkoeh.com/nt-politics/01/#during"
+        },
+        {
+          "title": "受難之後：合作沒有變成永固同盟",
+          "url": "https://study.samkoeh.com/nt-politics/01/#after"
+        },
+        {
+          "title": "人物關係：三個權力圈，不能混成一張王朝表",
+          "url": "https://study.samkoeh.com/nt-politics/01/#people"
+        },
+        {
+          "title": "哪些是證據，哪些是重建？",
+          "url": "https://study.samkoeh.com/nt-politics/01/#evidence"
+        },
+        {
+          "title": "兩件實物：讓政治人物不只停留在名字",
+          "url": "https://study.samkoeh.com/nt-politics/01/#archaeology"
+        },
+        {
+          "title": "歷史原因與救贖意義，不是互相排斥的兩種答案",
+          "url": "https://study.samkoeh.com/nt-politics/01/#theology"
+        },
+        {
+          "title": "經文、古代史料與研究來源",
+          "url": "https://study.samkoeh.com/nt-politics/01/#sources"
+        }
+      ],
+      "series": "新約政治史",
+      "position": 1
+    },
+    {
+      "url": "https://study.samkoeh.com/nt-politics/02/",
+      "title": "新約政治史②｜復活之後，誰仍掌權？",
+      "description": "從路加福音的安葬、復活、升天，銜接使徒行傳1至5章；重建提庇留、彼拉多、該亞法與初期教會的政治處境。",
+      "type": "Article",
+      "language": "zh-Hant-TW",
+      "sections": [
+        {
+          "title": "十字架之後，官府沒有換人",
+          "url": "https://study.samkoeh.com/nt-politics/02/#opening"
+        },
+        {
+          "title": "兩卷書之間，不可省略的橋梁",
+          "url": "https://study.samkoeh.com/nt-politics/02/#bridge"
+        },
+        {
+          "title": "把時間放準：我們知道什麼，不知道什麼",
+          "url": "https://study.samkoeh.com/nt-politics/02/#dating"
+        },
+        {
+          "title": "之前：猶太地怎麼走到這個局面？",
+          "url": "https://study.samkoeh.com/nt-politics/02/#before"
+        },
+        {
+          "title": "鏡頭拉遠：提庇留晚年，不是尼祿的羅馬",
+          "url": "https://study.samkoeh.com/nt-politics/02/#empire"
+        },
+        {
+          "title": "誰能抓人？誰能處罰？誰只是有影響力？",
+          "url": "https://study.samkoeh.com/nt-politics/02/#powers"
+        },
+        {
+          "title": "「復興以色列國」：門徒還在問政治問題嗎？",
+          "url": "https://study.samkoeh.com/nt-politics/02/#kingdom"
+        },
+        {
+          "title": "五旬節：一座城，連著不只一個帝國",
+          "url": "https://study.samkoeh.com/nt-politics/02/#pentecost"
+        },
+        {
+          "title": "他們為什麼仍進聖殿？",
+          "url": "https://study.samkoeh.com/nt-politics/02/#temple"
+        },
+        {
+          "title": "亞那、該亞法與撒都該人：這次爭的是什麼？",
+          "url": "https://study.samkoeh.com/nt-politics/02/#priesthood"
+        },
+        {
+          "title": "兩次拘捕，兩種逐漸升高的壓力",
+          "url": "https://study.samkoeh.com/nt-politics/02/#hearings"
+        },
+        {
+          "title": "迦瑪列：不同意使徒，也可能反對殺死使徒",
+          "url": "https://study.samkoeh.com/nt-politics/02/#gamaliel"
+        },
+        {
+          "title": "「順從神，不順從人」：具體拒絕的是什麼？",
+          "url": "https://study.samkoeh.com/nt-politics/02/#obedience"
+        },
+        {
+          "title": "他們不是平行政府，卻開始形成另一種共同生活",
+          "url": "https://study.samkoeh.com/nt-politics/02/#community"
+        },
+        {
+          "title": "彼拉多與希律，這一次到哪裡去了？",
+          "url": "https://study.samkoeh.com/nt-politics/02/#absence"
+        },
+        {
+          "title": "後來：名單將更換，權力結構也會改變",
+          "url": "https://study.samkoeh.com/nt-politics/02/#after"
+        },
+        {
+          "title": "回到經文：不變的官府，與不能停止的見證",
+          "url": "https://study.samkoeh.com/nt-politics/02/#conclusion"
+        },
+        {
+          "title": "幾個相似的名字，不要連錯線",
+          "url": "https://study.samkoeh.com/nt-politics/02/#name-notes"
+        },
+        {
+          "title": "兩個可延伸查看的實物入口",
+          "url": "https://study.samkoeh.com/nt-politics/02/#artifacts"
+        },
+        {
+          "title": "史料、工具與延伸閱讀",
+          "url": "https://study.samkoeh.com/nt-politics/02/#sources"
+        }
+      ],
+      "series": "新約政治史",
+      "position": 2
+    },
+    {
+      "url": "https://study.samkoeh.com/nt-politics/03/",
+      "title": "新約政治史③｜司提反之死與教會四散",
+      "description": "以使徒行傳6–9章為骨架，研究司提反之死、教會四散、掃羅與大馬色，以及彼拉多離任到卡利古拉聖殿危機的政治世界。",
+      "type": "Article",
+      "language": "zh-Hant-TW",
+      "sections": [
+        {
+          "title": "從留在聖殿，到被迫離開城市",
+          "url": "https://study.samkoeh.com/nt-politics/03/#opening"
+        },
+        {
+          "title": "兩只時鐘：經文的先後，與帝國的年份",
+          "url": "https://study.samkoeh.com/nt-politics/03/#chronology"
+        },
+        {
+          "title": "爭端先從飯桌開始：不要把「希利尼人」讀成外邦人",
+          "url": "https://study.samkoeh.com/nt-politics/03/#hellenists"
+        },
+        {
+          "title": "會堂不是聖殿的敵人，海外猶太人也不是單一陣營",
+          "url": "https://study.samkoeh.com/nt-politics/03/#synagogue"
+        },
+        {
+          "title": "「毀壞這地方」：為什麼聖殿指控如此危險？",
+          "url": "https://study.samkoeh.com/nt-politics/03/#temple-charge"
+        },
+        {
+          "title": "司提反被殺：公會審判，還是群眾私刑？",
+          "url": "https://study.samkoeh.com/nt-politics/03/#stoning"
+        },
+        {
+          "title": "彼拉多下台了，但猶太地沒有變成無政府狀態",
+          "url": "https://study.samkoeh.com/nt-politics/03/#pilate-leaves"
+        },
+        {
+          "title": "五種力量，不是一條從皇帝直通掃羅的命令鏈",
+          "url": "https://study.samkoeh.com/nt-politics/03/#powers"
+        },
+        {
+          "title": "四散不是旅行計畫：撒馬利亞如何進入故事？",
+          "url": "https://study.samkoeh.com/nt-politics/03/#dispersion"
+        },
+        {
+          "title": "干大基的官員：新約的世界，大於羅馬帝國",
+          "url": "https://study.samkoeh.com/nt-politics/03/#kush"
+        },
+        {
+          "title": "掃羅的文書：不是羅馬通緝令，卻也不是普通介紹信",
+          "url": "https://study.samkoeh.com/nt-politics/03/#saul-letters"
+        },
+        {
+          "title": "大馬色城牆外：一只筐子，牽出另一位王",
+          "url": "https://study.samkoeh.com/nt-politics/03/#damascus"
+        },
+        {
+          "title": "鏡頭拉到羅馬：新皇帝不是背景裝飾",
+          "url": "https://study.samkoeh.com/nt-politics/03/#gaius"
+        },
+        {
+          "title": "卡利古拉聖殿危機：真正把軍隊帶進問題的命令",
+          "url": "https://study.samkoeh.com/nt-politics/03/#statue-order"
+        },
+        {
+          "title": "四方角力：命令為什麼沒有立即落地？",
+          "url": "https://study.samkoeh.com/nt-politics/03/#political-bargaining"
+        },
+        {
+          "title": "史料並讀：同一場危機，不是一份完全一致的筆錄",
+          "url": "https://study.samkoeh.com/nt-politics/03/#sources-disagree"
+        },
+        {
+          "title": "「教會都得平安」：可以歸因於卡利古拉嗎？",
+          "url": "https://study.samkoeh.com/nt-politics/03/#peace"
+        },
+        {
+          "title": "不要停在掃羅：第九章還有呂大與約帕",
+          "url": "https://study.samkoeh.com/nt-politics/03/#joppa"
+        },
+        {
+          "title": "後來：捍衛聖殿的亞基帕，將成為下一篇的君王",
+          "url": "https://study.samkoeh.com/nt-politics/03/#after"
+        },
+        {
+          "title": "把名字連對，才不會把權力連錯",
+          "url": "https://study.samkoeh.com/nt-politics/03/#people"
+        },
+        {
+          "title": "30項經文、古代史料、實物與研究入口",
+          "url": "https://study.samkoeh.com/nt-politics/03/#sources"
+        }
+      ],
+      "series": "新約政治史",
+      "position": 3
+    },
+    {
+      "url": "https://study.samkoeh.com/nt-politics/04/",
+      "title": "新約政治史④｜王權重返猶太地：哥尼流、安提阿與亞基帕一世",
+      "description": "以使徒行傳10至12章為骨架，研究哥尼流、安提阿賑濟、革老丟與亞基帕一世的王權、雅各之死、彼得出獄，以及王死後的政治重組。",
+      "type": "Article",
+      "language": "zh-Hant-TW",
+      "sections": [
+        {
+          "title": "從一位百夫長的家，到一位君王的監獄",
+          "url": "https://study.samkoeh.com/nt-politics/04/#opening"
+        },
+        {
+          "title": "先分開時間：第十一章的饑荒，不一定在第十二章之前",
+          "url": "https://study.samkoeh.com/nt-politics/04/#clocks"
+        },
+        {
+          "title": "哥尼流有軍職，但這是一場家庭接待，不是軍方建交",
+          "url": "https://study.samkoeh.com/nt-politics/04/#cornelius"
+        },
+        {
+          "title": "爭議不是「能不能傳道」，而是「能不能一同吃飯」",
+          "url": "https://study.samkoeh.com/nt-politics/04/#table"
+        },
+        {
+          "title": "安提阿不是附錄：福音向外，資源也開始向內流",
+          "url": "https://study.samkoeh.com/nt-politics/04/#antioch"
+        },
+        {
+          "title": "饑荒把教會連成網絡，也把日期問題帶進來",
+          "url": "https://study.samkoeh.com/nt-politics/04/#famine"
+        },
+        {
+          "title": "41年的羅馬：換皇帝，也換了猶太地的治理方式",
+          "url": "https://study.samkoeh.com/nt-politics/04/#rome41"
+        },
+        {
+          "title": "不是安提帕回來了：亞基帕的王國是分次取得的",
+          "url": "https://study.samkoeh.com/nt-politics/04/#dynasty"
+        },
+        {
+          "title": "王究竟能做什麼？不是只有頭銜，也不是完全獨立",
+          "url": "https://study.samkoeh.com/nt-politics/04/#authority"
+        },
+        {
+          "title": "聖殿支持者與羅馬盟友，並不必然是兩種互斥身分",
+          "url": "https://study.samkoeh.com/nt-politics/04/#temple"
+        },
+        {
+          "title": "兩次羅馬干預：王國有邊界，王的自由也有邊界",
+          "url": "https://study.samkoeh.com/nt-politics/04/#limits"
+        },
+        {
+          "title": "雅各被殺：王的命令，與經文實際交代的理由",
+          "url": "https://study.samkoeh.com/nt-politics/04/#james"
+        },
+        {
+          "title": "彼得出獄：解救一個人，不等於推翻整套統治",
+          "url": "https://study.samkoeh.com/nt-politics/04/#peter"
+        },
+        {
+          "title": "推羅、西頓與伯拉斯都：糧食供應如何變成談判條件",
+          "url": "https://study.samkoeh.com/nt-politics/04/#tyre"
+        },
+        {
+          "title": "亞基帕怎麼死的？先讓路加與約瑟夫斯各自說完",
+          "url": "https://study.samkoeh.com/nt-politics/04/#death"
+        },
+        {
+          "title": "44年以後：王死了，王國卻沒有直接交給兒子",
+          "url": "https://study.samkoeh.com/nt-politics/04/#after44"
+        },
+        {
+          "title": "哪些政治故事很好講，卻還沒有證據？",
+          "url": "https://study.samkoeh.com/nt-politics/04/#limits-of-evidence"
+        },
+        {
+          "title": "回到路加的敘事：王的名字退場，見證仍繼續",
+          "url": "https://study.samkoeh.com/nt-politics/04/#return"
+        },
+        {
+          "title": "十二組人物與官職速查",
+          "url": "https://study.samkoeh.com/nt-politics/04/#people"
+        },
+        {
+          "title": "史料與研究入口",
+          "url": "https://study.samkoeh.com/nt-politics/04/#sources"
+        }
+      ],
+      "series": "新約政治史",
+      "position": 4
+    },
+    {
+      "url": "https://study.samkoeh.com/nt-politics/05/",
+      "title": "新約政治史⑤｜同一個帝國，不同的法庭",
+      "description": "沿使徒行傳13至18章，重建保羅前兩次宣教旅行中的行省、羅馬殖民城、耶路撒冷會議、公民權、迦流與城市政治。含九幅圖表與史料註釋。",
+      "type": "Article",
+      "language": "zh-Hant-TW",
+      "sections": [
+        {
+          "title": "從安提阿出發，進入不同的權力世界",
+          "url": "https://study.samkoeh.com/nt-politics/05/#opening"
+        },
+        {
+          "title": "先把年代放準：有些是支點，有些只是範圍",
+          "url": "https://study.samkoeh.com/nt-politics/05/#chronology"
+        },
+        {
+          "title": "帝國、行省、城市：不是所有官員都叫「總督」",
+          "url": "https://study.samkoeh.com/nt-politics/05/#administration"
+        },
+        {
+          "title": "之前：道路與殖民城，早在保羅到來以前就已形成",
+          "url": "https://study.samkoeh.com/nt-politics/05/#roads"
+        },
+        {
+          "title": "居比路：一位總督相信，不等於一個行省改宗",
+          "url": "https://study.samkoeh.com/nt-politics/05/#cyprus"
+        },
+        {
+          "title": "兩座安提阿，與三種不同的衝突",
+          "url": "https://study.samkoeh.com/nt-politics/05/#anatolia"
+        },
+        {
+          "title": "回到耶路撒冷：這一次不是被帶去受審",
+          "url": "https://study.samkoeh.com/nt-politics/05/#return-council"
+        },
+        {
+          "title": "重新出發：同工分開，路線也沒有預先寫好",
+          "url": "https://study.samkoeh.com/nt-politics/05/#second-start"
+        },
+        {
+          "title": "腓立比：交易受影響，控告卻換成了公共秩序",
+          "url": "https://study.samkoeh.com/nt-politics/05/#philippi"
+        },
+        {
+          "title": "「我們是羅馬人」：公民權能制約官員，卻未能擋住棍棒",
+          "url": "https://study.samkoeh.com/nt-politics/05/#citizenship"
+        },
+        {
+          "title": "帖撒羅尼迦：「另有一個王」的控告，落在耶孫身上",
+          "url": "https://study.samkoeh.com/nt-politics/05/#thessalonica"
+        },
+        {
+          "title": "雅典：是開放討論，還是有權威的審查？",
+          "url": "https://study.samkoeh.com/nt-politics/05/#athens"
+        },
+        {
+          "title": "哥林多的工作坊，連著羅馬的一道命令",
+          "url": "https://study.samkoeh.com/nt-politics/05/#corinth-rome"
+        },
+        {
+          "title": "迦流拒審：不是替基督教頒發全帝國許可證",
+          "url": "https://study.samkoeh.com/nt-politics/05/#gallio"
+        },
+        {
+          "title": "一塊沒有提到保羅的石碑，為何能幫保羅定年？",
+          "url": "https://study.samkoeh.com/nt-politics/05/#inscription"
+        },
+        {
+          "title": "三座城並排：差別不只是官員個性",
+          "url": "https://study.samkoeh.com/nt-politics/05/#comparison"
+        },
+        {
+          "title": "從哥林多返回安提阿，不要在迦流面前提早結束",
+          "url": "https://study.samkoeh.com/nt-politics/05/#return"
+        },
+        {
+          "title": "後來：新皇帝與新的衝突，不能倒灌進前一趟旅程",
+          "url": "https://study.samkoeh.com/nt-politics/05/#afterword"
+        },
+        {
+          "title": "人物與官職速查",
+          "url": "https://study.samkoeh.com/nt-politics/05/#people"
+        },
+        {
+          "title": "史料與研究入口",
+          "url": "https://study.samkoeh.com/nt-politics/05/#sources"
+        }
+      ],
+      "series": "新約政治史",
+      "position": 5
+    },
+    {
+      "url": "https://study.samkoeh.com/protestant_backwards/protestant_backwards.html",
+      "title": "更正教的界線如何鬆動：向羅馬靠攏與跨教義共融的歷史時間線",
+      "description": "59個歷史節點：按改教準繩檢驗向羅馬靠攏、跨教義共融與共同實踐的發展，附原始文件與證據界線。",
+      "type": "Article",
+      "language": "zh-Hant-TW",
+      "sections": []
+    },
+    {
+      "url": "https://study.samkoeh.com/reformation/",
+      "title": "羅馬教會的偏離如何累積：改教家批判的歷史時間線",
+      "description": "以改教家的聖經批判為主線，追溯羅馬教會教義、制度與陋習的68個歷史節點，附圖像、文獻與證據界線。",
+      "type": "Article",
+      "language": "zh-Hant-TW",
+      "sections": []
+    }
+  ]
+}

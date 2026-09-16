@@ -1,0 +1,23 @@
+# Sam Koeh Study
+
+> 繁體中文研究出版庫。以經文、歷史文獻與證據界線為基礎的專題研究。
+
+文章全文及引用直接包含在 HTML 中，不需登入或執行 JavaScript；圖表互動另需 JavaScript。
+史料記載、作者詮釋與推測的區分請依各篇原文；引用時使用文章網址或章節永久連結。
+
+## 研究目錄
+
+- [Sam Koeh Study｜新約政治史與教會史研究](https://study.samkoeh.com/): Sam Koeh Study — 從一個問題開始，把脈絡讀清楚。透過專題研究、歷史時間線與原始文獻，追索觀念的來處，形成自己的判斷。
+- [新約政治史｜Sam Koeh Study](https://study.samkoeh.com/nt-politics/): 帝國、地方權力與初代教會之間：從耶穌受難到使徒行傳，循著經文與史料，讀懂新約的政治現場。
+- [新約政治史①｜主耶穌受難的政治現場](https://study.samkoeh.com/nt-politics/01/): 新約政治史第一篇。分析耶穌傳道與受難時的政治局勢、實權分配及人物關係，對照福音書、古代史料與現代研究。
+- [新約政治史②｜復活之後，誰仍掌權？](https://study.samkoeh.com/nt-politics/02/): 從路加福音的安葬、復活、升天，銜接使徒行傳1至5章；重建提庇留、彼拉多、該亞法與初期教會的政治處境。
+- [新約政治史③｜司提反之死與教會四散](https://study.samkoeh.com/nt-politics/03/): 以使徒行傳6–9章為骨架，研究司提反之死、教會四散、掃羅與大馬色，以及彼拉多離任到卡利古拉聖殿危機的政治世界。
+- [新約政治史④｜王權重返猶太地：哥尼流、安提阿與亞基帕一世](https://study.samkoeh.com/nt-politics/04/): 以使徒行傳10至12章為骨架，研究哥尼流、安提阿賑濟、革老丟與亞基帕一世的王權、雅各之死、彼得出獄，以及王死後的政治重組。
+- [新約政治史⑤｜同一個帝國，不同的法庭](https://study.samkoeh.com/nt-politics/05/): 沿使徒行傳13至18章，重建保羅前兩次宣教旅行中的行省、羅馬殖民城、耶路撒冷會議、公民權、迦流與城市政治。含九幅圖表與史料註釋。
+- [更正教的界線如何鬆動：向羅馬靠攏與跨教義共融的歷史時間線](https://study.samkoeh.com/protestant_backwards/protestant_backwards.html): 59個歷史節點：按改教準繩檢驗向羅馬靠攏、跨教義共融與共同實踐的發展，附原始文件與證據界線。
+- [羅馬教會的偏離如何累積：改教家批判的歷史時間線](https://study.samkoeh.com/reformation/): 以改教家的聖經批判為主線，追溯羅馬教會教義、制度與陋習的68個歷史節點，附圖像、文獻與證據界線。
+
+## 機器可讀入口
+
+- [含章節連結的 JSON 目錄](https://study.samkoeh.com/catalog.json)
+- [網站地圖](https://study.samkoeh.com/sitemap.xml)
