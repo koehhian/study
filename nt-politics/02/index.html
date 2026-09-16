@@ -1,0 +1,536 @@
+<!doctype html>
+<html lang="zh-Hant"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>新約政治史②｜復活之後，誰仍掌權？</title>
+<meta name="description" content="從路加福音的安葬、復活、升天，銜接使徒行傳1至5章；重建提庇留、彼拉多、該亞法與初期教會的政治處境。">
+<style>
+:root{--paper:#f5f1e8;--card:#fffdf8;--ink:#233a45;--muted:#6b7472;--navy:#203f50;--teal:#28776d;--rust:#9c553f;--gold:#a68144;--line:#dedbd0;--soft:#eee9de;--font-body:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",system-ui,sans-serif;--font-title:"Songti TC","Noto Serif CJK TC","PMingLiU",serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:85px}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--font-body);font-size:18px;line-height:1.94;-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:4px}
+button{font:inherit;cursor:pointer}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #bd9e61;outline-offset:4px}
+p{margin:.9em 0}
+strong{font-weight:650}
+h1,h2,h3,h4{line-height:1.45}
+h1,h2{font-family:var(--font-title)}
+h2{font-size:31px;letter-spacing:.01em;margin:8px 0 18px}
+h3{font-size:22px;margin:34px 0 12px}
+h4{font-size:19px;margin:8px 0}
+small{font-size:.8em}
+.skip{position:absolute;left:16px;top:-60px;background:white;padding:10px;z-index:30}
+.skip:focus{top:8px}
+.progress-track{position:fixed;left:0;right:0;top:0;height:4px;background:#bdc4bd;z-index:25}
+.progress{height:4px;background:#c4a76c;width:0}
+.topbar{height:65px;display:flex;align-items:center;justify-content:space-between;gap:16px;padding:0 max(24px,calc((100vw - 1280px)/2));background:var(--navy);color:#dce6e5;font-size:13px;letter-spacing:.08em;border-bottom:1px solid #456070}
+.topbar .brand{font-weight:650;color:#fff;text-decoration:none;white-space:nowrap}
+.topbar .tools{display:flex;align-items:center;gap:18px}
+.topbar button,.topbar a:not(.brand){border:0;background:none;color:#dce6e5;font-size:13px;text-decoration:none;padding:2px}
+.hero{background:var(--navy);color:#fff;position:relative;overflow:hidden}
+.hero:after{content:"02";position:absolute;right:max(24px,calc((100vw - 1250px)/2));top:-70px;font-family:Georgia,serif;font-size:400px;line-height:1.2;color:#fff;opacity:.055;pointer-events:none}
+.hero-inner{max-width:1280px;margin:0 auto;padding:66px 48px 64px;position:relative;z-index:1}
+.kicker{font-size:13px;letter-spacing:.24em;color:#d0b77e;font-weight:650;margin:0 0 25px}
+.hero h1{font-size:clamp(38px,4.4vw,63px);font-weight:650;letter-spacing:.015em;line-height:1.3;max-width:920px;margin:0 0 22px}
+.hero .subtitle{max-width:810px;font-size:21px;line-height:1.75;color:#d7e1e1;margin:0 0 28px}
+.meta{display:flex;flex-wrap:wrap;gap:10px;font-size:13px;color:#e3e8e5}
+.meta span{border:1px solid #6c8087;padding:4px 12px;border-radius:2px;background:#ffffff05}
+.hero-bottom{display:flex;gap:35px;margin-top:37px;padding-top:24px;border-top:1px solid #536974;font-size:14px;color:#bacccc}
+.hero-bottom strong{display:block;color:#fff;font-size:16px}
+.hero-bottom div{max-width:360px}
+.layout{max-width:1280px;display:grid;grid-template-columns:228px minmax(0,1fr);gap:50px;margin:0 auto;padding:46px 32px 80px}
+.sidebar{align-self:start;position:sticky;top:24px;max-height:calc(100vh - 45px);overflow:auto;font-size:13px;line-height:1.65;padding-right:10px;scrollbar-width:thin}
+.sidebar .toc-heading{font-size:12px;letter-spacing:.18em;color:var(--rust);font-weight:700;margin:4px 0 15px}
+.toc a{display:flex;gap:10px;text-decoration:none;color:var(--muted);padding:6px 6px 6px 0;border-right:2px solid transparent}
+.toc a span{font:13px Georgia,serif;color:#a09885;flex:0 0 19px}
+.toc a:hover,.toc a.active{color:var(--teal);border-color:var(--teal)}
+.sidebar .aside-foot{border-top:1px solid var(--line);padding-top:18px;margin-top:18px;font-size:12px;color:var(--muted)}
+.mobile-toc{display:none}
+main{min-width:0}
+.editor-note{border-left:3px solid var(--teal);padding:2px 22px 4px;margin:0 0 42px;font-size:16px;color:#536462}
+.editor-note p{margin:5px 0}
+.part-label{font-size:11px;letter-spacing:.18em;color:var(--rust);font-weight:700;margin:0 0 7px}
+.chapter{padding:10px 0 43px;border-bottom:1px solid var(--line);margin:0 0 34px;scroll-margin-top:36px}
+.chapter:last-child{border-bottom:0}
+.chapter .section-no{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--rust);letter-spacing:.1em}
+.section-no:after{content:"";display:block;width:45px;height:1px;background:#c6bca5}
+.deck{font-size:16px;color:var(--muted);line-height:1.8;margin:-5px 0 24px}
+.ref{font-size:10px;line-height:0;vertical-align:super;margin-left:2px;white-space:nowrap}
+.ref a{text-decoration:none;color:#806a40;padding:2px 0}
+.thesis{padding:26px 30px 28px;margin:30px 0 6px;border-top:3px solid var(--teal);background:#e6eee8}
+.eyebrow{font-size:12px;letter-spacing:.12em;font-weight:700;color:var(--teal);display:block}
+.thesis p{font-family:var(--font-title);font-size:29px;line-height:1.65;margin:13px 0}
+.thesis small{display:block;color:#516763;font-size:15px}
+.note{background:#eeeade;border-left:3px solid #ab976b;padding:19px 22px;margin:25px 0;font-size:16px}
+.note p{margin:5px 0}
+.artifact-callout{padding:26px 30px;background:#efe7d4;border:1px solid #d8c9a6;margin:30px 0}
+.artifact-callout h3{margin:12px 0;font-family:var(--font-title);font-size:27px}
+.artifact-callout p{font-size:17px;margin:10px 0 0}
+.diagram{margin:30px 0 28px;border:1px solid #d7d7c9;background:var(--card);border-radius:5px;overflow:hidden}
+.figure-title{display:flex;gap:17px;align-items:baseline;padding:20px 23px 16px;border-bottom:1px solid #e6e1d5}
+.figure-title>span{font:12px var(--font-body);color:var(--rust);letter-spacing:.08em;white-space:nowrap}
+.figure-title h3{font-family:var(--font-body);font-size:19px;line-height:1.6;margin:0}
+figcaption{font-size:13px;line-height:1.9;color:var(--muted);padding:15px 23px 20px;margin:0;border-top:1px solid #e9e5db}
+.diagram-toolbar{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 22px;color:var(--muted);font-size:12px}
+.zoom-btn{font-size:12px;line-height:1.6;border:1px solid #aec0b9;background:#f0f4ee;color:var(--teal);padding:6px 12px;white-space:nowrap}
+.under-diagram{padding:14px 23px;background:#eef0e8;font-size:14px;line-height:1.8}
+.svg-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch}
+.svg-scroll svg{display:block;width:100%;height:auto;min-width:720px}
+.bridge-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:22px;gap:12px}
+.bridge-node{padding:17px 15px;position:relative;border-top:3px solid var(--gold);background:#f2ebdc;min-width:0}
+.bridge-node.acts{border-color:var(--teal);background:#e5eee8}
+.bridge-node.bridge{border-color:var(--navy);background:#e4ebed}
+.bridge-node b,.bridge-node strong{display:block;font-size:20px;line-height:1.5;margin:8px 0}
+.bridge-node small{display:block;font-size:12px;line-height:1.7;color:#697772}
+.bridge-node>span{font:12px Georgia,serif;color:var(--muted)}
+.era-strip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));padding:18px 20px 0 108px;text-align:center;font-size:13px;color:var(--muted)}
+.era-strip span{background:#eeeae0;padding:6px 4px;border-right:3px solid var(--card)}
+.era-strip span:nth-child(2){background:#e0ece6;color:var(--teal)}
+.timeline-row{display:grid;grid-template-columns:88px minmax(0,1fr);padding:12px 20px 0;gap:0}
+.timeline-row:last-of-type{padding-bottom:20px}
+.lane-title{font-size:13px;font-weight:650;padding:12px 10px 0 0;color:var(--navy)}
+.lane-cells{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));font-size:13px;line-height:1.8}
+.lane-cells>div{background:#f2efe5;border:3px solid var(--card);padding:12px}
+.lane-cells>div.current{background:#e6f0e9}
+.lane-cells strong{display:block;font-size:15px;margin-bottom:7px}
+.lane-cells small{font-size:12px;display:block;line-height:1.8;color:#74807a}
+.timeline-row.biblical .lane-cells>div.current{border-top:3px solid var(--teal)}
+.table-wrap{overflow-x:auto;margin:25px 0 0;border:1px solid var(--line);background:var(--card)}
+table{width:100%;border-collapse:collapse;font-size:15px;line-height:1.85;min-width:625px}
+th,td{text-align:left;vertical-align:top;padding:15px 17px;border-bottom:1px solid #e4e0d5}
+th{background:var(--navy);color:#fff;font-size:14px;font-weight:600}
+th:first-child,td:first-child{width:23%}
+td:first-child{background:#f1eee4}
+tr:last-child td{border-bottom:0}
+.caption{font-size:13px;color:var(--muted);line-height:1.85;margin:12px 3px 24px}
+.diaspora-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:22px}
+.origin{padding:17px 19px;background:#edf0e8;border:1px solid #dce0d5}
+.origin h4{font-size:18px;margin:8px 0}
+.origin p{font-size:14px;line-height:1.8;margin:0;color:#66736d}
+.origin.east{background:#f3e9da;border-color:#e0d3bd}
+.origin.east .eyebrow{color:var(--rust)}
+.destination{grid-column:1/-1;background:var(--navy);padding:22px;text-align:center;color:white;position:relative;border-radius:2px}
+.destination>span{display:block;letter-spacing:.2em;font-size:12px;color:#bdcfc9}
+.destination strong{font-family:var(--font-title);display:block;font-size:28px;margin:5px 0}
+.destination small{display:block;font-size:14px;line-height:1.8;color:#d1ddd6}
+.space-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;padding:22px}
+.space-grid>div{padding:20px 16px;background:#f1ede2;border-bottom:3px solid #bba77b}
+.space-grid>div:nth-child(2){background:#f2e7e0;border-color:#b47b67}
+.space-grid>div:nth-child(3){background:#e7eee7;border-color:#6d9784}
+.space-icon{display:block;font:27px Georgia,serif;color:var(--rust)}
+.space-grid h4{font-size:18px;line-height:1.65}
+.space-grid p{font-size:14px;line-height:1.9}
+.space-grid small{font-size:12px;color:#788077;line-height:1.7;display:block}
+.hearing-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;padding:22px}
+.hearing{border:1px solid #d3dfd7;background:#fafbf6}
+.hearing header{background:#e3eee6;padding:18px}
+.hearing header span{font-size:12px;color:var(--teal)}
+.hearing h4{font-family:var(--font-title);font-size:24px;margin:5px 0 0}
+.hearing dl{padding:5px 18px 12px;margin:0}
+.hearing dt{font-size:12px;font-weight:700;color:var(--teal);margin-top:16px}
+.hearing dd{font-size:15px;margin:4px 0 15px;line-height:1.85}
+.hearing.second{border-color:#e2cec0}
+.hearing.second header{background:#efe2d7}
+.hearing.second dt,.hearing.second header span{color:var(--rust)}
+.research{border:1px solid #cfbf9b;background:#f7f0df;margin:28px 0;padding:20px 23px;font-size:16px}
+.research summary{font-weight:650;cursor:pointer;line-height:1.8;color:#756035}
+.research p:last-child{margin-bottom:3px}
+.three-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:25px 0}
+.three-cards>div{border:1px solid var(--line);background:var(--card);padding:18px 15px}
+.three-cards h4{font-size:17px;margin:12px 0}
+.three-cards p{font-size:14px;line-height:1.85;margin:10px 0 0}
+.pill{font-size:11px;line-height:1.5;display:inline-block;padding:4px 8px;background:#e1ece2;color:var(--teal)}
+.pill.interpretation{color:#826d3e;background:#efe8d4}
+.pill.uncertain{color:#895b50;background:#f0e1da}
+.next{background:#e6ebe7;padding:25px 29px;margin:28px 0 0;border-top:2px solid #739181}
+.next h3{font-family:var(--font-title);font-size:25px;margin:12px 0}
+.next p{font-size:16px;margin:12px 0 0}
+.closing-quote{background:var(--navy);color:#e4ece9;padding:30px 34px;margin:33px 0 0;border-left:5px solid #c3a76f}
+.closing-quote p{font-family:var(--font-title);font-size:24px;line-height:1.9;margin:5px 0 20px}
+.closing-quote .accent{color:#dec994}
+.closing-quote small{color:#bdcfca;font-size:13px}
+.closing-quote .ref a{color:#dfc688}
+.appendix{margin:45px 0;padding-top:20px}
+.appendix h2{font-size:27px}
+.name-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.name-grid>div{background:#eeeade;padding:18px 20px;font-size:14px}
+.name-grid h4{font-size:17px;margin:0 0 8px}
+.name-grid p{margin:5px 0;line-height:1.85}
+.sources{border-top:2px solid var(--navy);padding-top:25px}
+.sources .intro{font-size:14px;color:var(--muted)}
+.source-list{padding:0;list-style:none;counter-reset:source}
+.source-list li{font-size:14px;line-height:1.85;padding:15px 0 15px 43px;border-bottom:1px solid var(--line);position:relative;scroll-margin-top:30px}
+.source-list li:before{counter-increment:source;content:"[" counter(source) "]";font:14px Georgia,serif;color:var(--rust);position:absolute;top:19px;left:0}
+.source-list .cat{font-size:10px;letter-spacing:.03em;border:1px solid #c7cdc4;color:#6f7b70;padding:2px 6px;display:inline-block;margin-right:8px;vertical-align:middle}
+.source-list p{margin:5px 0 0;color:var(--muted);font-size:12px}
+.resources-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.resource-card{background:var(--card);border:1px solid var(--line);padding:20px}
+.resource-card .artifact-symbol{font:46px Georgia,serif;color:#b1a27c;line-height:1}
+.resource-card h4{font-size:18px}
+.resource-card p{font-size:14px;line-height:1.8;color:var(--muted)}
+.resource-card a{font-size:13px}
+.footer{background:#e9e5da;padding:30px 26px;color:#6e766e;font-size:13px;text-align:center;border-top:1px solid var(--line)}
+.footer strong{color:var(--navy)}
+dialog{width:min(1350px,96vw);max-width:96vw;border:1px solid #82948c;background:var(--paper);padding:0;border-radius:5px;max-height:94vh}
+dialog::backdrop{background:#182a32bb}
+.modal-head{display:flex;justify-content:space-between;padding:12px 20px;position:sticky;top:0;background:var(--navy);color:white;z-index:3;font-size:15px}
+.modal-head button{border:1px solid #8aa29e;background:none;color:white;font-size:14px;padding:3px 13px}
+.modal-content{overflow:auto;padding:10px}
+.modal-content svg{display:block;width:100%;min-width:1000px;height:auto}
+@media(min-width:1300px){body{font-size:19px}.layout{gap:58px}}
+@media(max-width:1000px){
+.layout{grid-template-columns:1fr;max-width:900px;padding:30px 28px 60px}
+.sidebar{display:none}.mobile-toc{display:block;margin-bottom:32px;border:1px solid var(--line);background:var(--card);font-size:14px;padding:14px 18px}
+.mobile-toc summary{color:var(--teal);cursor:pointer;font-weight:650}
+.mobile-toc .toc{display:grid;grid-template-columns:1fr 1fr;gap:2px 18px;margin-top:15px}
+.hero-inner{padding:48px 30px 43px}.hero:after{font-size:320px;top:0}
+.editor-note{margin-bottom:28px}
+}
+@media(max-width:600px){
+body{font-size:17px;line-height:1.93}.topbar{height:58px;padding:0 20px;font-size:12px}.topbar .tools{gap:12px}.topbar .tools a{display:none}
+.hero-inner{padding:37px 22px 35px}.kicker{font-size:11px;margin-bottom:21px;letter-spacing:.16em}.hero h1{font-size:37px;line-height:1.43;max-width:350px}.hero .subtitle{font-size:17px;line-height:1.8}
+.hero:after{font-size:255px;right:-10px;top:100px}
+.meta{gap:7px;font-size:11px}.meta span{padding:4px 9px}.hero-bottom{gap:18px;font-size:12px;margin-top:26px;padding-top:20px}.hero-bottom strong{font-size:14px}
+.layout{padding:24px 20px 42px;gap:0}.mobile-toc{margin-bottom:27px}.mobile-toc .toc{grid-template-columns:1fr}
+h2{font-size:26px;line-height:1.6;margin:7px 0 18px}h3{font-size:21px;line-height:1.7;margin-top:29px}
+.chapter{padding-bottom:31px;margin-bottom:27px}.deck{font-size:15px}.editor-note{font-size:14px;padding-left:17px}
+.thesis{padding:21px 20px}.thesis p{font-size:24px;line-height:1.75}.thesis small{font-size:14px}
+.note{padding:17px 18px;font-size:15px}.artifact-callout{padding:23px 21px}.artifact-callout h3{font-size:24px}.artifact-callout p{font-size:16px}
+.figure-title{padding:16px;gap:11px;align-items:flex-start}.figure-title h3{font-size:17px}.figure-title>span{font-size:11px;line-height:2.5}
+figcaption{padding:14px 16px 17px;font-size:12px}.diagram{margin:25px 0}.diagram-toolbar{padding:12px 15px;align-items:flex-start}.diagram-toolbar>span{font-size:11px;line-height:1.8}
+.bridge-grid{grid-template-columns:repeat(2,minmax(0,1fr));padding:14px;gap:10px}.bridge-node{padding:14px 12px}.bridge-node b,.bridge-node strong{font-size:18px}
+.era-strip{padding:15px 10px 0 67px;font-size:11px}.timeline-row{grid-template-columns:57px minmax(0,1fr);padding:9px 10px 0}.lane-title{font-size:11px;padding-right:5px}
+.lane-cells{font-size:11px;line-height:1.8}.lane-cells>div{padding:7px 5px;border-width:2px}.lane-cells strong{font-size:12px;line-height:1.8}.lane-cells small{font-size:10px}.timeline-row:last-of-type{padding-bottom:13px}
+.diaspora-grid{padding:14px;gap:9px}.origin{padding:14px 12px}.origin h4{font-size:16px;line-height:1.8}.origin p{font-size:12px}.origin .eyebrow{font-size:10px}
+.destination{padding:17px}.destination strong{font-size:25px}.destination small{font-size:12px}
+.space-grid{grid-template-columns:1fr;padding:14px;gap:10px}.space-grid>div{padding:17px 18px;position:relative;padding-left:60px}.space-icon{position:absolute;left:20px;top:17px;font-size:27px}.space-grid p{margin:8px 0}.space-grid h4{margin:0;font-size:19px}
+.hearing-grid{grid-template-columns:1fr;padding:14px;gap:14px}.hearing h4{font-size:23px}.hearing dl{padding:0 17px 10px}.hearing dt{margin-top:13px}.hearing dd{font-size:15px}
+.research{padding:17px;font-size:15px}.three-cards{grid-template-columns:1fr;gap:10px}.three-cards>div{padding:18px}.three-cards h4{display:inline;margin-left:7px;font-size:16px}
+.next{padding:23px 20px}.next h3{font-size:23px}.next p{font-size:15px}
+.closing-quote{padding:23px 21px}.closing-quote p{font-size:21px;line-height:1.9}
+.name-grid,.resources-grid{grid-template-columns:1fr}
+.sources h2{font-size:25px}.source-list li{padding-left:35px;font-size:13px}.source-list p{font-size:12px}.source-list .cat{font-size:9px}
+.under-diagram{padding:13px 16px;font-size:13px}
+}
+@media print{
+html{scroll-behavior:auto}body{background:white;color:#111;font-size:11pt;line-height:1.7}
+.topbar,.sidebar,.mobile-toc,.progress-track,.zoom-btn,dialog,.footer{display:none!important}
+.hero{background:white;color:#111;border-bottom:2px solid #333}.hero-inner{padding:20px 0}.hero h1{font-size:30pt}.hero .subtitle,.kicker,.hero-bottom,.hero-bottom strong,.meta{color:#333}.hero:after{display:none}.meta span{border-color:#bbb}.hero-bottom{border-color:#bbb}
+.layout{display:block;max-width:none;padding:20px 0}.chapter{break-before:auto;margin-bottom:15px;padding-bottom:15px}.diagram,.note,.research,.thesis,.artifact-callout,.next,.closing-quote{break-inside:avoid}
+h2,h3{break-after:avoid}h2{font-size:21pt}h3{font-size:15pt}.table-wrap,.svg-scroll{overflow:visible}.svg-scroll svg{min-width:0}table{min-width:0;font-size:10pt}.source-list li{font-size:10pt}
+.closing-quote{background:#eee;color:#111}.closing-quote .accent{color:#444}.closing-quote small{color:#666}
+a{color:inherit}*{-webkit-print-color-adjust:exact;print-color-adjust:exact}
+}
+</style><link rel="stylesheet" href="../series.css">
+</head>
+<body id="top">
+<nav class="study-series-bar" aria-label="網站與系列導覽"><a class="study-series-brand" href="../../">SAM KOEH · STUDY ← 返回 Study</a><a href="../">新約政治史 · 系列目錄</a><span>第 02 篇</span></nav><a class="skip" href="#main">跳至正文</a><div class="progress-track" aria-hidden="true"><div class="progress"></div></div>
+<header class="topbar"><a class="brand" href="../">新約政治史 · NEW TESTAMENT POLITICS</a><div class="tools"><a href="#sources">史料索引</a><button data-print>列印</button></div></header>
+<section class="hero"><div class="hero-inner"><p class="kicker">帝國、地方權力與初代教會之間 ／ 第二篇</p>
+<h1>復活之後，<br>誰仍掌權？</h1>
+<p class="subtitle">從《路加福音》的最後一幕，走進五旬節與耶路撒冷教會：<br class="desktop-break">人間官府沒有更替，耶穌的見證卻不再能被封住。</p>
+<div class="meta"><span>路加福音 23:50–24:53</span><span>使徒行傳 1–5</span><span>約公元30／33年起</span><span>6 幅圖表 · 27 項史料與書目</span></div>
+<div class="hero-bottom"><div><strong>之前</strong>羅馬直轄與祭司權力的形成</div><div><strong>當下</strong>復活、升天、五旬節與兩次拘捕</div><div><strong>後來</strong>彼拉多離任與祭司人事變動</div></div>
+</div></section>
+<div class="layout"><aside class="sidebar"><p class="toc-heading">本篇路線</p><nav class="toc" aria-label="章節目錄"><a href="#opening"><span>01</span>十字架之後，官府沒有換人</a><a href="#bridge"><span>02</span>兩卷書之間，不可省略的橋梁</a><a href="#dating"><span>03</span>把時間放準：我們知道什麼，不知道什麼</a><a href="#before"><span>04</span>之前：猶太地怎麼走到這個局面？</a><a href="#empire"><span>05</span>鏡頭拉遠：提庇留晚年，不是尼祿的羅馬</a><a href="#powers"><span>06</span>誰能抓人？誰能處罰？誰只是有影響力？</a><a href="#kingdom"><span>07</span>「復興以色列國」：門徒還在問政治問題嗎？</a><a href="#pentecost"><span>08</span>五旬節：一座城，連著不只一個帝國</a><a href="#temple"><span>09</span>他們為什麼仍進聖殿？</a><a href="#priesthood"><span>10</span>亞那、該亞法與撒都該人：這次爭的是什麼？</a><a href="#hearings"><span>11</span>兩次拘捕，兩種逐漸升高的壓力</a><a href="#gamaliel"><span>12</span>迦瑪列：不同意使徒，也可能反對殺死使徒</a><a href="#obedience"><span>13</span>「順從神，不順從人」：具體拒絕的是什麼？</a><a href="#community"><span>14</span>他們不是平行政府，卻開始形成另一種共同生活</a><a href="#absence"><span>15</span>彼拉多與希律，這一次到哪裡去了？</a><a href="#after"><span>16</span>後來：名單將更換，權力結構也會改變</a><a href="#conclusion"><span>17</span>回到經文：不變的官府，與不能停止的見證</a><a href="#name-notes"><span>附</span>容易混淆的人名</a><a href="#sources"><span>註</span>史料與延伸閱讀</a></nav><div class="aside-foot">聖經敘事提供骨架；政治史重建處境，再回到經文。<br><br>本文日期採方案與範圍，不以未定年代補成精密年表。</div></aside>
+<main id="main"><details class="mobile-toc"><summary>展開本篇目錄 · 17 節與史料索引</summary><nav class="toc" aria-label="行動版章節目錄"><a href="#opening"><span>01</span>十字架之後，官府沒有換人</a><a href="#bridge"><span>02</span>兩卷書之間，不可省略的橋梁</a><a href="#dating"><span>03</span>把時間放準：我們知道什麼，不知道什麼</a><a href="#before"><span>04</span>之前：猶太地怎麼走到這個局面？</a><a href="#empire"><span>05</span>鏡頭拉遠：提庇留晚年，不是尼祿的羅馬</a><a href="#powers"><span>06</span>誰能抓人？誰能處罰？誰只是有影響力？</a><a href="#kingdom"><span>07</span>「復興以色列國」：門徒還在問政治問題嗎？</a><a href="#pentecost"><span>08</span>五旬節：一座城，連著不只一個帝國</a><a href="#temple"><span>09</span>他們為什麼仍進聖殿？</a><a href="#priesthood"><span>10</span>亞那、該亞法與撒都該人：這次爭的是什麼？</a><a href="#hearings"><span>11</span>兩次拘捕，兩種逐漸升高的壓力</a><a href="#gamaliel"><span>12</span>迦瑪列：不同意使徒，也可能反對殺死使徒</a><a href="#obedience"><span>13</span>「順從神，不順從人」：具體拒絕的是什麼？</a><a href="#community"><span>14</span>他們不是平行政府，卻開始形成另一種共同生活</a><a href="#absence"><span>15</span>彼拉多與希律，這一次到哪裡去了？</a><a href="#after"><span>16</span>後來：名單將更換，權力結構也會改變</a><a href="#conclusion"><span>17</span>回到經文：不變的官府，與不能停止的見證</a><a href="#name-notes"><span>附</span>容易混淆的人名</a><a href="#sources"><span>註</span>史料與延伸閱讀</a></nav></details>
+<div class="editor-note"><p><strong>本篇接續<a href="../01/">第一篇〈主耶穌受難的政治現場〉</a>，從復活與升天讀向五旬節。</strong>先從路加記下的安葬、復活、顯現、升天與返回耶路撒冷讀起，再進入使徒行傳開篇的聖靈降臨、公開見證與地方權力衝突。</p><p>全篇以事件時代為研究對象；年代爭議、史料缺口與政治推論另行標明。</p></div>
+<section class="chapter" id="opening"><span class="section-no">01</span><h2>十字架之後，官府沒有換人</h2><p class="deck">敘事從安葬接起，而不是直接跳到五旬節。</p>
+<p>上一篇停在主耶穌受難的政治現場：祭司領袖推動控告，彼拉多批准羅馬的處刑，希律・安提帕也捲入了案件。但《路加福音》並沒有隨著耶穌斷氣便結束。它繼續記錄安葬、復活、顯現、升天，最後讓我們看見門徒回到耶路撒冷，在聖殿裡頌讚神。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup><sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p>
+<p>這個結尾本身就提出了一個政治問題：<strong>他們為何回到那座剛剛處死耶穌的城市，而且繼續在聖殿活動？</strong>按一般採用的年代框架，此時提庇留仍是皇帝，彼拉多仍掌管猶太地，該亞法仍在大祭司的位置上。復活與升天沒有伴隨一場可見的政權更替。<sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup><sup class="ref"><a href="#src-12" aria-label="來源 12">[12]</a></sup></p>
+<p>改變的是門徒對耶穌的認識，以及他們開始公開宣告的事：掌權者所拒絕、交付處死的耶穌，神已使他復活，並高舉他。<strong>同一座城、同一套權力機構，如今面對的卻不再只是耶穌本人，而是一群不肯停止作見證的人。</strong>這是本篇從路加末段一路讀到使徒行傳第五章的主線。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<div class="thesis"><span class="eyebrow">本篇的政治問題</span><p>既然掌權的人沒有換，<br>為什麼他們沒有立刻把耶穌的門徒一併除掉？</p><small>答案不是「突然有了宗教自由」，而要從權力的分工、群眾反應、議會內部差異，以及這群人的行動方式來看。</small></div>
+</section><section class="chapter" id="bridge"><span class="section-no">02</span><h2>兩卷書之間，不可省略的橋梁</h2><p class="deck">安葬 → 復活 → 顯現 → 升天 → 等候 → 五旬節。</p>
+<p>《使徒行傳》開頭提到給提阿非羅的「前書」，又重新敘述耶穌升天前的教導。這不是換了一批人物、另起一個無關的故事，而是從《路加福音》收束的地方繼續向前。兩卷之間至少有六個必須保留的環節。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+
+<figure class="diagram" id="fig-bridge">
+<div class="figure-title"><span>圖 01</span><h3>路加末段與行傳開篇：同一條敘事線</h3></div>
+<div class="bridge-grid">
+<div class="bridge-node luke"><b>01</b><h4>安葬</h4><p>約瑟求取遺體<br>婦女察看墳墓</p><small>路23:50–56</small></div>
+<div class="bridge-node luke"><b>02</b><h4>復活</h4><p>空墓的消息<br>門徒起初不信</p><small>路24:1–12</small></div>
+<div class="bridge-node luke"><b>03</b><h4>顯現與使命</h4><p>以馬忤斯、眾門徒<br>從耶路撒冷傳開</p><small>路24:13–49</small></div>
+<div class="bridge-node bridge"><b>04</b><h4>升天</h4><p>路加收束故事<br>行傳補述四十日</p><small>路24:50–53／徒1:1–11</small></div>
+<div class="bridge-node acts"><b>05</b><h4>返回與等候</h4><p>共同禱告<br>補選馬提亞</p><small>徒1:12–26</small></div>
+<div class="bridge-node acts"><b>06</b><h4>五旬節與見證</h4><p>聖靈降臨、公開講論<br>在聖殿與家中生活</p><small>徒2–5</small></div>
+</div>
+<figcaption>順序圖，不按日數比例繪製。路加末段與行傳第一章在升天處重疊；不是兩次升天。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup><sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></figcaption>
+</figure>
+<h3>安葬：政治權力仍然碰得到耶穌的身體</h3>
+<p>路加說，亞利馬太的約瑟是議士，卻沒有附從其他人的決議與行動；他去見彼拉多，求取耶穌的遺體。這既顯示議會並非所有成員立場一致，也顯示在這個具體案件中，處理遺體仍須與掌握羅馬處刑權的彼拉多交涉。不能把耶穌死後的故事，想成已經脫離政治權力的私人哀悼。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup></p>
+<p>路加還寫到捶胸離去的群眾，以及跟隨、察看安葬情形的婦女。這些反應與祭司領袖的立場不能混成一件事。<strong>「耶路撒冷」「猶太人」「議會」都不是具有單一意志的人格。</strong>在同一座城市裡，可以同時存在推動處死、沒有附從、悲痛離去和繼續跟隨的人。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup></p>
+<h3>以馬忤斯：失落的，不只是個人心靈的盼望</h3>
+<p>兩位門徒原本盼望耶穌救贖以色列。把這句話放回羅馬統治下，便不難理解其中包含群體、歷史與民族前途的重量。但經文沒有說，兩人已經擬好某種武裝獨立方案；也不宜把所有以色列復興的盼望都壓成「趕走羅馬人」一句話。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup></p>
+<p>耶穌的回應，是從聖經解明彌賽亞的受苦與榮耀；其後又把悔改、赦罪和向萬邦傳講連在一起，並指定從耶路撒冷開始。<strong>路加沒有抹去以色列的故事，而是重新說明這個故事如何經過十字架，走向萬邦。</strong>這也預備了徒1:6–8的問題與回答。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+<h3>升天：不是「福音書說一次，行傳又發生一次」</h3>
+<p>路24末段把復活後的顯現、吩咐與升天緊密敘述，沒有在結尾明列一張逐日行程；徒1:3則明說耶穌在四十日之久向門徒顯現。因此，本系列不把兩處拆成兩次升天，也不因路加結尾的緊湊寫法，就直接斷定升天發生於復活當晚。<strong>把兩卷並讀時，應保留路加結尾的敘事壓縮，以及行傳開篇展開的時間資訊。</strong><sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+<p>最容易忽略的，是路加最後那句：門徒常在聖殿裡頌讚神。到了徒2–5，他們仍在聖殿、禱告時段和所羅門廊下活動。於是，《路加福音》的最後一幕，直接成為《使徒行傳》初期衝突的主要舞臺。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+</section><section class="chapter" id="dating"><span class="section-no">03</span><h2>把時間放準：我們知道什麼，不知道什麼</h2><p class="deck">政治任期是外框；經文提供的是另一種精細程度的時間。</p>
+<p>本篇重建的是<strong>事件發生時的政治處境</strong>，不是先假定兩卷書的寫作時間等於事件時間。耶穌受難、復活的年份，常見重建有公元30年與33年；本篇不藉一張整齊時間表，把仍有討論的年代變成確定日期。<sup class="ref"><a href="#src-27" aria-label="來源 27">[27]</a></sup></p>
+
+<figure class="diagram" id="fig-timeline">
+<div class="figure-title"><span>圖 02</span><h3>三層政治時間線</h3></div>
+<div class="era-strip"><span>之前</span><span class="current">本篇當下</span><span>後來</span></div>
+<div class="timeline-row"><div class="lane-title">羅馬帝國</div><div class="lane-cells">
+<div><strong>14年起</strong><p>提庇留統治</p></div>
+<div class="emphasis"><strong>提庇留仍在位</strong><p>31年：塞揚努斯倒台<br>與本篇的相對先後，隨受難年份方案而異</p></div>
+<div><strong>37年</strong><p>提庇留去世<br>帝國進入新階段</p></div></div></div>
+<div class="timeline-row"><div class="lane-title">猶太地</div><div class="lane-cells">
+<div><strong>6年／26年</strong><p>羅馬直接治理<br>彼拉多約26年到任</p></div>
+<div class="emphasis"><strong>彼拉多＋該亞法</strong><p>羅馬長官仍在<br>祭司領導圈也延續</p></div>
+<div><strong>約36／37年</strong><p>彼拉多赴羅馬答辯<br>該亞法被撤換</p></div></div></div>
+<div class="timeline-row biblical"><div class="lane-title">聖經敘事</div><div class="lane-cells">
+<div><strong>上一篇</strong><p>耶穌傳道、受難<br>羅馬執行十字架刑</p></div>
+<div class="emphasis"><strong>30年 <em>或</em> 33年起</strong><p>安葬、復活、升天、五旬節<br>之後：聖殿見證與兩次審問</p></div>
+<div><strong>下一篇</strong><p>司提反、教會四散<br>與帝國政局交叉重建</p></div></div></div>
+<figcaption>本圖分「前史／當下／後續」，不是等比例年表；徒3–5未逐件提供公曆日期。兩個年份是替代方案，不是連續區間。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup><sup class="ref"><a href="#src-13" aria-label="來源 13">[13]</a></sup><sup class="ref"><a href="#src-14" aria-label="來源 14">[14]</a></sup><sup class="ref"><a href="#src-27" aria-label="來源 27">[27]</a></sup></figcaption>
+</figure>
+<p>沿兩種常見方案閱讀，復活、升天與五旬節都落在提庇留、彼拉多、該亞法同時在位的時期。徒1提供四十日的相對時間，徒2提供五旬節的節期定位；但徒3–5沒有逐件標出年、月、日。<strong>因此，不能說第五章的審問確定是在五旬節後第幾天，也不能把全章的事機械地塞進同一個月。</strong><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-12" aria-label="來源 12">[12]</a></sup></p>
+<div class="note"><strong>閱讀時間線的方法</strong><p>圖中「30年或33年」是兩個替代的年份方案，不是說耶穌在30年至33年間每年都復活一次。36／37年的行政變動則是本篇末段的後續回望，不表示使徒行傳第五章一定已經走到那個年份。</p></div>
+</section><section class="chapter" id="before"><span class="section-no">04</span><h2>之前：猶太地怎麼走到這個局面？</h2><p class="deck">早期教會進入的，是已經運作多年的統治安排。</p>
+<h3>公元6年以來：羅馬直轄與地方領袖合作</h3>
+<p>亞基老遭廢黜後，猶太地進入羅馬直接治理的階段。約瑟夫斯記載，居里扭主持財產登記時，大祭司約亞撒勸百姓接受；另一方面，猶大和撒督則反對，把繳納與登記看成屈服的開始。同一個猶太社會，對羅馬統治已有不同應對，不是人人都站在同一條政治路線上。<sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup></p>
+<p>這個歷史背景能幫助我們理解徒1的復興問題，卻不能用來斷言門徒就是猶大運動的延續。兩者的共同處境，是以色列處於外來統治之下；它們對如何回應這個處境，並不因此相同。</p>
+<h3>大祭司的職位，也在帝國政治之內</h3>
+<p>約瑟夫斯記錄，彼拉多的前任格拉圖斯先後更換多位大祭司，最後由該亞法接任。這表示大祭司不是完全獨立於羅馬的宗教君主；他具有地方聲望與聖殿權力，卻也必須面對外部統治者的任免。<sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup></p>
+<div class="artifact-callout"><span class="eyebrow">一個容易被忽略的政治細節</span><h3>連大祭司的祭衣，曾由羅馬掌管保管權。</h3>
+<p>約瑟夫斯說，羅馬統治者延續了把大祭司禮服存放在安東尼亞堡的做法；節期前交出使用，之後收回。到維特里烏斯時，保管權才交還祭司。這不等於羅馬替猶太人決定每項信仰內容，卻很具體地顯示：<strong>神聖職分的運作，並沒有與政治控制分離。</strong><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup></p></div>
+<p>因此，不能把初期教會面對的局勢畫成「羅馬只管世俗，祭司只管宗教」。雙方權力交纏：羅馬保留軍事強制與重要任免的力量，地方祭司領袖則治理聖殿、處理內部衝突，並維持地方秩序。合作不表示彼此信任，更不表示兩者地位平等。<sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup></p>
+</section><section class="chapter" id="empire"><span class="section-no">05</span><h2>鏡頭拉遠：提庇留晚年，不是尼祿的羅馬</h2><p class="deck">帝國的壓力確實存在；它如何落到每一事件，仍須有證據。</p>
+<p>五旬節首先必須放回提庇留時代，不能把後來的帝國迫害背景整套搬到眼前。此時皇帝是提庇留；羅馬帝國的命令、地方長官的任免與地方領袖的申訴，都仍在這個政治體系內運作。斐羅所記的金盾事件，就呈現地方抗議上達提庇留、皇帝要求彼拉多撤去金盾的過程。<sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-11" aria-label="來源 11">[11]</a></sup></p>
+<p>宮廷也並非穩定不動。提庇留的重要權臣、禁衛軍長官塞揚努斯在公元31年被處死。若採30年的受難方案，這是稍後的宮廷危機；若採33年方案，則已是近期背景。這個差別提醒我們：<strong>年份選擇會改變政治重建，不能一面說年代未定，一面又把31年的事件當作受難與五旬節的確定前因。</strong><sup class="ref"><a href="#src-13" aria-label="來源 13">[13]</a></sup><sup class="ref"><a href="#src-14" aria-label="來源 14">[14]</a></sup></p>
+<p>但現有資料不足以證明，彼拉多對初期教會的每一個決定，都由塞揚努斯的命運直接支配；更不能憑「提庇留在位」便說皇帝已收到五旬節的報告。<strong>帝國背景是理解地方政治的外框，不是替每個空白補上一場宮廷陰謀的工具。</strong></p>
+</section><section class="chapter" id="powers"><span class="section-no">06</span><h2>誰能抓人？誰能處罰？誰只是有影響力？</h2><p class="deck">實權有不同種類，不能只排成一條由大到小的官階。</p>
+
+<figure class="diagram" id="fig-authority">
+<div class="figure-title"><span>圖 03</span><h3>復活之後，仍在運作的權力網絡</h3></div>
+<div class="diagram-toolbar"><span>實線：制度或強制　｜　虛線：影響與牽制</span><button class="zoom-btn" data-zoom="power">放大圖表 ↗</button></div>
+<div class="svg-scroll" id="power"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 860" role="img" aria-labelledby="power-title power-desc">
+<title id="power-title">復活與五旬節之後的權力關係</title>
+<desc id="power-desc">提庇留之下，彼拉多與安提帕分掌不同領域。祭司家族、議會與守殿官直接處理使徒事件。迦瑪列以聲望勸阻；百姓的反應牽制強制行動。圖中沒有把未記載的羅馬干預畫成事實。</desc>
+<defs>
+<marker id="arrow-navy" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#31566c"/></marker>
+<marker id="arrow-teal" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#42877d"/></marker>
+<marker id="arrow-rust" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#aa6143"/></marker>
+<style>text{font-family:"PingFang TC","Noto Sans CJK TC","Microsoft JhengHei",sans-serif}.head{font-size:25px;font-weight:700}.sub{font-size:18px}.lab{font-size:17px;fill:#525f64}.white{fill:#fff}.dark{fill:#213d4a}.line{fill:none;stroke-width:2.7}.institution{stroke:#31566c;marker-end:url(#arrow-navy)}.influence{stroke:#42877d;stroke-dasharray:7 5;marker-end:url(#arrow-teal)}.coercion{stroke:#aa6143;marker-end:url(#arrow-rust)}</style>
+</defs>
+<rect width="1080" height="860" rx="18" fill="#fcfaf5"/>
+<path class="line institution" d="M400 123 H185 V225"/><path class="line institution" d="M680 123 H895 V225"/>
+<text x="174" y="192" class="lab" text-anchor="middle">帝國官員</text>
+<text x="895" y="192" class="lab" text-anchor="middle">帝國承認的地方統治</text>
+<rect x="378" y="42" width="324" height="106" rx="14" fill="#203f50"/>
+<text x="540" y="86" text-anchor="middle" class="head white">提庇留</text>
+<text x="540" y="120" text-anchor="middle" class="sub white">羅馬皇帝｜14–37年</text>
+
+<rect x="45" y="225" width="280" height="105" rx="12" fill="#e8eff4" stroke="#a9bfcb"/>
+<text x="185" y="265" text-anchor="middle" class="head dark">彼拉多</text>
+<text x="185" y="299" text-anchor="middle" class="sub dark">羅馬軍事、行政與司法</text>
+<rect x="755" y="225" width="280" height="105" rx="12" fill="#e8eff4" stroke="#a9bfcb"/>
+<text x="895" y="265" text-anchor="middle" class="head dark">希律・安提帕</text>
+<text x="895" y="299" text-anchor="middle" class="sub dark">加利利與比利亞｜非耶路撒冷</text>
+
+<path class="line institution" d="M325 278 H375"/>
+<rect x="345" y="165" width="390" height="38" rx="8" fill="#fcfaf5"/>
+<text x="540" y="190" text-anchor="middle" class="lab">羅馬長官具有任免大祭司的制度力量</text>
+<rect x="375" y="225" width="330" height="105" rx="12" fill="#f4e7cd" stroke="#cbb281"/>
+<text x="540" y="265" text-anchor="middle" class="head dark">亞那家族／該亞法</text>
+<text x="540" y="299" text-anchor="middle" class="sub dark">家族影響／現任大祭司</text>
+
+<path class="line institution" d="M540 330 V433"/>
+<text x="561" y="389" class="lab">祭司領導圈參與</text>
+<rect x="45" y="439" width="280" height="105" rx="12" fill="#f2e4dd" stroke="#d4b29f"/>
+<text x="185" y="479" text-anchor="middle" class="head dark">守殿官與差役</text>
+<text x="185" y="512" text-anchor="middle" class="sub dark">拘捕、看守、押送</text>
+<rect x="375" y="439" width="330" height="105" rx="12" fill="#f4e7cd" stroke="#cbb281"/>
+<text x="540" y="479" text-anchor="middle" class="head dark">議會／公會</text>
+<text x="540" y="512" text-anchor="middle" class="sub dark">不是全體猶太人的同一意志</text>
+<rect x="755" y="439" width="280" height="105" rx="12" fill="#dfede7" stroke="#a6c6ba"/>
+<text x="895" y="479" text-anchor="middle" class="head dark">迦瑪列</text>
+<text x="895" y="512" text-anchor="middle" class="sub dark">律法教師、法利賽人</text>
+<path class="line institution" d="M375 490 H330"/><path class="line influence" d="M755 490 H710"/>
+<text x="895" y="573" text-anchor="middle" class="lab">以聲望與論證勸阻致死處置</text>
+
+<rect x="45" y="688" width="280" height="110" rx="12" fill="#dfede7" stroke="#a6c6ba"/>
+<text x="185" y="731" text-anchor="middle" class="head dark">百姓的反應</text>
+<text x="185" y="765" text-anchor="middle" class="sub dark">支持、尊重；增加動武風險</text>
+<path class="line influence" d="M110 688 V552"/>
+<text x="126" y="627" class="lab">牽制強制行動</text>
+
+<rect x="375" y="688" width="330" height="110" rx="12" fill="#eee8f3" stroke="#b8a6c9"/>
+<text x="540" y="731" text-anchor="middle" class="head dark">彼得、約翰與眾使徒</text>
+<text x="540" y="765" text-anchor="middle" class="sub dark">見證、教導；拒絕停止傳講</text>
+<path class="line coercion" d="M540 544 V681"/>
+<text x="561" y="618" class="lab">訊問／禁言／鞭打</text>
+<path class="line coercion" d="M260 544 V650 H415 V681"/>
+<text x="274" y="616" class="lab">押送</text>
+
+<rect x="755" y="638" width="280" height="160" rx="12" fill="#fff" stroke="#d4d8d6" stroke-dasharray="6 5"/>
+<text x="779" y="674" class="sub dark">本篇未記彼拉多、安提帕</text>
+<text x="779" y="705" class="sub dark">直接介入兩次審問。</text>
+<text x="779" y="748" class="lab">不以箭頭虛構聯合命令，</text>
+<text x="779" y="775" class="lab">也不以缺席證明毫不知情。</text>
+</svg></div>
+<figcaption>關係圖不是同一場會議的出席名單。羅馬對大祭司的任免權是制度關係；該亞法由彼拉多的前任格拉圖斯任命，不能把箭頭讀成「彼拉多任命該亞法」。希律・安提帕未被記載直接參與徒1–5的拘捕。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-11" aria-label="來源 11">[11]</a></sup><sup class="ref"><a href="#src-12" aria-label="來源 12">[12]</a></sup><sup class="ref"><a href="#src-23" aria-label="來源 23">[23]</a></sup><sup class="ref"><a href="#src-26" aria-label="來源 26">[26]</a></sup></figcaption>
+<div class="under-diagram"><strong>後續才展開的另一層：</strong>敘利亞長官維特里烏斯後來干預彼拉多與大祭司的人事；本圖沒有把他倒放進五旬節當日。<sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup></div>
+</figure>
+
+<div class="table-wrap"><table>
+<thead><tr><th>人物／機構</th><th>在本篇時段的實權</th><th>不能誤會成什麼</th></tr></thead>
+<tbody>
+<tr><td><strong>提庇留</strong><br><small>羅馬皇帝</small></td><td>帝國最高統治中心；地方長官須面對中央權力與申訴。</td><td>不等於親自審核耶路撒冷每一次拘捕。</td></tr>
+<tr><td><strong>彼拉多</strong><br><small>猶太地 prefect</small></td><td>羅馬軍事與行政司法的主要地方權力；前篇中批准處死耶穌。</td><td>不是安提帕的下屬，也不是聖殿守衛的另一個稱呼。</td></tr>
+<tr><td><strong>希律・安提帕</strong><br><small>加利利、比利亞分封王</small></td><td>在自己的領域統治；徒4的禱告回顧其參與耶穌受難。</td><td>不是耶路撒冷當地的統治者；也不是徒12的亞基帕一世。</td></tr>
+<tr><td><strong>該亞法與祭司領導圈</strong></td><td>聖殿治理、召集審問、拘禁及紀律處罰；具有家族與制度資源。</td><td>不是不受羅馬限制的主權政府。</td></tr>
+<tr><td><strong>守殿官與差役</strong></td><td>在徒4–5直接執行逮捕、押送等行動。</td><td>不是羅馬千夫長；不能與保羅後來遇到的羅馬軍官混為一談。</td></tr>
+<tr><td><strong>迦瑪列</strong><br><small>法利賽派律法教師</small></td><td>在議會內發言，以聲望、論證與宗教判斷影響決策。</td><td>不能僅憑本章就確定他是議會主席，或能獨自下令撤銷案件。</td></tr>
+<tr><td><strong>耶路撒冷百姓</strong></td><td>沒有現代民主制度下的否決權，卻能增加強制行動的政治成本。</td><td>不是一個始終支持或始終反對使徒的固定陣營。</td></tr>
+</tbody></table></div>
+<p class="caption">表中經文行動據路23、徒4–5；任免與帝國制約據約瑟夫斯、斐羅；彼拉多官銜據銘文。這是不同性質權力的比較，不是現代政府組織表。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup><sup class="ref"><a href="#src-11" aria-label="來源 11">[11]</a></sup><sup class="ref"><a href="#src-12" aria-label="來源 12">[12]</a></sup><sup class="ref"><a href="#src-26" aria-label="來源 26">[26]</a></sup></p>
+<p>尤其要注意：<strong>敘利亞長官不能在整個時段裡，被畫成一個固定不變、處理所有案件的中間主管。</strong>約瑟夫斯清楚記到後來維特里烏斯可以命令彼拉多赴羅馬，又能更換大祭司；這證明區域長官的干預能力，卻不等於維特里烏斯已在五旬節當天掌握這些案件。圖中把這一層放在「後續干預」的位置，而不是冒填早期在場人物。<sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup></p>
+</section><section class="chapter" id="kingdom"><span class="section-no">07</span><h2>「復興以色列國」：門徒還在問政治問題嗎？</h2><p class="deck">不是把國度縮成政權，也不是把國度抽離歷史。</p>
+<p>徒1:6的問題具有真實的歷史重量：門徒問，復興以色列國是否就在這個時候。身處羅馬統治下，「以色列」「國」「復興」不可能只是毫無群體含義的私人宗教用語。然而，從這句話直接推成「使徒想立刻組軍反羅馬」，仍超過經文所說。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+<p>耶穌的回答沒有交出一份改朝換代的時間表，而是把時候留在父的權柄中，並把門徒的當前任務放在聖靈所賜的能力與向外作見證上。至於這段話如何關聯以色列最終的復興，各種神學解讀還有爭論；<strong>本篇可以確定的是：門徒接下來受命做的，不是奪取總督府，而是從耶路撒冷開始作見證。</strong><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup></p>
+<p>這也回答了兩個容易互相拉扯的誤讀。第一，福音不是一份普通的民族獨立政綱。第二，它也不只是躲在家裡的心靈安慰。當門徒在公共場所宣告誰是主、誰是基督、誰有赦罪的權柄時，他們已經進入人們對忠誠、權威與共同生活的理解。這是由敘事所呈現的政治後果，不必假設每個詞都是刻意編寫的反羅馬暗號。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-17" aria-label="來源 17">[17]</a></sup></p>
+</section><section class="chapter" id="pentecost"><span class="section-no">08</span><h2>五旬節：一座城，連著不只一個帝國</h2><p class="deck">節期的人流，使耶路撒冷成為跨地域的消息交會點。</p>
+<p>徒2首先描繪的，是在耶路撒冷的敬虔猶太人，以及來自不同地方、其中包括歸入猶太教者的群體。這還不是後來外邦宣教已全面展開的場景。五旬節讓分散各地、卻與耶路撒冷及以色列信仰相連的人，在這座城市相遇。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+
+<figure class="diagram" id="fig-diaspora">
+<div class="figure-title"><span>圖 04</span><h3>五旬節的人群：以耶路撒冷為交會點</h3></div>
+<div class="diaspora-grid">
+<div class="origin west"><span class="eyebrow">西方與海上</span><h4>羅馬・革哩底</h4><p>城市與島嶼所代表的散居網絡。</p></div>
+<div class="origin north"><span class="eyebrow">小亞細亞一帶</span><h4>加帕多家・本都・亞細亞</h4><p>另有弗呂家、旁非利亞。</p></div>
+<div class="destination"><span>共同朝向</span><strong>耶路撒冷</strong><small>猶太人與歸入猶太教者<br>在同一城聽見見證</small></div>
+<div class="origin east"><span class="eyebrow">東方諸地</span><h4>帕提亞・瑪代・以攔</h4><p>還有米所波大米；視野已跨入帕提亞世界。</p></div>
+<div class="origin south"><span class="eyebrow">南方與鄰近地區</span><h4>埃及・古利奈一帶・亞拉伯</h4><p>名單也提到猶太地本身。</p></div>
+</div>
+<figcaption>依徒2:5–11分組的<strong>關係示意，不是精確地理圖</strong>。經文混合城市、地域與族群名稱，不能把每一項都當成羅馬行省；也未交代每位聽眾後來的旅程或建堂事蹟。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></figcaption>
+</figure>
+
+<p>名單裡有從羅馬來的客旅，也有帕提亞、瑪代、以攔等東方名稱。<strong>不能把這份名單畫成「羅馬帝國各省代表大會」：</strong>其中有古老地區名稱、族群名稱，以及不在羅馬直接統治之下的世界。政治邊界與猶太人的宗教、語言及家族網絡，並不重合。約瑟夫斯關於羅馬與帕提亞交涉的記述，也提醒我們，東方不是帝國版圖上一塊沒有分別的空白。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup></p>
+<p>這使五旬節具有一種傳播條件：消息可能隨不同地方的人流帶出去。但路加沒有逐一追蹤當日所有人的返鄉路線，因此也不能說名單中每個地方都立即建立了教會。<strong>交通與人群網絡能解釋傳播的途徑，不能取代路加對聖靈工作的記述。</strong><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<div class="note"><strong>不要用後世場景替經文補空白</strong><p>徒1:13的樓房和徒2:2的「屋子」是否就是同一間，不能只因章節相鄰便當作已證實。彼得向群眾講論的精確站位、羅馬當天部署多少人監視，以及是否有人立即把報告送給彼拉多，經文都沒有交代。研究可以保留場景的公共性，卻不必捏造一張精密的現場勤務圖。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p></div>
+<h3>真正尖銳的宣告：人的判決，並非最後判決</h3>
+<p>彼得把耶穌的被釘、復活、高舉與大衛的應許連在一起，最後宣告這位耶穌是主、是基督。這段講論首要的語言背景，是以色列的聖經與彌賽亞盼望；不能只因皇帝也接受尊稱，就把整段講論改寫成一篇反帝國演說。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<p>但其公共後果仍很清楚：<strong>若神已高舉遭地方領袖拒絕、被羅馬處死的耶穌，那些掌權者對他的處置，就不再能決定人們應如何認識他。</strong>這不是另一道羅馬法院的上訴判決，卻是在更根本的層次上否定「處死了，事情就結束了」。這正是隨後衝突愈來愈難以化解的原因。</p>
+</section><section class="chapter" id="temple"><span class="section-no">09</span><h2>他們為什麼仍進聖殿？</h2><p class="deck">《路加福音》結尾的聖殿，正是《使徒行傳》衝突的起點。</p>
+<p>現代讀者容易把這段歷史想成：耶穌死後，基督徒已經站在一個叫「基督教」的地方，與另一個叫「猶太教」的地方對抗。但徒2–5呈現的不是這麼整齊的制度分離。彼得、約翰照禱告時段上聖殿；眾人聚在所羅門廊下；使徒面對百姓時，也從以色列列祖與先知的應許開始說話。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>因此，初期衝突更接近<strong>以色列信仰內部，圍繞耶穌身分、復活與合法教導權的公開爭議</strong>，而不是一群與猶太傳統無關的外人突然闖進別人的宗教場所。這不表示當時毫無差異與界線；而是界線尚不能照後來的樣子直接畫回去。</p>
+<p>聖殿同時具有敬拜、教導、人群往來和領導權威的功能。使徒選擇在這裡作見證，就不可能只被當成私人住宅裡的一段談話。路加先記一名瘸腿者得醫治、百姓聚集，接著立即記到祭司、守殿官與撒都該人出面。<strong>事件在敘事中跨過的門檻，是從個人的醫治，成為可聚集群眾、挑戰既有判斷的公共見證。</strong><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+
+<figure class="diagram" id="fig-spaces">
+<div class="figure-title"><span>圖 05</span><h3>三種空間，一條持續的見證線</h3></div>
+<div class="space-grid">
+<div><span class="space-icon">Ⅰ</span><h4>聖殿與廊下</h4><p>禱告、醫治、教導。<br>百姓聚集，見證公開。</p><small>路24:53；徒3:1–11；5:12</small></div>
+<div><span class="space-icon">Ⅱ</span><h4>拘禁與審問場所</h4><p>押送、質問、禁言。<br>權威衝突在此集中。</p><small>徒4:1–22；5:17–40</small></div>
+<div><span class="space-icon">Ⅲ</span><h4>住處與家中</h4><p>禱告、教導、彼此供應。<br>群體生活繼續維持。</p><small>徒1:13–14；2:46；5:42</small></div>
+</div>
+<figcaption>這是經文中的空間功能比較，不主張已考古定位審問房間、五旬節的屋子或所有聚會住處。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></figcaption>
+</figure>
+
+<p>先前在路20，領袖曾質問耶穌憑什麼權柄在殿裡行事；現在到徒4:7，問題再次出現，只是被問的人變成彼得與約翰。這不是偶然重複一個常用詞，而是兩卷之間很值得並讀的敘事連續：<strong>門徒開始面對耶穌曾面對過的權柄質問。</strong><sup class="ref"><a href="#src-22" aria-label="來源 22">[22]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+</section><section class="chapter" id="priesthood"><span class="section-no">10</span><h2>亞那、該亞法與撒都該人：這次爭的是什麼？</h2><p class="deck">教義分歧與制度利益可以交疊，不必把其中一項說成假的。</p>
+<h3>一個職位，與一整個家族網絡</h3>
+<p>徒4:6列出亞那、該亞法、約翰、亞歷山大，以及大祭司的親族。其中「大祭司亞那」的稱呼，需要與外部任職資料一起看：約瑟夫斯把這段時期的現任位置放在該亞法，而亞那是較早的任職者。《約翰福音》則提供亞那是該亞法岳父的家族關係。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup><sup class="ref"><a href="#src-23" aria-label="來源 23">[23]</a></sup></p>
+<p>較穩妥的理解，是卸任大祭司仍可保有尊稱與實際影響；不能因此畫成「兩位在任大祭司輪班」，也不必把亞那寫成操控一切、而該亞法毫無主見的幕後人物。至於徒4的約翰、亞歷山大與哪些外部人物完全相同，單靠本節還不足以定案。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-9" aria-label="來源 9">[9]</a></sup></p>
+<h3>復活既是教義問題，也牽涉權威的可信度</h3>
+<p>徒4:2直接指出，反對者因使徒教導百姓、宣講在耶穌裡的復活而煩惱；徒5:17又把大祭司的同人與撒都該派連在一起。這些敘述與撒都該人不接受復活的立場相合，但不能進一步推成「所有祭司都是撒都該人」或「所有猶太人都不信復活」。法利賽人的立場就不同。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-21" aria-label="來源 21">[21]</a></sup></p>
+<p>而且，使徒不是只在辯論「人將來是否復活」這個抽象命題。他們說的是：<strong>你們拒絕並交付處死的這個人，神使他復活了。</strong>對參與先前處置的領導圈來說，這也觸及其判斷是否可靠、是否仍有資格代表神對百姓發言的問題。這是從兩次審問的內容得出的政治分析，不表示我們已知道每位成員內心的全部動機。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+</section><section class="chapter" id="hearings"><span class="section-no">11</span><h2>兩次拘捕，兩種逐漸升高的壓力</h2><p class="deck">從禁止傳講，到違令後再審；衝突不是一開始就有同樣的強度。</p>
+
+<figure class="diagram" id="fig-hearings">
+<div class="figure-title"><span>圖 06</span><h3>兩次拘捕，不能合成同一次審判</h3></div>
+<div class="hearing-grid">
+<div class="hearing"><header><span>第一次｜使徒行傳第4章</span><h4>彼得與約翰</h4></header>
+<dl><dt>引發衝突</dt><dd>醫治後聚眾；宣講耶穌與復活。</dd><dt>處理程序</dt><dd>拘留過夜；次日追問憑什麼權柄行事。</dd><dt>限制動武的因素</dt><dd>得醫治者的公開見證；百姓歸榮耀給神。</dd><dt>結果</dt><dd><strong>恐嚇、禁言，然後釋放。</strong><br>本次沒有記載鞭打。</dd></dl></div>
+<div class="hearing second"><header><span>第二次｜使徒行傳第5章</span><h4>眾使徒</h4></header>
+<dl><dt>引發衝突</dt><dd>教導持續、群體增長；領袖充滿忌恨。</dd><dt>處理程序</dt><dd>再度收監；出監後繼續教導，又被帶回質問。</dd><dt>限制動武的因素</dt><dd>差役怕百姓用石頭打；迦瑪列勸阻。</dd><dt>結果</dt><dd><strong>鞭打、禁言，然後釋放。</strong><br>使徒仍在聖殿和家中傳講。</dd></dl></div>
+</div>
+<figcaption>依徒4:1–22及5:17–42整理。比較的是路加敘述的兩次程序，不是以後世法典補出一份完整法庭紀錄。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></figcaption>
+</figure>
+
+<p>第一次，議會試圖以恐嚇和禁言收束問題。徒4:16–21所呈現的困難是：得醫治的人就在眼前，百姓為此歸榮耀給神；掌權者雖要阻止消息繼續傳播，卻找不到合適的處罰方式。這不是「議會完全沒有權力」，而是它有權力，卻受到事件的可見性和群眾反應所限制。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<p>第二次，使徒違反禁令、繼續在聖殿教導。徒5記他們被囚、主的使者開門、使徒再次進殿；差役奉命押送時沒有動用強暴，因為怕百姓用石頭打他們。<strong>強制力量的存在，與當下是否敢使用強制力量，是兩回事。</strong>這個細節比「當時很黑暗」之類概括更能讓我們看見權力實際怎樣運作。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>大祭司的質問又比上一回更直接：使徒把教導傳遍耶路撒冷，並把耶穌之死的責任指向領袖。這裡已不只是在問「准不准你教導」，而是在維護先前處置的正當性。<strong>禁言的對象，不只是某項教義，也是一種對掌權者不利的事件敘述。</strong><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>彼得和眾使徒仍然回到神使耶穌復活、高舉他、賜下悔改與赦罪的宣告。這也值得留意：他們的講論包含責任，卻仍向以色列人開出悔改與赦免的門；不能把它改造成對某個民族永久定罪的宣言。徒3也明說百姓與官長的無知，並隨即呼籲悔改。<sup class="ref"><a href="#src-5" aria-label="來源 5">[5]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+</section><section class="chapter" id="gamaliel"><span class="section-no">12</span><h2>迦瑪列：不同意使徒，也可能反對殺死使徒</h2><p class="deck">議會內部並非鐵板一塊，克制也不等於支持。</p>
+<p>徒5把議會的反應推到想要殺人的地步，隨後讓一位不同聲音出現：迦瑪列是一位受百姓尊重的法利賽派律法教師。他建議慎重處置，指出人為的運動會敗亡；若這事出於神，強行阻止反可能成為敵擋神。這是經文明載的勸告。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-16" aria-label="來源 16">[16]</a></sup></p>
+<p>它不必被解釋成迦瑪列已經暗中成為基督徒。他可以仍不接受使徒的全部主張，卻認為立即以致命暴力解決，既可能判斷錯誤，也有嚴重宗教風險。<strong>政治上的克制，並不總是來自立場相同；有時來自對自己判斷能力的限制有所認識。</strong></p>
+<p>議會採納勸告，卻仍把使徒打了，再命令他們不得奉耶穌的名講論。這不是一場現代意義的無罪釋放，更不是議會宣布保障自由傳教。<strong>結果是退回較低程度的壓制，而不是撤銷壓制本身。</strong><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<details class="research" open><summary>史料難題｜丟大為什麼不能直接放進30年代的時間線？</summary>
+<p>徒5:36–37讓迦瑪列先提丟大，再提報名上冊時的加利利人猶大。約瑟夫斯所敘述的另一段丟大事件，卻在法都統治時，屬於公元40年代中期；猶大的財產登記抗爭則與公元6年的局勢相連。若把兩處的丟大直接認作同一人，時間與先後順序就出現明顯困難。<sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup><sup class="ref"><a href="#src-8" aria-label="來源 8">[8]</a></sup><sup class="ref"><a href="#src-15" aria-label="來源 15">[15]</a></sup></p>
+<p>可能的處理方向包括：這是兩個同名者；或者文獻中存在年代、記憶或敘事安排的問題。<strong>兩位同名者可以是一種解釋，卻沒有因此成為已被獨立證實的事實。</strong>本篇不藉這個問題把整段話草率丟棄，也不說問題已經完全解決；只不把有爭議的身分認定充作精確年代錨點。</p>
+</details>
+<p>還有一條人物線值得留待後續：保羅後來自述曾在迦瑪列門下受教。但徒5沒有說掃羅已經坐在這場審問中；教師此刻的克制，也不能證明學生後來必採同一種手段。<strong>關係圖可以連師生，不能把未記載的在場與密謀一併畫上去。</strong><sup class="ref"><a href="#src-21" aria-label="來源 21">[21]</a></sup></p>
+</section><section class="chapter" id="obedience"><span class="section-no">13</span><h2>「順從神，不順從人」：具體拒絕的是什麼？</h2><p class="deck">不奪權，不等於把良心與見證的最後決定權交給官府。</p>
+<p>徒5:29不是一張不受任何人約束的空白授權。它出現於很具體的衝突中：領袖命令使徒停止奉耶穌的名教導，使徒卻認為這違反了他們從主領受的見證使命。拒絕的焦點是禁言命令，而不是宣稱所有行政、生活與共同體秩序都不再有效。<sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>同樣重要的是他們採用的方法。按路加敘事，他們繼續作見證、承受拘禁與鞭打；獲釋後仍在聖殿和家中教導。經文沒有把他們描寫成組織軍隊、奪取城門、建立另一套徵稅與武力機構的人。<strong>他們沒有爭奪羅馬長官的位置，卻也不承認掌權者有最後的權利，使耶穌從公共言說中消失。</strong><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>這使初期教會呈現一種難以用「順民／叛亂者」兩分法概括的位置：它不是發動武裝奪權的組織，卻堅持有一個比現存禁令更高的命令。當政治權力要求它停止履行這個使命時，衝突便不可避免。</p>
+<p>Rowe對《使徒行傳》的研究，正提醒讀者注意類似的張力：否認武裝顛覆，不等於福音對既有生活沒有挑戰。本篇採用這個區分，卻不因此把整卷每一處宗教語言都改譯為政治策略。<sup class="ref"><a href="#src-17" aria-label="來源 17">[17]</a></sup></p>
+</section><section class="chapter" id="community"><span class="section-no">14</span><h2>他們不是平行政府，卻開始形成另一種共同生活</h2><p class="deck">共同生活具有公共後果，卻不是國家暴力的另一種包裝。</p>
+<p>兩次衝突之間，路加沒有只寫議會和差役，也記到信徒禱告、彼此供應、出售產業幫助有需要的人。這提醒我們：公共影響不只來自台上的講論，也來自一群人如何實際相待。<sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<p>但不能把這些記述直接命名為一套現代國家經濟制度。徒5:4明說，田地未賣以前仍是亞拿尼亞的，賣了以後價銀也由他支配。亞拿尼亞與撒非喇的問題，是在奉獻上欺哄；路加並未說使徒因他們拒絕交出全部財產，便由衛隊執行死刑。<strong>敘事中的神聖審判，不能改寫為教會掌握國家處刑權的證據。</strong><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>這也把兩種權威分開：祭司領袖憑制度與差役，命令使徒停止講論；使徒群體則以見證、教導、祈禱及共同生活延續其使命。兩者都有群體影響，但不能因此說它們掌握同一種類的權力。</p>
+<h3>受難的人物，重新出現在教會的禱告裡</h3>
+<p>徒4:24–30引用詩篇第二篇的語言，並點出希律、彼拉多、外邦人與以色列民在耶穌受難中的角色。這是本篇與第一篇最直接的回扣。<strong>教會沒有把受難看成一場與如今無關的舊事；它把現在的恐嚇，放回那場衝突與神旨意的光中理解。</strong><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+<p>值得注意的是，他們求的是膽量、醫治與繼續作見證，而不是要求神把議會的位子交給他們。政治史能說明這樣的群體為何對權威構成壓力；經文則進一步告訴我們，他們如何在神面前理解並承受這種壓力。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p>
+</section><section class="chapter" id="absence"><span class="section-no">15</span><h2>彼拉多與希律，這一次到哪裡去了？</h2><p class="deck">沒有出場，不等於沒有權力；沒有鎮壓記載，也不等於承認自由。</p>
+<p>第一篇的政治舞臺上，彼拉多與希律很醒目；到了徒1–5，直接出面拘捕、質問、禁言和鞭打的，卻是祭司領導圈及其執行者。彼拉多、希律出現在徒4的禱告中，是對受難的回顧，不是說他們當天又坐在議會裡。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p>這個差別說明，<strong>不是所有宗教衝突都必然、立刻升級為羅馬刑事案件。</strong>在路加這幾章的敘事裡，衝突仍主要由耶路撒冷的地方權力機構處置。把它理解為地方領袖嘗試運用現有手段壓制，可以成立；但「彼拉多正式授權該亞法如此處理」「安提帕答應不介入」等說法，都沒有本段記載支持。</p>
+<div class="three-cards">
+<div><span class="pill primary">經文明載</span><h4>地方領袖出手</h4><p>守殿官與差役拘捕；議會審問；禁言與鞭打。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></div>
+<div><span class="pill interpretation">政治解讀</span><h4>尚未在敘事中升級</h4><p>這幾章沒有記錄另一次像耶穌案那樣移交羅馬審判的程序。</p></div>
+<div><span class="pill uncertain">沒有資料支持</span><h4>羅馬已批准傳教</h4><p>沒有介入的記載，不等於帝國頒布保障教會的政策。</p></div>
+</div>
+<p>至於「為何不乾脆全殺了」，本篇已累積出較具體的回答：百姓的支持使強制行動有風險；議會內部有人反對立即致死；禁言與鞭打仍被視為可用手段；而使徒此時沒有被描寫為武裝暴動。這些因素可以共同說明敘事中的結果，<strong>但不能變成一條定律，保證下一次衝突仍以釋放結束。</strong><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+</section><section class="chapter" id="after"><span class="section-no">16</span><h2>後來：名單將更換，權力結構也會改變</h2><p class="deck">回望後續，是為了看見變化，不是替人物編排一條報應時間表。</p>
+<p>約瑟夫斯記，彼拉多因撒馬利亞人事件遭申訴，維特里烏斯命他赴羅馬向皇帝答辯；但彼拉多尚未抵達，提庇留已死。通常把這一段放在公元36／37年的交界。維特里烏斯也撤換該亞法，改立亞那的兒子約拿單；相關事件的精確先後與年份，不宜畫得比史料更確定。<sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup><sup class="ref"><a href="#src-13" aria-label="來源 13">[13]</a></sup></p>
+<p>這些變動有兩個意義。第一，長期掌權的人仍然可能失去位置。第二，<strong>一個人被撤換，未必等於整個家族與制度退出政治舞臺。</strong>該亞法下台後，新的大祭司仍出自亞那家族，正好顯示職位變動與權力網絡持續可以同時發生。<sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup></p>
+<p>然而，不能把彼拉多被召回或該亞法被撤，寫成現存史料已證明的「因為殺耶穌、逼迫使徒，所以羅馬追究了他們」。約瑟夫斯為彼拉多記下的是另一宗事件引起的申訴，沒有提供這種直接因果線。<sup class="ref"><a href="#src-10" aria-label="來源 10">[10]</a></sup></p>
+<div class="next"><span class="eyebrow">下一篇的門口</span><h3>從司提反到教會四散：地方衝突與帝國變局</h3><p>本篇在徒5收束。接續進入徒6–9時，將先沿經文處理司提反、掃羅、撒馬利亞與大馬色，再把彼拉多離任、提庇留去世，以及卡利古拉時代放進可核對的外框。<strong>不會把司提反之死直接釘在彼拉多離任當年，更不會先假定兩者有因果關係。</strong></p></div>
+</section><section class="chapter" id="conclusion"><span class="section-no">17</span><h2>回到經文：不變的官府，與不能停止的見證</h2><p class="deck">本篇的結束，也讓兩卷書首尾銜接起來。</p>
+<p>把《路加福音》末段連進來之後，故事就不是「耶穌死了，換使徒上場」這麼簡單。安葬讓我們看見處刑之後仍然存在的權力；以馬忤斯讓我們聽到以色列盼望受挫的聲音；復活與顯現重新指明耶穌的身分；升天、等候與聖靈的應許，則把門徒帶回耶路撒冷，開始公開作見證。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup><sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<p>這群人面對的，不是一個抽象、始終同質的「敵對世界」。有羅馬長官的軍政權，有祭司領袖的地方權力，有法利賽教師的聲望，有群眾可以改變的反應，也有連政治名單都沒有記住的普通男女。他們的影響方式不同，彼此的利益與信念也不完全相同。正因如此，壓制有時升高，有時暫退，不能只用一句「當時人人都恨教會」來說明。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p>
+<p><strong>本篇最重要的政治觀察是：復活宣告沒有立即更換人間的統治者，卻使統治者不再能為耶穌的意義作最後定論。</strong>他們仍能下令、逮捕與鞭打；使徒卻拒絕承認這些手段足以取消自己所領受的見證使命。</p>
+<p>而路加要述說的，又比政治權力的消長更深。門徒之所以從失望走向公開見證，在兩卷書的敘事中，是因主已復活、升天，並賜下聖靈。政治史可以幫助我們理解他們在什麼世界中行動、為何遭反對、又為何暫時得以繼續，<strong>卻不能把這個敘事中心改寫成一場單靠組織與策略成功的群眾運動。</strong><sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-4" aria-label="來源 4">[4]</a></sup></p>
+<div class="closing-quote"><p>路加的最後一幕，是門徒在聖殿頌讚。<br>行傳第五章的最後一幕，是他們仍在聖殿和家中傳講。</p><p class="accent">中間經過的，是拘禁、禁令和鞭打；<br>沒有被中斷的，是他們為耶穌作的見證。</p><small>路24:52–53；徒5:40–42。<sup class="ref"><a href="#src-2" aria-label="來源 2">[2]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></small></div>
+</section>
+<section class="appendix" id="name-notes"><p class="part-label">人物辨識</p><h2>幾個相似的名字，不要連錯線</h2>
+<div class="name-grid">
+<div><h4>亞那 ≠ 亞拿尼亞</h4><p><strong>亞那（Annas）</strong>是祭司家族的重要人物；<strong>亞拿尼亞（Ananias）</strong>在徒5是與妻子撒非喇一同出現的信徒。相似音譯不表示同一人。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup><sup class="ref"><a href="#src-7" aria-label="來源 7">[7]</a></sup></p></div>
+<div><h4>議會名單的約翰 ≠ 使徒約翰</h4><p>徒4:6的「約翰」列在祭司領導圈；彼得旁邊的使徒約翰則是被審問者。經文沒有要求我們把兩人合併。<sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p></div>
+<div><h4>約瑟，出現在不同角色中</h4><p>亞利馬太的約瑟求取遺體；巴撒巴、又稱猶士都的約瑟在徒1列為補選使徒的候選人；徒4的約瑟則另有巴拿巴之名。<sup class="ref"><a href="#src-1" aria-label="來源 1">[1]</a></sup><sup class="ref"><a href="#src-3" aria-label="來源 3">[3]</a></sup><sup class="ref"><a href="#src-6" aria-label="來源 6">[6]</a></sup></p></div>
+<div><h4>同樣叫希律，也不是同一個王</h4><p>本篇回顧受難時涉及的是<strong>安提帕</strong>；後續徒12將處理<strong>亞基帕一世</strong>。不能把整個希律家族當作一個壽命很長的人。<sup class="ref"><a href="#src-26" aria-label="來源 26">[26]</a></sup></p></div>
+</div></section>
+<section class="appendix" id="artifacts"><p class="part-label">從實物再看一次</p><h2>兩個可延伸查看的實物入口</h2>
+<div class="resources-grid">
+<div class="resource-card"><div class="artifact-symbol" aria-hidden="true">PRAEF</div><h4>彼拉多銘文</h4><p>銘文是確認彼拉多官銜的重要實物。本文使用「prefect」，而不把後期常見的「procurator」官銜不加說明地套回去。<sup class="ref"><a href="#src-12" aria-label="來源 12">[12]</a></sup></p><a href="https://www.imj.org.il/en/collections/395572-0" target="_blank" rel="noopener">查看以色列博物館藏品資料 ↗</a><br><a href="https://commons.wikimedia.org/wiki/File:Pontius_Pilate_Inscription.JPG" target="_blank" rel="noopener">查看實物照片（BRBurton／CC0）↗</a></div>
+<div class="resource-card"><div class="artifact-symbol" aria-hidden="true">AD 66</div><h4>第二聖殿耶路撒冷模型</h4><p>可用來理解聖殿與城市的空間量感；但博物館模型重建的是<strong>公元66年</strong>，不是五旬節當年的街道全貌，不能不標年代直接充當30年代現場。<sup class="ref"><a href="#src-18" aria-label="來源 18">[18]</a></sup><sup class="ref"><a href="#src-19" aria-label="來源 19">[19]</a></sup></p><a href="https://www.imj.org.il/en/wings/shrine-book/model-jerusalem-second-temple-period" target="_blank" rel="noopener">查看博物館模型說明 ↗</a><br><a href="https://commons.wikimedia.org/wiki/File:Second_Temple_Model,_Israel_Museum_(8529914300).jpg" target="_blank" rel="noopener">查看模型照片（Leah Jones／CC BY 2.0）↗</a></div>
+</div><p class="caption">本篇正文與六幅圖表完全內嵌，可離線閱讀；上述博物館、照片與文獻入口需連線開啟。此處沒有用生成圖像冒充古代實物。</p></section>
+
+<section class="sources" id="sources"><p class="part-label">證據與閱讀路徑</p><h2>史料、工具與延伸閱讀</h2>
+<p class="intro">正文的上標數字連至下列條目。古代文獻以卷、節為主要定位；近代研究書目與實際用作論證的史料分開標示。經文連結採中文和合本。</p>
+<p class="intro">本文沒有把現代著作的出版社簡介當成讀過全書：Rowe條目限公開摘要與研究方向；Bruce、Keener兩項為延伸閱讀入口。未有獨立佐證的關聯，正文保留為推論或未決問題。</p>
+<ol class="source-list"><li id="src-1"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Luke+23&amp;version=CUV" target="_blank" rel="noopener">路加福音 23章，特別是44–56節</a><p>十字架之後的群眾反應、約瑟未附從議決，以及向彼拉多求取遺體。</p></li><li id="src-2"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Luke+24&amp;version=CUV" target="_blank" rel="noopener">路加福音 24章</a><p>空墓、以馬忤斯、顯現、從耶路撒冷開始的使命、升天與在聖殿頌讚。</p></li><li id="src-3"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Acts+1&amp;version=CUV" target="_blank" rel="noopener">使徒行傳 1章</a><p>四十日、復興以色列國的問題、升天、返回耶路撒冷與補選馬提亞。</p></li><li id="src-4"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Acts+2&amp;version=CUV" target="_blank" rel="noopener">使徒行傳 2章</a><p>五旬節、來自不同地方的猶太人與歸信者、彼得講論及群體生活。</p></li><li id="src-5"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Acts+3&amp;version=CUV" target="_blank" rel="noopener">使徒行傳 3章</a><p>聖殿禱告、醫治、所羅門廊下的聚集，以及向以色列人的悔改呼召。</p></li><li id="src-6"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Acts+4&amp;version=CUV" target="_blank" rel="noopener">使徒行傳 4章</a><p>守殿官、撒都該人、祭司家族、第一次審問與禁止傳講；受難政治人物再次出現在教會禱告中。</p></li><li id="src-7"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Acts+5&amp;version=CUV" target="_blank" rel="noopener">使徒行傳 5章</a><p>亞拿尼亞事件、再次拘禁、群眾制約、順服的界線、迦瑪列與鞭打。</p></li><li id="src-8"><span class="cat">古代外部文獻</span><a href="https://www.lexundria.com/j_aj/18.1-18.25/wst" target="_blank" rel="noopener">約瑟夫斯，《猶太古史》18.1–25</a><p>居里扭的財產登記、猶大的抗拒，以及法利賽人和撒都該人的信仰、社會影響。英譯：William Whiston。</p></li><li id="src-9"><span class="cat">古代外部文獻</span><a href="https://lexundria.com/j_aj/18.26-18.54/wst" target="_blank" rel="noopener">約瑟夫斯，《猶太古史》18.26–54</a><p>安提帕、提庇留繼位、格拉圖斯更換大祭司，以及該亞法就任。</p></li><li id="src-10"><span class="cat">古代外部文獻</span><a href="https://lexundria.com/j_aj/18.85-18.108/wst" target="_blank" rel="noopener">約瑟夫斯，《猶太古史》18.85–108</a><p>撒馬利亞人申訴、彼拉多赴羅馬、祭衣保管權、該亞法被撤換，以及敘利亞長官的區域政治。</p></li><li id="src-11"><span class="cat">古代外部文獻</span><a href="https://myweb.fsu.edu/bmurphy/Philopilate.html" target="_blank" rel="noopener">斐羅，《致該猶使節記》299–305</a><p>金盾事件與向提庇留申訴的記載。文辭帶有強烈控訴立場，不能把作者對彼拉多的所有評語當成中性筆錄。</p></li><li id="src-12"><span class="cat">考古與博物館</span><a href="https://www.imj.org.il/en/collections/395572-0" target="_blank" rel="noopener">彼拉多銘文：以色列博物館藏品資料</a><p>館藏編號 IAA 1961-529；銘文保存提庇留、彼拉多與猶太地 prefect 官銜的線索。藏品頁標題採 procurator，但所列拉丁官銜重建是 prefect。</p></li><li id="src-13"><span class="cat">古代外部文獻</span><a href="https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/12Caesars/Tiberius*.html" target="_blank" rel="noopener">蘇埃托尼烏斯，《提庇留傳》65、73</a><p>塞揚努斯倒台與提庇留去世。英譯 J. C. Rolfe，LacusCurtius／芝加哥大學網站。傳記中的宮廷逸聞須分別評估。</p></li><li id="src-14"><span class="cat">研究工具</span><a href="https://www.encyclopedia.com/reference/encyclopedias-almanacs-transcripts-and-maps/sejanus" target="_blank" rel="noopener">《哥倫比亞百科全書》：Sejanus</a><p>塞揚努斯於公元31年被處死的年代核對。</p></li><li id="src-15"><span class="cat">古代外部文獻</span><a href="https://lexundria.com/j_aj/20.97-20.99/wst" target="_blank" rel="noopener">約瑟夫斯，《猶太古史》20.97–99</a><p>法都任內的丟大事件；與徒5所提丟大的年代問題必須分開處理。</p></li><li id="src-16"><span class="cat">研究工具</span><a href="https://www.bibleodyssey.org/dictionary/gamaliel/" target="_blank" rel="noopener">HarperCollins Bible Dictionary：Gamaliel</a><p>刊於聖經文學學會的 Bible Odyssey；區分新約中的迦瑪列與較晚的迦瑪列二世。</p></li><li id="src-17"><span class="cat">研究與延伸閱讀</span><a href="https://academic.oup.com/book/2133" target="_blank" rel="noopener">C. Kavin Rowe, World Upside Down</a><p>Oxford University Press, 2009。此處核對公開摘要：使徒行傳既否認武裝顛覆指控，也呈現福音對公共生活的深刻挑戰；不把摘要當作已核讀整本專著。</p></li><li id="src-18"><span class="cat">考古與博物館</span><a href="https://www.imj.org.il/en/wings/shrine-book/model-jerusalem-second-temple-period" target="_blank" rel="noopener">以色列博物館：第二聖殿時期耶路撒冷模型</a><p>模型重建的是公元66年的城市，不是30年代的精確快照；適合輔助理解空間尺度，不可直接用來確認五旬節現場。</p></li><li id="src-19"><span class="cat">圖像來源</span><a href="https://commons.wikimedia.org/wiki/File:Second_Temple_Model,_Israel_Museum_(8529914300).jpg" target="_blank" rel="noopener">Leah Jones：Second Temple Model, Israel Museum</a><p>2013年攝影，Wikimedia Commons，CC BY 2.0。補充照片採原圖連線顯示，版面等比例縮放，未修改內容。</p></li><li id="src-20"><span class="cat">圖像來源</span><a href="https://commons.wikimedia.org/wiki/File:Pontius_Pilate_Inscription.JPG" target="_blank" rel="noopener">BRBurton：Pontius Pilate Inscription</a><p>2012年攝影，Wikimedia Commons，CC0。照片連結供核對文物外觀；銘文的歷史說明依博物館資料。</p></li><li id="src-21"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Acts+22%3A3%3B23%3A6-8&amp;version=CUV" target="_blank" rel="noopener">使徒行傳 22:3；23:6–8</a><p>保羅自述受教於迦瑪列；法利賽人與撒都該人對復活的分歧。引用作跨章參照，不把後來事件移到徒5。</p></li><li id="src-22"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=Luke+20%3A1-8&amp;version=CUV" target="_blank" rel="noopener">路加福音 20:1–8</a><p>聖殿中的權柄問題；可與徒4:7並讀。</p></li><li id="src-23"><span class="cat">聖經文本</span><a href="https://www.biblegateway.com/passage/?search=John+18%3A13-24&amp;version=CUV" target="_blank" rel="noopener">約翰福音 18:13、24</a><p>亞那與該亞法的岳父—女婿關係，及受難審問的補充資料；不冒充路加自己的記載。</p></li><li id="src-24"><span class="cat">延伸閱讀</span><a href="https://www.eerdmans.com/9780802809667/the-acts-of-the-apostles/" target="_blank" rel="noopener">F. F. Bruce, The Acts of the Apostles</a><p>The Greek Text with Introduction and Commentary, Eerdmans, 1990。出版社書目核對；建議後續逐篇精讀，不作未見頁面的論證依據。</p></li><li id="src-25"><span class="cat">延伸閱讀</span><a href="https://bakerbookhouse.com/products/9780801048364_acts-an-exegetical-commentary" target="_blank" rel="noopener">Craig S. Keener, Acts: An Exegetical Commentary, vol. 1</a><p>Introduction and 1:1–2:47, Baker Academic, 2012。出版社書目核對；大型古代背景研究的延伸入口。</p></li><li id="src-26"><span class="cat">研究工具</span><a href="https://www.bibleodyssey.org/articles/herod-antipas/" target="_blank" rel="noopener">Morten Hørning Jensen：Herod Antipas</a><p>聖經文學學會 Bible Odyssey。安提帕的轄區、分封王身分、羅馬關係，及與亞基帕一世的區別。</p></li><li id="src-27"><span class="cat">年代研究報導</span><a href="https://www.ncregister.com/features/gigi-duncan-did-jesus-die-april-3" target="_blank" rel="noopener">Gigi Duncan：Did Jesus Really Die on April 3, A.D. 33?</a><p>National Catholic Register，2026年4月2日。僅用來核對30年與33年兩種日期仍被討論；本文不採其餘曆法或月食論證作定論。</p></li></ol></section>
+</main></div>
+<footer class="footer"><strong>《新約政治史》系列 · 第二篇</strong><br>復活之後，誰仍掌權？　｜　版本 1.0 · 2026年9月15日<br>正文與圖表可離線閱讀。外部文獻與實物照片另行連線。<br><a href="#top">回到頁首 ↑</a></footer>
+<dialog id="chart-modal" aria-label="放大政治權力圖"><div class="modal-head"><span>復活之後的政治權力網絡</span><button id="close-modal">關閉 ✕</button></div><div class="modal-content"></div></dialog>
+<nav class="study-series-next" aria-label="系列篇章導覽"><a href="../01/">← 上一篇：主耶穌受難的政治現場</a><a href="../">新約政治史 · 系列目錄</a></nav>
+<script>
+(function(){
+ const progress=document.querySelector('.progress');
+ function update(){const max=document.documentElement.scrollHeight-innerHeight;progress.style.width=(max>0?scrollY/max*100:0)+'%';}
+ addEventListener('scroll',update,{passive:true});addEventListener('resize',update);update();
+ const observer=new IntersectionObserver(entries=>{
+   entries.forEach(e=>{if(e.isIntersecting){document.querySelectorAll('.sidebar .toc a').forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id));}});
+ },{rootMargin:'-12% 0px -68% 0px',threshold:0});
+ document.querySelectorAll('main .chapter').forEach(e=>observer.observe(e));
+ const dlg=document.getElementById('chart-modal');
+ document.querySelectorAll('[data-zoom]').forEach(b=>b.addEventListener('click',()=>{
+   const chart=document.getElementById(b.dataset.zoom).querySelector('svg').cloneNode(true);
+   chart.querySelectorAll('[id]').forEach(n=>{const old=n.id;const newId='modal-'+old;n.id=newId;chart.querySelectorAll('*').forEach(x=>{for(const attr of ['marker-end','fill','clip-path']){if(x.getAttribute(attr)==='url(#'+old+')')x.setAttribute(attr,'url(#'+newId+')');}});});
+   chart.removeAttribute('aria-labelledby');chart.setAttribute('aria-label','政治權力關係圖放大版');
+   document.querySelector('.modal-content').replaceChildren(chart);dlg.showModal();
+ }));
+ document.getElementById('close-modal').addEventListener('click',()=>dlg.close());
+ dlg.addEventListener('click',e=>{if(e.target===dlg)dlg.close();});
+ document.querySelectorAll('[data-print]').forEach(b=>b.addEventListener('click',()=>print()));
+})();
+</script></body></html>
